@@ -1,0 +1,45 @@
+# efferents repo adapter — point a lab at your existing ML repo.
+#
+# Drop this file at the root of an ML research repo and efferents knows how to
+# run bounded experiments against it: how to train, how to evaluate, what metric
+# to move, and the budget/approval guardrails it must stay inside.
+#
+# This example is runnable offline: `efferents run examples/repo-adapter`
+# writes the plan; add `--approve` to execute the sweep.
+
+goal: "maximize validation F1 by tuning the decision threshold, under 2 GPU hours"
+
+# How efferents runs one experiment.
+#   {config_path}  is filled with a per-run config (base.yaml + the swept value).
+#   {checkpoint}   is filled with the path train.py prints on stdout.
+train_command: "python3 train.py --config {config_path}"
+eval_command: "python3 eval.py --checkpoint {checkpoint}"
+config_template: configs/base.yaml
+
+# What the lab varies each run. Omit `sweep` to run a single experiment.
+sweep:
+  param: threshold
+  values: [0.30, 0.50, 0.65, 0.80, 0.90]
+
+# The metric the lab optimizes, parsed from the eval command's JSON output.
+metric: "val_f1"
+maximize: true
+
+# Guardrails. max_gpu_hours is conservatively approximated with subprocess
+# wall time; it is not direct GPU telemetry.
+budget:
+  max_gpu_hours: 2
+  max_llm_cost_usd: 20
+
+# How much autonomy the lab has.
+#   plan_then_execute — write the plan, pause, and require CLI --approve.
+#   dry_run           — write the plan only, never execute.
+#   autonomous        — run without pausing (use only inside a sandbox).
+approval:
+  mode: "plan_then_execute"
+
+# Where artifacts land. All local, all yours.
+outputs:
+  journal_dir: "journal"
+  runs_file: "runs.jsonl"
+  claims_file: "claims.jsonl"

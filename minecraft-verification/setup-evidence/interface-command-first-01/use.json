@@ -1,0 +1,29 @@
+{
+  "expected": {
+    "tool": "use_method",
+    "id": "lectern"
+  },
+  "action": {
+    "tool": "craft",
+    "item": "stick",
+    "times": 1
+  },
+  "pass": false,
+  "data": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "created_at": "2026-11-09T03:28:02.720384Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"command\": \"craft\",\n  \"parameters\": {\n    \"item\": \"stick\",\n    \"times\": 1\n  }\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 940055917,
+    "load_duration": 83915417,
+    "prompt_eval_count": 155,
+    "prompt_eval_duration": 63750000,
+    "eval_count": 35,
+    "eval_duration": 785500000
+  },
+  "elapsedMs": 944
+}

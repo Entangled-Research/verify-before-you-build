@@ -1,0 +1,48 @@
+{
+  "time": "2026-11-09T03:26:11.656577+00:00",
+  "kind": "offline_interface_diagnostic",
+  "endpoint": "generate",
+  "request": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "stream": false,
+    "options": {
+      "temperature": 0.2,
+      "seed": 701,
+      "num_predict": 128,
+      "num_ctx": 16384
+    },
+    "raw": true,
+    "prompt": "<|im_start|>system\nChoose exactly one allowed tool. Output only a JSON object with key tool, for example {\"tool\":\"inspect\"}.<|im_end|>\n<|im_start|>user\nThe inventory is unknown. Inspect the inventory now. Reply with JSON.<|im_end|>\n<|im_start|>assistant\n",
+    "format": {
+      "type": "object",
+      "properties": {
+        "tool": {
+          "type": "string",
+          "enum": [
+            "inspect",
+            "finish"
+          ]
+        }
+      },
+      "required": [
+        "tool"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "elapsedSeconds": 0.396758042,
+  "valid_expected_action": false,
+  "raw": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "created_at": "2026-11-09T03:26:11.655946Z",
+    "response": "{ \"tool\": \"finish\" }",
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 395700000,
+    "load_duration": 104188292,
+    "prompt_eval_count": 51,
+    "prompt_eval_duration": 30348000,
+    "eval_count": 11,
+    "eval_duration": 259764000
+  }
+}

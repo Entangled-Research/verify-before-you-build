@@ -1,0 +1,43 @@
+{
+  "time": "2026-11-09T03:07:34.407Z",
+  "node": "v22.23.4",
+  "ollama": {
+    "version": "0.32.5"
+  },
+  "tag": {
+    "name": "sweaterdog/andy-4:micro-q8_0",
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "modified_at": "2026-11-06T18:30:46.175458241Z",
+    "size": 1894534837,
+    "digest": "12ec425c590db3d8ada7cdec6a1745e354481a78e1613e137ccc771b67a82952",
+    "details": {
+      "parent_model": "/usr/share/ollama/.ollama/models/blobs/sha256-279867afd270e876d60818fa1b0d96c13dfbfa7debc3ca3324b7c114fef26983",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "1.8B",
+      "quantization_level": "Q8_0",
+      "context_length": 32768,
+      "embedding_length": 1536
+    },
+    "capabilities": [
+      "completion"
+    ]
+  },
+  "versions": {
+    "mineflayer": "4.33.0",
+    "minecraft-protocol": "1.68.0",
+    "prismarine-item": "1.18.0",
+    "prismarine-windows": "2.10.0",
+    "minecraft-data": "3.119.0"
+  },
+  "sha256": {
+    "mineflayer/lib/plugins/inventory.js": "7b2bf16f33df870a81d8fa6d21939015b7a997345b47ef401c38ab5ca218384d",
+    "mineflayer/lib/plugins/craft.js": "bb58944902a220874e1815d8ff272d6b60286759a133c892709602fefe7fc4fc",
+    "mineflayer/lib/plugins/furnace.js": "5b985cd542ef882fff41b65743614724173911e6e8223674388978fd9ffafcba",
+    "mineflayer/lib/plugins/physics.js": "8d88d3c35cdbc8325c0127640f5704af4d622b54902ee7dbfbf472fef5ff162c",
+    "minecraft-data/minecraft-data/data/pc/1.21.6/protocol.json": "3c1f3071c20e22face100fee775841aff78394dfebb78de5b8f1e01ab32301a2"
+  }
+}

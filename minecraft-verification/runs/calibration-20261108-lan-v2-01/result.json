@@ -1,0 +1,43 @@
+{
+  "kind": "calibration",
+  "status": "infrastructure_error",
+  "error": "Event windowOpen did not fire within timeout of 20000ms",
+  "complete": false,
+  "delivered": {},
+  "distinctTargets": 0,
+  "arm": "enforced",
+  "seed": 701,
+  "model": null,
+  "promptTokens": 0,
+  "generatedTokens": 0,
+  "usageComplete": false,
+  "modelTurns": 0,
+  "wallSeconds": 22.461,
+  "primitiveActions": 0,
+  "verificationAttempts": 0,
+  "testKits": [],
+  "productionInventory": {
+    "slime_ball": 1,
+    "quartz": 8,
+    "sand": 8,
+    "coal": 32,
+    "oak_log": 32,
+    "raw_iron": 48,
+    "cobblestone": 64,
+    "redstone": 32,
+    "string": 16,
+    "sugar_cane": 32,
+    "leather": 12,
+    "diamond": 2,
+    "obsidian": 4
+  },
+  "unverifiedMethodStarts": 0,
+  "blockedMethodStarts": 0,
+  "repairs": 0,
+  "limitations": [
+    "Local Ollama token counts; no provider inference-compute measurement.",
+    "Method dependency declarations only; direct reimplementation is allowed.",
+    "Test resources are separate and logged; equal production supplies do not mean equal total materials consumed.",
+    "LAN live correctness must be established by preflight and calibration."
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "run": "prepared-lan-v6-qwen-mixed-r1-enforced",
+    "status": "budget_exhausted",
+    "receipts": [
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      }
+    ],
+    "delivered": {},
+    "modelCalls": 56,
+    "verifiedTokenCounts": [
+      199793,
+      1356
+    ],
+    "defects": []
+  }
+]

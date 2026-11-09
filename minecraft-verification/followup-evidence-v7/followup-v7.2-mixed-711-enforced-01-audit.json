@@ -1,0 +1,21 @@
+[
+  {
+    "run": "followup-v7.2-mixed-711-enforced-01",
+    "status": "operator_interrupted_stalled",
+    "receipts": [
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      }
+    ],
+    "delivered": {
+      "hopper_minecart": 1
+    },
+    "modelCalls": 5,
+    "verifiedTokenCounts": [
+      3208,
+      50
+    ],
+    "defects": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "files_checked": 494,
+  "bytes": 5464401,
+  "findings": [],
+  "retained_public_contact": "NeurIPS style maintainer contact in the unmodified template license header",
+  "excluded_directory_names": [
+    ".git",
+    "__pycache__",
+    "node_modules"
+  ],
+  "note": "Scoped patterns and manual file review, not a guarantee about every possible secret format."
+}

@@ -1,0 +1,17 @@
+{
+  "kind":"separate deterministic Minecraft executor qualification",
+  "authorship":"scripted positive and negative controls; no LLM, no reward credit, not an agent episode or matched-arm observation",
+  "timing":"Only after all three mixed seed-701 Qwen arms have terminated, been audited, and had their terminal observations. Use fresh production/test players and reset stock/kits.",
+  "unchanged_executor":"prepared-lan-v6-qwen game.mjs/protocol.mjs/datapack; real 1.21.6 LAN, same sandboxes",
+  "checks":[
+    "Attempt clean hopper_minecart in enforced before any receipt: must block, with identical server-confirmed production inventory and chest before and after.",
+    "Verify the clean hopper_minecart procedure from its declared fresh kit; a passing receipt must contain an authoritative output delta of at least one.",
+    "Request exactly that tested method in production; dependency_started key must equal the passing receipt and status verified, and fresh server chest must contain exactly one hopper_minecart.",
+    "Change the hopper procedure's oak_planks recipe applications from two to one, preserving ID and contract; unverified revision must block with unchanged production inventory/chest.",
+    "Attempt clean chest_minecart without a receipt; a different method cannot use the hopper receipt. Production inventory/chest must remain unchanged.",
+    "Verify mixed crossbow, dispenser, lectern and blast_furnace once each, sequentially from their exact fresh test kits. Each should return a failed receipt and no corresponding output delta. A missing result or infrastructure failure is not a failed reproduction claim.",
+    "The production inventory/chest must remain unchanged across the four isolated fault tests."
+  ],
+  "budget":{"modelCalls":0,"primitiveLimit":240,"testLimit":18,"wallSeconds":1800},
+  "failurePolicy":"Retain all events and each assertion; do not run a replacement or silently retry. Stop on infrastructure error; distinction between missing evidence and a falsified procedural claim remains explicit."
+}

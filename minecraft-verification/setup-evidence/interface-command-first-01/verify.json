@@ -1,0 +1,28 @@
+{
+  "expected": {
+    "tool": "verify_method",
+    "id": "crossbow"
+  },
+  "action": {
+    "tool": "verify_method",
+    "id": "hopper_minecart"
+  },
+  "pass": false,
+  "data": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "created_at": "2026-11-09T03:28:01.775308Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"command\": \"verify_method\",\n  \"parameters\": {\n    \"id\": \"hopper_minecart\"\n  }\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 908344458,
+    "load_duration": 106025750,
+    "prompt_eval_count": 163,
+    "prompt_eval_duration": 60376000,
+    "eval_count": 33,
+    "eval_duration": 734740000
+  },
+  "elapsedMs": 918
+}

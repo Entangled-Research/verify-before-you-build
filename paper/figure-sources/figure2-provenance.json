@@ -1,0 +1,105 @@
+{
+  "figure": "Figure 2, item workflow reconstruction",
+  "jar": "$AUTHOR_HOME/Library/Application Support/minecraft/versions/1.21.6/1.21.6.jar",
+  "jar_sha256": "9592df8587d6d3ec0334c873ad432dc76006d6129afdce9a7eac52638339a24a",
+  "pixel_operations": "Native texture extraction and nearest-neighbor enlargement. Vector recipe grids, arrows, omission marks and checks are explanatory annotations.",
+  "interpretation": "Icons reconstruct logged procedures and outcomes; not game screenshots. Crossbow grids encode the vanilla shaped recipe with omitted hook. Hook recipe makes two; crossbow uses one.",
+  "comparison_scope": "Original no-gate v6 seed701 vs assisted enforced v7.3 seed711; differing interfaces, no causal performance comparison.",
+  "assets": [
+    {
+      "item": "iron_ingot",
+      "source": "assets/minecraft/textures/item/iron_ingot.png",
+      "sha256_native": "ca67b14f685bfe1972addf6b44692dab601fe8d27464a30aa8e65f16f716cab2",
+      "enlargement": "nearest-neighbor, 16 to 128 pixels"
+    },
+    {
+      "item": "stick",
+      "source": "assets/minecraft/textures/item/stick.png",
+      "sha256_native": "da5ede0e54715247de78567df5212a114d0b8a1af183e286fa69cc6af5993711",
+      "enlargement": "nearest-neighbor, 16 to 128 pixels"
+    },
+    {
+      "item": "string",
+      "source": "assets/minecraft/textures/item/string.png",
+      "sha256_native": "c7dac2dd79ae85bd35b2c933b17ac22256ec4cd79c1916b8ef0fc20642247957",
+      "enlargement": "nearest-neighbor, 16 to 128 pixels"
+    },
+    {
+      "item": "tripwire_hook",
+      "source": "assets/minecraft/textures/block/tripwire_hook.png",
+      "sha256_native": "f7d360f068deb7f63b9413e2e25c244a07e6e52510c9a7680655a402d34a5347",
+      "enlargement": "nearest-neighbor, 16 to 128 pixels"
+    },
+    {
+      "item": "crossbow",
+      "source": "assets/minecraft/textures/item/crossbow_standby.png",
+      "sha256_native": "6ea28ffcdf20314406cfaddcf9c1684523ff27211a482e6a709c2bd4543bb468",
+      "enlargement": "nearest-neighbor, 16 to 128 pixels"
+    },
+    {
+      "item": "oak_planks",
+      "source": "assets/minecraft/textures/block/oak_planks.png",
+      "sha256_native": "65665943ef9c8bcf63fc67d2083ed0c50243f724106d0e4bb1abea5d921b16d3",
+      "enlargement": "nearest-neighbor, 16 to 128 pixels"
+    }
+  ],
+  "recipes": {
+    "crossbow": {
+      "path": "data/minecraft/recipe/crossbow.json",
+      "sha256": "299a1e6384d6c364f4f71429e405fb61c8b1fb278ae03eeb5e2aafab9c52f2a3",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+          "#": "minecraft:stick",
+          "$": "minecraft:tripwire_hook",
+          "&": "minecraft:iron_ingot",
+          "~": "minecraft:string"
+        },
+        "pattern": [
+          "#&#",
+          "~$~",
+          " # "
+        ],
+        "result": {
+          "count": 1,
+          "id": "minecraft:crossbow"
+        }
+      }
+    },
+    "tripwire_hook": {
+      "path": "data/minecraft/recipe/tripwire_hook.json",
+      "sha256": "7ec39d811abba53848d6a8af359eeb2cfa9ac65e84796c67a27329888b2c9fe8",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "redstone",
+        "key": {
+          "#": "#minecraft:planks",
+          "I": "minecraft:iron_ingot",
+          "S": "minecraft:stick"
+        },
+        "pattern": [
+          "I",
+          "S",
+          "#"
+        ],
+        "result": {
+          "count": 2,
+          "id": "minecraft:tripwire_hook"
+        }
+      }
+    }
+  },
+  "hook_item_model": {
+    "path": "assets/minecraft/models/item/tripwire_hook.json",
+    "sha256": "cae56d8a5d4990186552dde5b4f6e95c1cb33faa2b35be9fe6f179b17ca58059"
+  },
+  "event_sources": [
+    "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-no_gate/events.jsonl",
+    "minecraft-verification/runs/followup-v7.3-mixed-711-enforced-01/events.jsonl"
+  ],
+  "event_accounts": [
+    "No-gate original crossbow fails and is retried in production.",
+    "Enforced original crossbow fails on isolated kit; Qwen selects tripwire-hook insertion; revised test passes; matching receipt admits crossbow delivery."
+  ]
+}

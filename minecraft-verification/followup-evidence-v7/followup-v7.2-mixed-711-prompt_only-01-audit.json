@@ -1,0 +1,88 @@
+[
+  {
+    "run": "followup-v7.2-mixed-711-prompt_only-01",
+    "status": "success",
+    "receipts": [
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "crossbow",
+        "status": "failed"
+      },
+      {
+        "id": "crossbow",
+        "status": "verified"
+      },
+      {
+        "id": "dispenser",
+        "status": "failed"
+      },
+      {
+        "id": "dispenser",
+        "status": "verified"
+      },
+      {
+        "id": "sticky_piston",
+        "status": "verified"
+      },
+      {
+        "id": "comparator",
+        "status": "verified"
+      },
+      {
+        "id": "repeater",
+        "status": "verified"
+      },
+      {
+        "id": "lectern",
+        "status": "failed"
+      },
+      {
+        "id": "lectern",
+        "status": "verified"
+      },
+      {
+        "id": "enchanting_table",
+        "status": "verified"
+      },
+      {
+        "id": "blast_furnace",
+        "status": "failed"
+      },
+      {
+        "id": "blast_furnace",
+        "status": "verified"
+      },
+      {
+        "id": "armor_stand",
+        "status": "verified"
+      },
+      {
+        "id": "daylight_detector",
+        "status": "verified"
+      }
+    ],
+    "delivered": {
+      "hopper_minecart": 1,
+      "chest_minecart": 1,
+      "crossbow": 1,
+      "dispenser": 1,
+      "sticky_piston": 1,
+      "comparator": 1,
+      "repeater": 1,
+      "lectern": 1,
+      "enchanting_table": 1,
+      "blast_furnace": 1,
+      "armor_stand": 1,
+      "daylight_detector": 1
+    },
+    "modelCalls": 31,
+    "verifiedTokenCounts": [
+      21031,
+      318
+    ],
+    "defects": []
+  }
+]

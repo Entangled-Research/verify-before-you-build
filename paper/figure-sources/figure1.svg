@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468pt" height="198pt" viewBox="0 0 650 275">
+<title>Verify before build: declared foundations require local reproduction evidence.</title>
+<desc>Run reproduction, compare observed and claimed output, record the verdict, and check a current local pass before downstream execution. Missing evidence triggers a test; failed evidence may require repair and retesting. Later failed evidence can revoke an earlier pass.</desc>
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 z" fill="#245e7a"/></marker><marker id="g" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 z" fill="#69747b"/></marker></defs>
+<rect width="650" height="275" fill="white"/><g font-family="Arial, Helvetica, sans-serif">
+<text x="15" y="17" font-size="11.4" fill="#69747b" font-weight="bold" text-anchor="start">Source lab</text>
+<text x="184" y="17" font-size="11.4" fill="#245e7a" font-weight="bold" text-anchor="start">Consuming lab</text>
+<path d="M34 75 H66 L76 85 V126 H34 Z" fill="none" stroke="#202a31" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M66 75 V85 H76" fill="none" stroke="#202a31" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="55.0" y="103" font-size="18" fill="#202a31" font-weight="normal" text-anchor="middle" font-family="Georgia, serif" font-style="italic">f(x)</text>
+<path d="M43 118 H68" fill="none" stroke="#b6c0c7" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="55" y="153" font-size="12.2" fill="#202a31" font-weight="bold" text-anchor="middle">Claim + recipe</text>
+<text x="55" y="170" font-size="10.8" fill="#69747b" font-weight="normal" text-anchor="middle">Procedure + inputs</text>
+<text x="55" y="184" font-size="10.8" fill="#69747b" font-weight="normal" text-anchor="middle">Claimed output</text>
+<path d="M89 101 H184" fill="none" stroke="#245e7a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="137" y="72" font-size="10.6" fill="#245e7a" font-weight="bold" text-anchor="middle">Declared</text>
+<text x="137" y="85" font-size="10.6" fill="#245e7a" font-weight="bold" text-anchor="middle">foundation</text>
+<path d="M197 76 h-6 v50 h6 M249 76 h6 v50 h-6" fill="none" stroke="#b6c0c7" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="223" y="108" font-size="24" fill="#202a31" font-weight="normal" text-anchor="middle" font-family="Georgia, serif" font-style="italic">f(x)</text>
+<text x="223" y="153" font-size="12.2" fill="#202a31" font-weight="bold" text-anchor="middle">Reproduce</text>
+<text x="223" y="170" font-size="10.8" fill="#69747b" font-weight="normal" text-anchor="middle">Fresh local run</text>
+<path d="M260 101 H291" fill="none" stroke="#245e7a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="337" y="94" font-size="9.3" fill="#69747b" font-weight="normal" text-anchor="end">Claimed</text>
+<text x="337" y="113" font-size="9.3" fill="#245e7a" font-weight="normal" text-anchor="end">Observed</text>
+<path d="M345 90 h30" fill="none" stroke="#202a31" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M345 109 h30" fill="none" stroke="#245e7a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="341" y="153" font-size="12.2" fill="#202a31" font-weight="bold" text-anchor="middle">Verify</text>
+<text x="341" y="170" font-size="10.8" fill="#69747b" font-weight="normal" text-anchor="middle">Compare outputs</text>
+<path d="M380 101 H423" fill="none" stroke="#245e7a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="401" y="88" font-size="10.2" fill="#245e7a" font-weight="normal" text-anchor="middle">verdict</text>
+<path d="M432 75 H463 L473 85 V126 H432 Z" fill="none" stroke="#202a31" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463 75 V85 H473" fill="none" stroke="#202a31" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M441 118 H465" fill="none" stroke="#b6c0c7" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M441 91 H463 M441 101 H463 M441 111 H457" fill="none" stroke="#69747b" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="452" y="153" font-size="12.2" fill="#202a31" font-weight="bold" text-anchor="middle">Receipt ledger</text>
+<text x="452" y="170" font-size="10.8" fill="#69747b" font-weight="normal" text-anchor="middle">Latest verdict</text>
+<path d="M481 101 H565" fill="none" stroke="#245e7a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M532 72 v18 M532 113 v18" fill="none" stroke="#202a31" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="532" y="67" font-size="10.5" fill="#69747b" font-weight="normal" text-anchor="middle">Executor gate</text>
+<text x="506" y="88" font-size="10.5" fill="#245e7a" font-weight="normal" text-anchor="middle">pass</text>
+<path d="M580 76 V124 H625" fill="none" stroke="#202a31" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M585 115 L595 107 L605 111 L619 88" fill="none" stroke="#245e7a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="585" cy="115" r="2.2" fill="#245e7a" stroke="#245e7a" stroke-width="1.2"/>
+<circle cx="595" cy="107" r="2.2" fill="#245e7a" stroke="#245e7a" stroke-width="1.2"/>
+<circle cx="605" cy="111" r="2.2" fill="#245e7a" stroke="#245e7a" stroke-width="1.2"/>
+<circle cx="619" cy="88" r="2.2" fill="#245e7a" stroke="#245e7a" stroke-width="1.2"/>
+<text x="604" y="153" font-size="12.2" fill="#202a31" font-weight="bold" text-anchor="middle">Downstream</text>
+<text x="604" y="169" font-size="12.2" fill="#202a31" font-weight="bold" text-anchor="middle">experiment</text>
+<text x="604" y="184" font-size="10.8" fill="#69747b" font-weight="normal" text-anchor="middle">May start</text>
+<path d="M532 70 V47 H223 V70" fill="none" stroke="#69747b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#g)"/>
+<text x="373" y="35" font-size="11" fill="#69747b" font-weight="normal" text-anchor="middle">Missing receipt: agent requests reproduction</text>
+<path d="M532 133 H549 V213 H176 V121 H188" fill="none" stroke="#69747b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#g)"/>
+<text x="362" y="235" font-size="11" fill="#69747b" font-weight="normal" text-anchor="middle">Failed receipt: agent diagnoses, revises / retests, or stops.</text>
+<text x="15" y="264" font-size="11" fill="#245e7a" font-weight="normal" text-anchor="start">A later failed reproduction revokes earlier authorization.</text>
+</g></svg>

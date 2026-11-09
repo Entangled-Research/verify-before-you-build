@@ -1,0 +1,613 @@
+{
+  "kind": "calibration",
+  "arm": "enforced",
+  "seed": 701,
+  "model": null,
+  "server": {
+    "host": "127.0.0.1",
+    "port": 61196,
+    "version": "1.21.6"
+  },
+  "librarySha256": "ce4b477b003a05fe0f8e724cf134b2d30e2fedc9df2224a4c8a4a4bb76eed4ae",
+  "library": [
+    {
+      "id": "hopper_minecart",
+      "case": 1,
+      "inputs": {
+        "oak_log": 2,
+        "raw_iron": 10,
+        "coal": 2
+      },
+      "outputs": {
+        "hopper_minecart": 1
+      },
+      "steps": [
+        {
+          "op": "smelt",
+          "input": "raw_iron",
+          "output": "iron_ingot",
+          "count": 10
+        },
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 2
+        },
+        {
+          "op": "craft",
+          "item": "chest",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "hopper",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "minecart",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "hopper_minecart",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "chest_minecart",
+      "case": 2,
+      "inputs": {
+        "oak_log": 2,
+        "raw_iron": 5,
+        "coal": 1
+      },
+      "outputs": {
+        "chest_minecart": 1
+      },
+      "steps": [
+        {
+          "op": "smelt",
+          "input": "raw_iron",
+          "output": "iron_ingot",
+          "count": 5
+        },
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 2
+        },
+        {
+          "op": "craft",
+          "item": "chest",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "minecart",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "chest_minecart",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "crossbow",
+      "case": 3,
+      "inputs": {
+        "oak_log": 2,
+        "raw_iron": 2,
+        "coal": 1,
+        "string": 2
+      },
+      "outputs": {
+        "crossbow": 1
+      },
+      "steps": [
+        {
+          "op": "smelt",
+          "input": "raw_iron",
+          "output": "iron_ingot",
+          "count": 2
+        },
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 2
+        },
+        {
+          "op": "craft",
+          "item": "stick",
+          "times": 2
+        },
+        {
+          "op": "craft",
+          "item": "tripwire_hook",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "crossbow",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "dispenser",
+      "case": 4,
+      "inputs": {
+        "oak_log": 2,
+        "string": 3,
+        "cobblestone": 7,
+        "redstone": 1
+      },
+      "outputs": {
+        "dispenser": 1
+      },
+      "steps": [
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 2
+        },
+        {
+          "op": "craft",
+          "item": "stick",
+          "times": 2
+        },
+        {
+          "op": "craft",
+          "item": "bow",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "dispenser",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "sticky_piston",
+      "case": 5,
+      "inputs": {
+        "oak_log": 1,
+        "raw_iron": 1,
+        "coal": 1,
+        "cobblestone": 4,
+        "redstone": 1,
+        "slime_ball": 1
+      },
+      "outputs": {
+        "sticky_piston": 1
+      },
+      "steps": [
+        {
+          "op": "smelt",
+          "input": "raw_iron",
+          "output": "iron_ingot",
+          "count": 1
+        },
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "piston",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "sticky_piston",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "comparator",
+      "case": 6,
+      "inputs": {
+        "oak_log": 1,
+        "redstone": 3,
+        "cobblestone": 3,
+        "coal": 1,
+        "quartz": 1
+      },
+      "outputs": {
+        "comparator": 1
+      },
+      "steps": [
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "stick",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "redstone_torch",
+          "times": 3
+        },
+        {
+          "op": "smelt",
+          "input": "cobblestone",
+          "output": "stone",
+          "count": 3
+        },
+        {
+          "op": "craft",
+          "item": "comparator",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "repeater",
+      "case": 7,
+      "inputs": {
+        "oak_log": 1,
+        "redstone": 3,
+        "cobblestone": 3,
+        "coal": 1
+      },
+      "outputs": {
+        "repeater": 1
+      },
+      "steps": [
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "stick",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "redstone_torch",
+          "times": 2
+        },
+        {
+          "op": "smelt",
+          "input": "cobblestone",
+          "output": "stone",
+          "count": 3
+        },
+        {
+          "op": "craft",
+          "item": "repeater",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "lectern",
+      "case": 8,
+      "inputs": {
+        "oak_log": 4,
+        "sugar_cane": 9,
+        "leather": 3
+      },
+      "outputs": {
+        "lectern": 1
+      },
+      "steps": [
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 4
+        },
+        {
+          "op": "craft",
+          "item": "paper",
+          "times": 3
+        },
+        {
+          "op": "craft",
+          "item": "book",
+          "times": 3
+        },
+        {
+          "op": "craft",
+          "item": "bookshelf",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "oak_slab",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "lectern",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "enchanting_table",
+      "case": 9,
+      "inputs": {
+        "sugar_cane": 3,
+        "leather": 1,
+        "diamond": 2,
+        "obsidian": 4
+      },
+      "outputs": {
+        "enchanting_table": 1
+      },
+      "steps": [
+        {
+          "op": "craft",
+          "item": "paper",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "book",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "enchanting_table",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "blast_furnace",
+      "case": 10,
+      "inputs": {
+        "raw_iron": 5,
+        "cobblestone": 11,
+        "coal": 2
+      },
+      "outputs": {
+        "blast_furnace": 1
+      },
+      "steps": [
+        {
+          "op": "smelt",
+          "input": "raw_iron",
+          "output": "iron_ingot",
+          "count": 5
+        },
+        {
+          "op": "craft",
+          "item": "furnace",
+          "times": 1
+        },
+        {
+          "op": "smelt",
+          "input": "cobblestone",
+          "output": "stone",
+          "count": 3
+        },
+        {
+          "op": "smelt",
+          "input": "stone",
+          "output": "smooth_stone",
+          "count": 3
+        },
+        {
+          "op": "craft",
+          "item": "blast_furnace",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "armor_stand",
+      "case": 11,
+      "inputs": {
+        "oak_log": 1,
+        "cobblestone": 3,
+        "coal": 1
+      },
+      "outputs": {
+        "armor_stand": 1
+      },
+      "steps": [
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "stick",
+          "times": 2
+        },
+        {
+          "op": "smelt",
+          "input": "cobblestone",
+          "output": "stone",
+          "count": 3
+        },
+        {
+          "op": "smelt",
+          "input": "stone",
+          "output": "smooth_stone",
+          "count": 3
+        },
+        {
+          "op": "craft",
+          "item": "smooth_stone_slab",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "armor_stand",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    },
+    {
+      "id": "daylight_detector",
+      "case": 12,
+      "inputs": {
+        "oak_log": 1,
+        "sand": 3,
+        "coal": 1,
+        "quartz": 3
+      },
+      "outputs": {
+        "daylight_detector": 1
+      },
+      "steps": [
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "oak_slab",
+          "times": 1
+        },
+        {
+          "op": "smelt",
+          "input": "sand",
+          "output": "glass",
+          "count": 3
+        },
+        {
+          "op": "craft",
+          "item": "daylight_detector",
+          "times": 1
+        }
+      ],
+      "claim": "Running this code from these starting resources produces these items."
+    }
+  ],
+  "sourceHashes": {
+    "cli.mjs": "dc44a3df17b2db64ae9a42834fcbd110787525200bb190f0f79044613602e243",
+    "datapack.mjs": "7f811e4893bde82b50b1c63ccf7d144e46e8ee52c56c8a034cb1f0451b91d664",
+    "game.mjs": "a99b8359469bc9214737bd44854c83a366fce370a79ade9a586875043b6a0148",
+    "protocol.mjs": "c004635d06e839543e5ea87d0ce66b0709b920dda56377c17d628fd0f4859874",
+    "test.mjs": "d6b3c9958610d09dff51644f88492d05b2158bc9189aeed394825734f34f8121"
+  },
+  "protocol": {
+    "version": 1,
+    "minecraft": "1.21.6",
+    "arms": [
+      "no_gate",
+      "prompt_only",
+      "enforced"
+    ],
+    "targets": [
+      "hopper_minecart",
+      "chest_minecart",
+      "crossbow",
+      "dispenser",
+      "sticky_piston",
+      "comparator",
+      "repeater",
+      "lectern",
+      "enchanting_table",
+      "blast_furnace",
+      "armor_stand",
+      "daylight_detector"
+    ],
+    "stock": {
+      "oak_log": 32,
+      "raw_iron": 48,
+      "cobblestone": 64,
+      "redstone": 32,
+      "string": 16,
+      "sugar_cane": 32,
+      "leather": 12,
+      "diamond": 2,
+      "obsidian": 4,
+      "slime_ball": 1,
+      "quartz": 8,
+      "sand": 8,
+      "coal": 32
+    },
+    "limits": {
+      "modelTurns": 70,
+      "modelTokens": 200000,
+      "primitiveActions": 240,
+      "verifications": 18,
+      "episodeSeconds": 3600,
+      "requestSeconds": 600
+    },
+    "sourceHashes": {
+      "cli.mjs": "dc44a3df17b2db64ae9a42834fcbd110787525200bb190f0f79044613602e243",
+      "datapack.mjs": "7f811e4893bde82b50b1c63ccf7d144e46e8ee52c56c8a034cb1f0451b91d664",
+      "game.mjs": "a99b8359469bc9214737bd44854c83a366fce370a79ade9a586875043b6a0148",
+      "protocol.mjs": "c004635d06e839543e5ea87d0ce66b0709b920dda56377c17d628fd0f4859874",
+      "test.mjs": "d6b3c9958610d09dff51644f88492d05b2158bc9189aeed394825734f34f8121"
+    },
+    "verification": "Real execution from exact method inputs in separate reset arena; inventory output delta required; no item transfer from tests to production.",
+    "scope": "Standalone Minecraft verifier adapter; not yet the Efferents journal executor. Known Minecraft crafting is a controlled systems test, not unknown science.",
+    "outcomes": [
+      "complete basket",
+      "delivered distinct targets",
+      "unverified method starts",
+      "blocked method starts",
+      "repairs",
+      "tokens",
+      "wall seconds",
+      "primitive actions",
+      "test kits consumed"
+    ],
+    "initialMatrix": {
+      "libraries": [
+        "clean",
+        "mixed"
+      ],
+      "arms": [
+        "no_gate",
+        "prompt_only",
+        "enforced"
+      ],
+      "repetitions": [
+        1,
+        2,
+        3
+      ],
+      "episodes": 18
+    },
+    "notes": [
+      "No experiment is launched by prepare.",
+      "Same direct actions, inventory observation, and optional verification in every arm.",
+      "Prompt-only and enforced prompts are identical.",
+      "Separate test materials are reported, not free production resources.",
+      "Injected-fault frequencies are not estimates of natural error prevalence.",
+      "Three repetitions of one task are exploratory, not three independent scientific domains."
+    ]
+  },
+  "limits": {
+    "modelTurns": 70,
+    "modelTokens": 200000,
+    "primitiveActions": 240,
+    "verifications": 18,
+    "episodeSeconds": 3600,
+    "requestSeconds": 600
+  },
+  "node": "v22.23.4"
+}

@@ -1,0 +1,145 @@
+{
+  "version": 7,
+  "planner": {
+    "name": "mlx-community/Qwen3.5-9B-MLX-4bit",
+    "revision": "938d8919941c6e7efd3c7150eff7fe9d12afa631",
+    "base": "http://127.0.0.1:18601/v1",
+    "temperature": 0.2,
+    "maxTokens": 1024,
+    "enableThinking": false,
+    "parser": "strict JSON object in assistant final content; no commands recovered from prose or reasoning",
+    "consecutiveInvalidStop": 5
+  },
+  "minecraft": "1.21.6",
+  "arena": {
+    "centers": {
+      "production": [
+        0,
+        100,
+        0
+      ],
+      "test": [
+        32,
+        100,
+        0
+      ]
+    },
+    "width": 17,
+    "length": 17,
+    "baseY": 98,
+    "floorY": 99,
+    "wallBottomY": 100,
+    "roofY": 109,
+    "floor": "sand",
+    "base": "sandstone",
+    "walls": "glass",
+    "cornerPillars": "sand",
+    "workstationOffsets": {
+      "crafting_table": [
+        1,
+        0,
+        0
+      ],
+      "furnace": [
+        -1,
+        0,
+        0
+      ],
+      "chest": [
+        0,
+        0,
+        2
+      ]
+    }
+  },
+  "players": {
+    "production": "ProfessorPickaxe",
+    "test": "InspectorIngot"
+  },
+  "arms": [
+    "no_gate",
+    "prompt_only",
+    "enforced"
+  ],
+  "targets": [
+    "hopper_minecart",
+    "chest_minecart",
+    "crossbow",
+    "dispenser",
+    "sticky_piston",
+    "comparator",
+    "repeater",
+    "lectern",
+    "enchanting_table",
+    "blast_furnace",
+    "armor_stand",
+    "daylight_detector"
+  ],
+  "stock": {
+    "oak_log": 32,
+    "raw_iron": 48,
+    "cobblestone": 64,
+    "redstone": 32,
+    "string": 16,
+    "sugar_cane": 32,
+    "leather": 12,
+    "diamond": 2,
+    "obsidian": 4,
+    "slime_ball": 1,
+    "quartz": 8,
+    "sand": 8,
+    "coal": 32
+  },
+  "limits": {
+    "modelTurns": 70,
+    "modelTokens": 200000,
+    "primitiveActions": 240,
+    "verifications": 18,
+    "episodeSeconds": 3600,
+    "requestSeconds": 600
+  },
+  "sourceHashes": {
+    "cli.mjs": "d4a2d75ca40b10de6929459f761c6ffd15088c5a1b6d607f0551241d8b9dc07e",
+    "datapack.mjs": "74fd368bc0ea7f4ba138b629a758ba0b57b75d18e99bee147832296d2b4ce4fa",
+    "game.mjs": "011af087c3c9f0472efe877d496433c628772157083494448a6744cc6e0e9a09",
+    "model.mjs": "6e05b03542d3a64bd333dcfba1a3b13884ddf052f71aa6f0f22043aa8d14909e",
+    "planner.mjs": "7dc66a26d294c9e49a9a597f3f986f12ac91e0c895ddb238c512df40dd0abbc4",
+    "protocol.mjs": "24c6a14fb17303d9f90e0d4d137eeb964c264a878ab62c5e1a4ffb69824d2c1b",
+    "smelting.mjs": "0a84171d3e358fc042d7f7972f735b62e8e8fffa1fa184d83c5b5149c1856185",
+    "test.mjs": "8fe200aa9c94ff6d9681da8f4cce8a51711d07a20ddcc3e242ed246fd98eb9a5"
+  },
+  "verification": "Real execution from exact method inputs in separate reset arena; inventory output delta required; no item transfer from tests to production.",
+  "scope": "Standalone Minecraft verifier adapter; not yet the Efferents journal executor. Known Minecraft crafting is a controlled systems test, not unknown science.",
+  "outcomes": [
+    "complete basket",
+    "delivered distinct targets",
+    "unverified method starts",
+    "blocked method starts",
+    "repairs",
+    "tokens",
+    "wall seconds",
+    "primitive actions",
+    "test kits consumed"
+  ],
+  "initialMatrix": {
+    "libraries": [
+      "mixed"
+    ],
+    "arms": [
+      "prompt_only",
+      "enforced"
+    ],
+    "seeds": [
+      711
+    ],
+    "episodes": 2
+  },
+  "notes": [
+    "No experiment is launched by prepare.",
+    "Same direct actions, inventory observation, and optional verification in every arm.",
+    "Prompt-only and enforced prompts are identical.",
+    "Separate test materials are reported, not free production resources.",
+    "Injected-fault frequencies are not estimates of natural error prevalence.",
+    "Three repetitions of one task are exploratory, not three independent scientific domains."
+  ]
+}

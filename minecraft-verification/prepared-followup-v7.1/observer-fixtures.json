@@ -1,0 +1,9 @@
+{
+  "origin": "hand-authored reference procedures; explicitly injected faults, not observed agent failures",
+  "mixedFaults": {
+    "crossbow": "omitted tripwire_hook step",
+    "dispenser": "omitted bow step",
+    "lectern": "omitted book step",
+    "blast_furnace": "omitted smooth_stone step"
+  }
+}

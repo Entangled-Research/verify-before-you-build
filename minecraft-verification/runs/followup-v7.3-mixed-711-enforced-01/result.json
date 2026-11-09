@@ -1,0 +1,151 @@
+{
+  "kind": "agent_episode",
+  "status": "success",
+  "error": null,
+  "complete": true,
+  "delivered": {
+    "hopper_minecart": 1,
+    "chest_minecart": 1,
+    "crossbow": 1,
+    "dispenser": 1,
+    "sticky_piston": 1,
+    "comparator": 1,
+    "repeater": 1,
+    "lectern": 1,
+    "enchanting_table": 1,
+    "blast_furnace": 1,
+    "armor_stand": 1,
+    "daylight_detector": 1
+  },
+  "distinctTargets": 12,
+  "arm": "enforced",
+  "seed": 711,
+  "model": "mlx-community/Qwen3.5-9B-MLX-4bit",
+  "promptTokens": 26658,
+  "generatedTokens": 388,
+  "usageComplete": true,
+  "modelTurns": 38,
+  "wallSeconds": 1397.99,
+  "primitiveActions": 130,
+  "verificationAttempts": 16,
+  "testKits": [
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 5,
+      "coal": 1
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 2,
+      "coal": 1,
+      "string": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 2,
+      "coal": 1,
+      "string": 2
+    },
+    {
+      "oak_log": 2,
+      "string": 3,
+      "cobblestone": 7,
+      "redstone": 1
+    },
+    {
+      "oak_log": 2,
+      "string": 3,
+      "cobblestone": 7,
+      "redstone": 1
+    },
+    {
+      "oak_log": 1,
+      "raw_iron": 1,
+      "coal": 1,
+      "cobblestone": 4,
+      "redstone": 1,
+      "slime_ball": 1
+    },
+    {
+      "oak_log": 1,
+      "redstone": 3,
+      "cobblestone": 3,
+      "coal": 1,
+      "quartz": 1
+    },
+    {
+      "oak_log": 1,
+      "redstone": 3,
+      "cobblestone": 3,
+      "coal": 1
+    },
+    {
+      "oak_log": 4,
+      "sugar_cane": 9,
+      "leather": 3
+    },
+    {
+      "oak_log": 4,
+      "sugar_cane": 9,
+      "leather": 3
+    },
+    {
+      "sugar_cane": 3,
+      "leather": 1,
+      "diamond": 2,
+      "obsidian": 4
+    },
+    {
+      "raw_iron": 5,
+      "cobblestone": 11,
+      "coal": 2
+    },
+    {
+      "raw_iron": 5,
+      "cobblestone": 11,
+      "coal": 2
+    },
+    {
+      "oak_log": 1,
+      "cobblestone": 3,
+      "coal": 1
+    },
+    {
+      "oak_log": 1,
+      "sand": 3,
+      "coal": 1,
+      "quartz": 3
+    }
+  ],
+  "productionInventory": {
+    "oak_log": 15,
+    "oak_slab": 5,
+    "sand": 5,
+    "coal": 21,
+    "raw_iron": 25,
+    "cobblestone": 33,
+    "oak_planks": 20,
+    "string": 11,
+    "stick": 14,
+    "tripwire_hook": 1,
+    "redstone": 24,
+    "sugar_cane": 20,
+    "leather": 8,
+    "quartz": 4,
+    "smooth_stone_slab": 5
+  },
+  "unverifiedMethodStarts": 0,
+  "blockedMethodStarts": 6,
+  "repairs": 4,
+  "limitations": [
+    "Local MLX endpoint token counts; no provider inference-compute measurement.",
+    "Method dependency declarations only; direct reimplementation is allowed.",
+    "Test resources are separate and logged; equal production supplies do not mean equal total materials consumed.",
+    "LAN live correctness must be established by preflight and calibration."
+  ]
+}

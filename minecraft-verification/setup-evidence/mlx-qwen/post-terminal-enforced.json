@@ -1,0 +1,296 @@
+{
+  "time": "2026-11-09T06:05:51.383Z",
+  "kind": "post-terminal read-only furnace audit",
+  "player": "ProfessorPickaxe",
+  "position": {
+    "x": -1,
+    "y": 100,
+    "z": 0
+  },
+  "source": "server:window_items",
+  "windowId": 1,
+  "stateId": 1,
+  "lit": false,
+  "furnaceSlots": [],
+  "playerInventorySlots": [
+    {
+      "slot": 3,
+      "item": "slime_ball",
+      "count": 1
+    },
+    {
+      "slot": 4,
+      "item": "quartz",
+      "count": 8
+    },
+    {
+      "slot": 5,
+      "item": "sand",
+      "count": 8
+    },
+    {
+      "slot": 6,
+      "item": "coal",
+      "count": 32
+    },
+    {
+      "slot": 30,
+      "item": "oak_log",
+      "count": 32
+    },
+    {
+      "slot": 31,
+      "item": "raw_iron",
+      "count": 48
+    },
+    {
+      "slot": 32,
+      "item": "cobblestone",
+      "count": 64
+    },
+    {
+      "slot": 33,
+      "item": "redstone",
+      "count": 32
+    },
+    {
+      "slot": 34,
+      "item": "string",
+      "count": 16
+    },
+    {
+      "slot": 35,
+      "item": "sugar_cane",
+      "count": 32
+    },
+    {
+      "slot": 36,
+      "item": "leather",
+      "count": 12
+    },
+    {
+      "slot": 37,
+      "item": "diamond",
+      "count": 2
+    },
+    {
+      "slot": 38,
+      "item": "obsidian",
+      "count": 4
+    }
+  ],
+  "rawFrame": {
+    "windowId": 1,
+    "stateId": 1,
+    "items": [
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 1,
+        "itemId": 985,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 8,
+        "itemId": 865,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 8,
+        "itemId": 59,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 32,
+        "itemId": 860,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 32,
+        "itemId": 134,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 48,
+        "itemId": 867,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 64,
+        "itemId": 35,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 32,
+        "itemId": 688,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 16,
+        "itemId": 907,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 32,
+        "itemId": 256,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 12,
+        "itemId": 972,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 2,
+        "itemId": 862,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 4,
+        "itemId": 309,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      }
+    ],
+    "carriedItem": {
+      "itemCount": 0
+    }
+  },
+  "properties": [
+    {
+      "windowId": 1,
+      "property": 0,
+      "value": 0
+    },
+    {
+      "windowId": 1,
+      "property": 1,
+      "value": 0
+    },
+    {
+      "windowId": 1,
+      "property": 2,
+      "value": 0
+    },
+    {
+      "windowId": 1,
+      "property": 3,
+      "value": 0
+    }
+  ],
+  "note": "Opened after the terminal result, outside episode time; no items moved, no commands issued and no reset. Burning may advance between terminal and readback."
+}

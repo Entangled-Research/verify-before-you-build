@@ -1,0 +1,547 @@
+{
+  "run": "prepared-lan-v6-qwen-mixed-r1-prompt_only",
+  "rows": [
+    {
+      "turn": 3,
+      "id": "crossbow",
+      "before": "60acedc1783ab1b36707741c3cb2f61482ba335dee7acca80e7d6946fb0cf03c",
+      "after": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "key": "4ec537dcea6ee5f7315ecb965e483b2d57bee7ad03ad1ad29a2125dae2dbc90f",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [
+        {
+          "turn": 4,
+          "receipt": "missing"
+        },
+        {
+          "turn": 6,
+          "receipt": "missing"
+        },
+        {
+          "turn": 12,
+          "receipt": "missing"
+        },
+        {
+          "turn": 13,
+          "receipt": "missing"
+        },
+        {
+          "turn": 16,
+          "receipt": "missing"
+        },
+        {
+          "turn": 20,
+          "receipt": "missing"
+        },
+        {
+          "turn": 24,
+          "receipt": "missing"
+        },
+        {
+          "turn": 28,
+          "receipt": "missing"
+        }
+      ],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 7,
+      "id": "crossbow",
+      "before": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "after": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "key": "4ec537dcea6ee5f7315ecb965e483b2d57bee7ad03ad1ad29a2125dae2dbc90f",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 11,
+      "id": "dispenser",
+      "before": "ffce672ab94d6fd54c71d33ae1ae0f6a240f6c9ac2abf99e4b27cdea4e928faa",
+      "after": "b8f05b52295e789a88658c144850db3422646866830e77a3250b95689852694a",
+      "key": "93ab4f2d89c3b752fedde4d86afd5f73efae6ea60146d90ec7ceaac4d445489b",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [
+        {
+          "turn": 17,
+          "receipt": "missing"
+        }
+      ],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 14,
+      "id": "crossbow",
+      "before": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "after": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "key": "4ec537dcea6ee5f7315ecb965e483b2d57bee7ad03ad1ad29a2125dae2dbc90f",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 15,
+      "id": "dispenser",
+      "before": "b8f05b52295e789a88658c144850db3422646866830e77a3250b95689852694a",
+      "after": "b8f05b52295e789a88658c144850db3422646866830e77a3250b95689852694a",
+      "key": "93ab4f2d89c3b752fedde4d86afd5f73efae6ea60146d90ec7ceaac4d445489b",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 18,
+      "id": "crossbow",
+      "before": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "after": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "key": "4ec537dcea6ee5f7315ecb965e483b2d57bee7ad03ad1ad29a2125dae2dbc90f",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 19,
+      "id": "dispenser",
+      "before": "b8f05b52295e789a88658c144850db3422646866830e77a3250b95689852694a",
+      "after": "055918ab773208071b7bb6d22e798dc5828c20787b1c34dc64e7310c60e3a5df",
+      "key": "a892bd37c0b950a73791892793f81d70be96e5bb9c5a4e6f90aff203331babee",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [
+        {
+          "turn": 21,
+          "receipt": "missing"
+        },
+        {
+          "turn": 25,
+          "receipt": "missing"
+        },
+        {
+          "turn": 29,
+          "receipt": "missing"
+        },
+        {
+          "turn": 69,
+          "receipt": "missing"
+        }
+      ],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 22,
+      "id": "crossbow",
+      "before": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "after": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "key": "4ec537dcea6ee5f7315ecb965e483b2d57bee7ad03ad1ad29a2125dae2dbc90f",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 23,
+      "id": "dispenser",
+      "before": "055918ab773208071b7bb6d22e798dc5828c20787b1c34dc64e7310c60e3a5df",
+      "after": "055918ab773208071b7bb6d22e798dc5828c20787b1c34dc64e7310c60e3a5df",
+      "key": "a892bd37c0b950a73791892793f81d70be96e5bb9c5a4e6f90aff203331babee",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 26,
+      "id": "crossbow",
+      "before": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "after": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "key": "4ec537dcea6ee5f7315ecb965e483b2d57bee7ad03ad1ad29a2125dae2dbc90f",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 27,
+      "id": "dispenser",
+      "before": "055918ab773208071b7bb6d22e798dc5828c20787b1c34dc64e7310c60e3a5df",
+      "after": "055918ab773208071b7bb6d22e798dc5828c20787b1c34dc64e7310c60e3a5df",
+      "key": "a892bd37c0b950a73791892793f81d70be96e5bb9c5a4e6f90aff203331babee",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 30,
+      "id": "crossbow",
+      "before": "c3d2d237a679413ad746d21e05bfc4b6f7891391be63609755a0c908aeb78a5c",
+      "after": "f85a15ca27131bb19cf74abdfcbcfeeb942e1691ec07b7dfb9ffcf067ddd3d66",
+      "key": "388774e28c2a36fadc8ba3316b15e01f8f1d8f916aca7624c77e5c7a98728894",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 31,
+      "id": "dispenser",
+      "before": "055918ab773208071b7bb6d22e798dc5828c20787b1c34dc64e7310c60e3a5df",
+      "after": "055918ab773208071b7bb6d22e798dc5828c20787b1c34dc64e7310c60e3a5df",
+      "key": "a892bd37c0b950a73791892793f81d70be96e5bb9c5a4e6f90aff203331babee",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 32,
+      "id": "crossbow",
+      "before": "f85a15ca27131bb19cf74abdfcbcfeeb942e1691ec07b7dfb9ffcf067ddd3d66",
+      "after": "025cd8bb40d307543d41709cef7b0cf5e5c4c159d202fc3f33d0d7f8a1ac5e27",
+      "key": "7cd76eeefcc2f26c0096570a0799a0df2fa1678c3e57b225893ba4d014a38c71",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [
+        {
+          "turn": 33,
+          "receipt": "missing"
+        }
+      ],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 34,
+      "id": "crossbow",
+      "before": "025cd8bb40d307543d41709cef7b0cf5e5c4c159d202fc3f33d0d7f8a1ac5e27",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [
+        {
+          "turn": 37,
+          "receipt": "missing"
+        },
+        {
+          "turn": 41,
+          "receipt": "missing"
+        },
+        {
+          "turn": 45,
+          "receipt": "missing"
+        },
+        {
+          "turn": 49,
+          "receipt": "missing"
+        },
+        {
+          "turn": 53,
+          "receipt": "missing"
+        },
+        {
+          "turn": 57,
+          "receipt": "missing"
+        },
+        {
+          "turn": 61,
+          "receipt": "missing"
+        },
+        {
+          "turn": 65,
+          "receipt": "missing"
+        }
+      ],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 35,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 36,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 38,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 39,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 40,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 42,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 43,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 44,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 46,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 47,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 48,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 50,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 51,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 52,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 54,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 55,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 56,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 58,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 59,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 60,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 62,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 63,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 64,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 66,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "ceb724a5d6d30c627189bf5592e8a978daaf1585fb96ed4fad413d3600eb505d",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 67,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "0706e0c083ea0a2f4603106394494cec07b30ed90dc542f8a88ad52080b72ec7",
+      "key": "d719c1cdf6b33c4a6dc94dad2028fe5eea3ea141bcd1fa1c2a5ffce7ed5843fe",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [
+        {
+          "turn": 68,
+          "receipt": "missing"
+        }
+      ],
+      "newlyDelivered": 0
+    }
+  ],
+  "requests": 40,
+  "distinctChanges": 7,
+  "noopRequests": 33,
+  "changedRevisionsProducingTarget": 0
+}

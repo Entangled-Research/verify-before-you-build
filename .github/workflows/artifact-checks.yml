@@ -1,0 +1,21 @@
+name: Offline artifact checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: dependencies/package-lock.json
+      - run: python -B -m unittest discover -s python/supplement -p 'test_verifier.py' -v
+      - run: python -B portable/check-evidence.py
+      - run: npm ci --prefix dependencies --ignore-scripts
+      - run: node portable/test-minecraft.mjs
+      - run: node portable/minecraft.mjs v6 preflight --offline
+      - run: node portable/minecraft.mjs v7.3 preflight --offline

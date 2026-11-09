@@ -1,0 +1,32 @@
+{
+  "kind": "agent_episode",
+  "status": "operator_interrupted_stalled",
+  "error": "Three consecutive missing-receipt blocks for chest_minecart produced the identical displayed observation; the frozen card omitted blocked/reason.",
+  "complete": false,
+  "delivered": {
+    "hopper_minecart": 1
+  },
+  "distinctTargets": 1,
+  "arm": "enforced",
+  "seed": 711,
+  "model": "mlx-community/Qwen3.5-9B-MLX-4bit",
+  "promptTokens": 3208,
+  "generatedTokens": 50,
+  "usageComplete": false,
+  "modelTurns": 5,
+  "wallSeconds": 242.400291,
+  "primitiveActions": 12,
+  "verificationAttempts": 1,
+  "testKits": [
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    }
+  ],
+  "unverifiedMethodStarts": 0,
+  "blockedMethodStarts": 3,
+  "repairs": 0,
+  "provenance": "external terminal accounting from retained events after explicit operator interruption",
+  "endTime": "2026-11-09T16:11:51.610291+00:00"
+}

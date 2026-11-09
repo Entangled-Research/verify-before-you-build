@@ -1,0 +1,17 @@
+[
+  {
+    "run": "prepared-lan-v6-qwen-mixed-r1-no_gate",
+    "status": "budget_exhausted",
+    "receipts": [],
+    "delivered": {
+      "hopper_minecart": 1,
+      "chest_minecart": 1
+    },
+    "modelCalls": 70,
+    "verifiedTokenCounts": [
+      162945,
+      2656
+    ],
+    "defects": []
+  }
+]

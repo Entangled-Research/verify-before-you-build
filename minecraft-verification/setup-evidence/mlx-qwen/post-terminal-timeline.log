@@ -1,0 +1,15 @@
+2026-11-09T04:03:05.595107+00:00 Holding launcher only, current research child continues: no_gate
+2026-11-09T04:15:42.509318+00:00 Holding launcher only, current research child continues: no_gate
+Post-terminal readback $AUTHOR_HOME/Documents/efferents/efferents research/minecraft-verification/setup-evidence/mlx-qwen/post-terminal-no_gate.json
+2026-11-09T04:18:10.004442+00:00 Readback completed for no_gate
+2026-11-09T04:18:10.005752+00:00 Waiting for coordinator evidence handoff before next arm: no_gate
+2026-11-09T04:18:28.645648+00:00 Released launcher for normal audit/transition: no_gate
+2026-11-09T04:18:33.145326+00:00 Holding launcher only, current research child continues: prompt_only
+Post-terminal readback $AUTHOR_HOME/Documents/efferents/efferents research/minecraft-verification/setup-evidence/mlx-qwen/post-terminal-prompt_only.json
+2026-11-09T05:12:44.101737+00:00 Readback completed for prompt_only
+2026-11-09T05:12:44.102109+00:00 Waiting for coordinator evidence handoff before next arm: prompt_only
+2026-11-09T05:13:06.806995+00:00 Released launcher for normal audit/transition: prompt_only
+2026-11-09T05:13:10.892185+00:00 Holding launcher only, current research child continues: enforced
+Post-terminal readback $AUTHOR_HOME/Documents/efferents/efferents research/minecraft-verification/setup-evidence/mlx-qwen/post-terminal-enforced.json
+2026-11-09T06:06:12.442840+00:00 Readback completed for enforced
+2026-11-09T06:06:12.443248+00:00 Released launcher for normal audit/transition: enforced

@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-09T03:25:27.325923+00:00",
+  "event": "operator_interruption",
+  "reason": "Operator interrupted this diagnostic after repeated non-JSON responses and zero tool actions. This was an incremental instrumentation decision, not a prespecified scientific stopping criterion. This arm was not completed, and no arm comparison or gate inference is valid.",
+  "completedModelResponses": 7,
+  "usageComplete": false,
+  "source": "supervisor",
+  "lastObservedEventTime": "2026-11-09T03:24:53.223Z",
+  "optionalArmsNotLaunched": [
+    "prompt_only",
+    "enforced"
+  ]
+}

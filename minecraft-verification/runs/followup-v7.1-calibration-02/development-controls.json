@@ -1,0 +1,34 @@
+[
+  {
+    "name": "real passing receipt cached without another kit",
+    "ok": true
+  },
+  {
+    "name": "original faulty crossbow fails without automatic edits",
+    "ok": true,
+    "error": "No executable recipe for crossbow from current inventory"
+  },
+  {
+    "name": "original faulty dispenser fails without automatic edits",
+    "ok": true,
+    "error": "No executable recipe for dispenser from current inventory"
+  },
+  {
+    "name": "original faulty lectern fails without automatic edits",
+    "ok": true,
+    "error": "No executable recipe for bookshelf from current inventory"
+  },
+  {
+    "name": "original faulty blast_furnace fails without automatic edits",
+    "ok": true,
+    "error": "No executable recipe for blast_furnace from current inventory"
+  },
+  {
+    "name": "insufficient smelt rejected before moving inputs",
+    "ok": true
+  },
+  {
+    "name": "staged abandoned input physically recovered",
+    "ok": true
+  }
+]

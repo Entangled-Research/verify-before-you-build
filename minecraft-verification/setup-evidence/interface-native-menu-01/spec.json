@@ -1,0 +1,577 @@
+{
+  "system": "You are a Minecraft bot that uses commands. Respond to the current player, choosing exactly one command. !inventory checks what you have. !getRecipe looks up an item. !craftRecipe crafts an item with raw materials. !verifyMethod(ITEM) tests a published method in a sandbox. !useMethod(ITEM) runs a published method in production. !finish ends the episode. Use the exact ITEM named by the player. Do not make up past events.",
+  "schema": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!inventory"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!getRecipe"
+          },
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "item": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "item"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "command",
+          "parameters"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(hopper_minecart)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(chest_minecart)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(crossbow)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(dispenser)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(sticky_piston)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(comparator)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(repeater)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(lectern)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(enchanting_table)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(blast_furnace)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(armor_stand)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!verifyMethod(daylight_detector)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(hopper_minecart)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(chest_minecart)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(crossbow)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(dispenser)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(sticky_piston)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(comparator)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(repeater)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(lectern)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(enchanting_table)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(blast_furnace)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(armor_stand)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!useMethod(daylight_detector)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "revise_method"
+          },
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "enum": [
+                  "hopper_minecart",
+                  "chest_minecart",
+                  "crossbow",
+                  "dispenser",
+                  "sticky_piston",
+                  "comparator",
+                  "repeater",
+                  "lectern",
+                  "enchanting_table",
+                  "blast_furnace",
+                  "armor_stand",
+                  "daylight_detector"
+                ]
+              },
+              "steps": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 40,
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "op": {
+                          "const": "craft"
+                        },
+                        "item": {
+                          "type": "string"
+                        },
+                        "times": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 64
+                        }
+                      },
+                      "required": [
+                        "op",
+                        "item",
+                        "times"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "op": {
+                          "const": "smelt"
+                        },
+                        "input": {
+                          "type": "string"
+                        },
+                        "output": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 64
+                        }
+                      },
+                      "required": [
+                        "op",
+                        "input",
+                        "output",
+                        "count"
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "steps"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "command",
+          "parameters"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!craftRecipe"
+          },
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "item": {
+                "type": "string"
+              },
+              "times": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 64
+              }
+            },
+            "required": [
+              "item",
+              "times"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "command",
+          "parameters"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "smelt"
+          },
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "input": {
+                "type": "string"
+              },
+              "output": {
+                "type": "string"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 64
+              }
+            },
+            "required": [
+              "input",
+              "output",
+              "count"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "command",
+          "parameters"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "!finish"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      }
+    ]
+  },
+  "cases": [
+    [
+      "inventory",
+      "Inspect my inventory now. Do not finish.",
+      {
+        "tool": "inspect"
+      }
+    ],
+    [
+      "verify",
+      "Test the published crossbow procedure in the verifier; do not run it in production.",
+      {
+        "tool": "verify_method",
+        "id": "crossbow"
+      }
+    ],
+    [
+      "use",
+      "Use the published lectern procedure in production.",
+      {
+        "tool": "use_method",
+        "id": "lectern"
+      }
+    ],
+    [
+      "recipe",
+      "Look up the native recipe for comparator.",
+      {
+        "tool": "recipe",
+        "item": "comparator"
+      }
+    ],
+    [
+      "craft",
+      "Craft oak_planks from one oak_log in production, one recipe application.",
+      {
+        "tool": "craft",
+        "item": "oak_planks",
+        "times": 1
+      }
+    ]
+  ]
+}

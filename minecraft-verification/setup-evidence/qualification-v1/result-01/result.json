@@ -1,0 +1,95 @@
+{
+  "kind": "separate deterministic Minecraft executor qualification",
+  "authorship": "scripted positive and negative controls; no LLM, no reward credit, not an agent episode or matched-arm observation",
+  "status": "qualification_passed",
+  "error": null,
+  "finishedAt": "2026-11-09T06:11:43.903Z",
+  "assertions": [
+    {
+      "name": "unverified clean use blocks without production action or state change",
+      "ok": true
+    },
+    {
+      "name": "clean hopper reproduction verified with observed output delta",
+      "ok": true
+    },
+    {
+      "name": "authorized matching receipt produces one actual delivery",
+      "ok": true,
+      "receiptKey": "923bffc7ac7ca09bed64550876fd0f7c2c82bf3ae49eb7a2d0c6e7e48c212dc7",
+      "startKey": "923bffc7ac7ca09bed64550876fd0f7c2c82bf3ae49eb7a2d0c6e7e48c212dc7"
+    },
+    {
+      "name": "changed hopper revision cannot reuse hopper receipt",
+      "ok": true,
+      "candidateKey": "de3d87d0067048fb8e62f6e6ce5b8d24226ff321e425aab4b1fe38c15542eb28",
+      "originalKey": "923bffc7ac7ca09bed64550876fd0f7c2c82bf3ae49eb7a2d0c6e7e48c212dc7"
+    },
+    {
+      "name": "different chest minecart method cannot reuse hopper receipt",
+      "ok": true,
+      "candidateKey": "d839257cb36737c483ac47d95da42f90e9a8c7d8052278adbf6036c26b888101",
+      "originalKey": "923bffc7ac7ca09bed64550876fd0f7c2c82bf3ae49eb7a2d0c6e7e48c212dc7"
+    },
+    {
+      "name": "mixed crossbow fails from exact fresh test kit",
+      "ok": true,
+      "receipt": "2a892653e0d6227e8a0835dc965214c26836c1c66d3423caa87825be82ae6e24",
+      "failure": "No executable recipe for crossbow from current inventory"
+    },
+    {
+      "name": "mixed dispenser fails from exact fresh test kit",
+      "ok": true,
+      "receipt": "2b8663536050d3393e33d09607636d8e79c5813d6c42a2ba3629349bfbf8e308",
+      "failure": "No executable recipe for dispenser from current inventory"
+    },
+    {
+      "name": "mixed lectern fails from exact fresh test kit",
+      "ok": true,
+      "receipt": "d76df35689143ef174baafb6313b8981c70356e46b18fdb0c08af76e590ee1c1",
+      "failure": "No executable recipe for bookshelf from current inventory"
+    },
+    {
+      "name": "mixed blast_furnace fails from exact fresh test kit",
+      "ok": true,
+      "receipt": "424846205241eda1effb07feb4139582a704c4d36a244c47e875d5a77279f2e5",
+      "failure": "No executable recipe for blast_furnace from current inventory"
+    },
+    {
+      "name": "fault tests preserve production state",
+      "ok": true
+    }
+  ],
+  "modelCalls": 0,
+  "primitiveActions": 26,
+  "verificationAttempts": 5,
+  "testKits": [
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 2,
+      "coal": 1,
+      "string": 2
+    },
+    {
+      "oak_log": 2,
+      "string": 3,
+      "cobblestone": 7,
+      "redstone": 1
+    },
+    {
+      "oak_log": 4,
+      "sugar_cane": 9,
+      "leather": 3
+    },
+    {
+      "raw_iron": 5,
+      "cobblestone": 11,
+      "coal": 2
+    }
+  ]
+}

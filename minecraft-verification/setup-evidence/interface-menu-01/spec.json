@@ -1,0 +1,577 @@
+{
+  "system": "You operate a Minecraft manufacturing console. Respond to the player request by selecting one console command with the correct item. To test a publication privately: \"test procedure: ITEM\". To use a publication in production: \"run procedure: ITEM\". To look up a native recipe select \"recipe\" with parameters.item. To make a native recipe select \"craft\" with parameters.item and times. To see the inventory select \"inspect\". To stop acting select \"finish\". The name after the colon is the requested item. Do not claim actions have happened.",
+  "schema": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "inspect"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "recipe"
+          },
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "item": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "item"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "command",
+          "parameters"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: hopper_minecart"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: chest_minecart"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: crossbow"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: dispenser"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: sticky_piston"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: comparator"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: repeater"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: lectern"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: enchanting_table"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: blast_furnace"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: armor_stand"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "test procedure: daylight_detector"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: hopper_minecart"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: chest_minecart"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: crossbow"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: dispenser"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: sticky_piston"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: comparator"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: repeater"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: lectern"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: enchanting_table"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: blast_furnace"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: armor_stand"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "run procedure: daylight_detector"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "revise_method"
+          },
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "enum": [
+                  "hopper_minecart",
+                  "chest_minecart",
+                  "crossbow",
+                  "dispenser",
+                  "sticky_piston",
+                  "comparator",
+                  "repeater",
+                  "lectern",
+                  "enchanting_table",
+                  "blast_furnace",
+                  "armor_stand",
+                  "daylight_detector"
+                ]
+              },
+              "steps": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 40,
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "op": {
+                          "const": "craft"
+                        },
+                        "item": {
+                          "type": "string"
+                        },
+                        "times": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 64
+                        }
+                      },
+                      "required": [
+                        "op",
+                        "item",
+                        "times"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "op": {
+                          "const": "smelt"
+                        },
+                        "input": {
+                          "type": "string"
+                        },
+                        "output": {
+                          "type": "string"
+                        },
+                        "count": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 64
+                        }
+                      },
+                      "required": [
+                        "op",
+                        "input",
+                        "output",
+                        "count"
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "steps"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "command",
+          "parameters"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "craft"
+          },
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "item": {
+                "type": "string"
+              },
+              "times": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 64
+              }
+            },
+            "required": [
+              "item",
+              "times"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "command",
+          "parameters"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "smelt"
+          },
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "input": {
+                "type": "string"
+              },
+              "output": {
+                "type": "string"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 64
+              }
+            },
+            "required": [
+              "input",
+              "output",
+              "count"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "command",
+          "parameters"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "const": "finish"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false
+      }
+    ]
+  },
+  "cases": [
+    [
+      "inventory",
+      "Inspect my inventory now. Do not finish.",
+      {
+        "tool": "inspect"
+      }
+    ],
+    [
+      "verify",
+      "Test the published crossbow procedure in the verifier; do not run it in production.",
+      {
+        "tool": "verify_method",
+        "id": "crossbow"
+      }
+    ],
+    [
+      "use",
+      "Use the published lectern procedure in production.",
+      {
+        "tool": "use_method",
+        "id": "lectern"
+      }
+    ],
+    [
+      "recipe",
+      "Look up the native recipe for comparator.",
+      {
+        "tool": "recipe",
+        "item": "comparator"
+      }
+    ],
+    [
+      "craft",
+      "Craft oak_planks from one oak_log in production, one recipe application.",
+      {
+        "tool": "craft",
+        "item": "oak_planks",
+        "times": 1
+      }
+    ]
+  ]
+}

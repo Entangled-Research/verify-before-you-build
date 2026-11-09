@@ -1,0 +1,12 @@
+{
+  "time": "2026-11-09T15:43:47.300649+00:00",
+  "event": "operator_interruption",
+  "reason": "repeated identical dispenser revision and failed receipt cache cycle; no change to procedure or production state",
+  "completedModelCalls": 21,
+  "noopRevisions": 7,
+  "receiptCacheHits": 6,
+  "usageComplete": false,
+  "provenance": "external operator record after SIGTERM; possible in-flight model request",
+  "lastRetainedEvent": "planner_observation",
+  "lastRetainedTimestamp": "2026-11-09T15:43:41.921Z"
+}

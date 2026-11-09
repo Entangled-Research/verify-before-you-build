@@ -1,0 +1,245 @@
+{
+  "time": "2026-11-09T16:11:51.610291+00:00",
+  "event": "operator_interruption",
+  "reason": "Three consecutive missing-receipt blocks for chest_minecart produced the identical displayed observation; the frozen card omitted blocked/reason.",
+  "identicalBlockedCards": [
+    {
+      "card": {
+        "orderTarget": "chest_minecart",
+        "delivered": {
+          "hopper_minecart": 1
+        },
+        "unfinished": [
+          "chest_minecart",
+          "crossbow",
+          "dispenser",
+          "sticky_piston",
+          "comparator",
+          "repeater",
+          "lectern",
+          "enchanting_table",
+          "blast_furnace",
+          "armor_stand",
+          "daylight_detector"
+        ],
+        "currentProcedure": [
+          {
+            "op": "smelt",
+            "input": "raw_iron",
+            "output": "iron_ingot",
+            "count": 5
+          },
+          {
+            "op": "craft",
+            "item": "oak_planks",
+            "times": 2
+          },
+          {
+            "op": "craft",
+            "item": "chest",
+            "times": 1
+          },
+          {
+            "op": "craft",
+            "item": "minecart",
+            "times": 1
+          },
+          {
+            "op": "craft",
+            "item": "chest_minecart",
+            "times": 1
+          }
+        ],
+        "stock": {
+          "slime_ball": 1,
+          "quartz": 8,
+          "sand": 8,
+          "coal": 30,
+          "raw_iron": 38,
+          "oak_log": 30,
+          "cobblestone": 64,
+          "redstone": 32,
+          "string": 16,
+          "sugar_cane": 32,
+          "leather": 12,
+          "diamond": 2,
+          "obsidian": 4
+        },
+        "receipt": null,
+        "menu": [
+          {
+            "choice": "test",
+            "effect": "Run this procedure on a fresh test kit."
+          },
+          {
+            "choice": "produce",
+            "effect": "Use this exact version in production for the current target."
+          }
+        ],
+        "last": null
+      },
+      "time": "2026-11-09T16:11:36.763Z",
+      "blocked": "chest_minecart"
+    },
+    {
+      "card": {
+        "orderTarget": "chest_minecart",
+        "delivered": {
+          "hopper_minecart": 1
+        },
+        "unfinished": [
+          "chest_minecart",
+          "crossbow",
+          "dispenser",
+          "sticky_piston",
+          "comparator",
+          "repeater",
+          "lectern",
+          "enchanting_table",
+          "blast_furnace",
+          "armor_stand",
+          "daylight_detector"
+        ],
+        "currentProcedure": [
+          {
+            "op": "smelt",
+            "input": "raw_iron",
+            "output": "iron_ingot",
+            "count": 5
+          },
+          {
+            "op": "craft",
+            "item": "oak_planks",
+            "times": 2
+          },
+          {
+            "op": "craft",
+            "item": "chest",
+            "times": 1
+          },
+          {
+            "op": "craft",
+            "item": "minecart",
+            "times": 1
+          },
+          {
+            "op": "craft",
+            "item": "chest_minecart",
+            "times": 1
+          }
+        ],
+        "stock": {
+          "slime_ball": 1,
+          "quartz": 8,
+          "sand": 8,
+          "coal": 30,
+          "raw_iron": 38,
+          "oak_log": 30,
+          "cobblestone": 64,
+          "redstone": 32,
+          "string": 16,
+          "sugar_cane": 32,
+          "leather": 12,
+          "diamond": 2,
+          "obsidian": 4
+        },
+        "receipt": null,
+        "menu": [
+          {
+            "choice": "test",
+            "effect": "Run this procedure on a fresh test kit."
+          },
+          {
+            "choice": "produce",
+            "effect": "Use this exact version in production for the current target."
+          }
+        ],
+        "last": null
+      },
+      "time": "2026-11-09T16:11:41.950Z",
+      "blocked": "chest_minecart"
+    },
+    {
+      "card": {
+        "orderTarget": "chest_minecart",
+        "delivered": {
+          "hopper_minecart": 1
+        },
+        "unfinished": [
+          "chest_minecart",
+          "crossbow",
+          "dispenser",
+          "sticky_piston",
+          "comparator",
+          "repeater",
+          "lectern",
+          "enchanting_table",
+          "blast_furnace",
+          "armor_stand",
+          "daylight_detector"
+        ],
+        "currentProcedure": [
+          {
+            "op": "smelt",
+            "input": "raw_iron",
+            "output": "iron_ingot",
+            "count": 5
+          },
+          {
+            "op": "craft",
+            "item": "oak_planks",
+            "times": 2
+          },
+          {
+            "op": "craft",
+            "item": "chest",
+            "times": 1
+          },
+          {
+            "op": "craft",
+            "item": "minecart",
+            "times": 1
+          },
+          {
+            "op": "craft",
+            "item": "chest_minecart",
+            "times": 1
+          }
+        ],
+        "stock": {
+          "slime_ball": 1,
+          "quartz": 8,
+          "sand": 8,
+          "coal": 30,
+          "raw_iron": 38,
+          "oak_log": 30,
+          "cobblestone": 64,
+          "redstone": 32,
+          "string": 16,
+          "sugar_cane": 32,
+          "leather": 12,
+          "diamond": 2,
+          "obsidian": 4
+        },
+        "receipt": null,
+        "menu": [
+          {
+            "choice": "test",
+            "effect": "Run this procedure on a fresh test kit."
+          },
+          {
+            "choice": "produce",
+            "effect": "Use this exact version in production for the current target."
+          }
+        ],
+        "last": null
+      },
+      "time": "2026-11-09T16:11:46.361Z",
+      "blocked": "chest_minecart"
+    }
+  ],
+  "usageComplete": false,
+  "lastRetainedEvent": "planner_observation",
+  "lastRetainedTimestamp": "2026-11-09T16:11:50.893Z",
+  "provenance": "external operator record after SIGTERM; possible in-flight model request"
+}

@@ -1,0 +1,2821 @@
+{
+  "source": "Paper evidence archive, prepared 2026-11-09",
+  "source_archive_sha256": "9cb6c93de3ca9361610f64df64d24d35fa20c03ff01d051eb91d8a7cd69e7288",
+  "transformation": "Replace author absolute home prefix /Users/<author> with $AUTHOR_HOME in UTF-8 evidence copies. No original raw files were changed. Source identities in recorded receipts are the historical original identities. Frozen executable .mjs files are separately checked byte-identical. Native Minecraft texture files were excluded; the paper illustration and local asset extraction script are supplied separately.",
+  "files": [
+    {
+      "path": "minecraft-verification/FOLLOWUP-RESULTS.md",
+      "original_sha256": "793e0fb52dc407600b364300761071599817bb54c88b1332e3061f2cd4c832c6",
+      "published_sha256": "793e0fb52dc407600b364300761071599817bb54c88b1332e3061f2cd4c832c6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/OPERATOR.md",
+      "original_sha256": "09542016f25e5685587e4a724cab46b196c6fdb194be5a7aa639c652fb7be8bf",
+      "published_sha256": "09542016f25e5685587e4a724cab46b196c6fdb194be5a7aa639c652fb7be8bf",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/PILOT-RESULTS.md",
+      "original_sha256": "4e983e193604e33610701da14698ca83d605b754d9f991f9c44f92f4506f8580",
+      "published_sha256": "4e983e193604e33610701da14698ca83d605b754d9f991f9c44f92f4506f8580",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/README.md",
+      "original_sha256": "f8f06bbc5e29ce7ce63c0ae8b8ca06150dfc49663ea985f2cf5c41b5c7d0c106",
+      "published_sha256": "f8f06bbc5e29ce7ce63c0ae8b8ca06150dfc49663ea985f2cf5c41b5c7d0c106",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/cli.mjs",
+      "original_sha256": "0c462a421b81eab3511c319e7d188b317c930c6ca7c87864cb25155b8bdb9313",
+      "published_sha256": "0c462a421b81eab3511c319e7d188b317c930c6ca7c87864cb25155b8bdb9313",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/audit-menu.py",
+      "original_sha256": "291b67f5da06bcd6b742702eef4fca28fe0f35724409a924912344ebc13ec624",
+      "published_sha256": "291b67f5da06bcd6b742702eef4fca28fe0f35724409a924912344ebc13ec624",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/audit.py",
+      "original_sha256": "4f7a0bbcdfbfdf883889de5475cd13041c8926c332c632439c21dd6b090c9817",
+      "published_sha256": "4f7a0bbcdfbfdf883889de5475cd13041c8926c332c632439c21dd6b090c9817",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/calibration-02-console.log",
+      "original_sha256": "3f8fba7fe22a7a907514b0bcd9f457eb45aec0ba0f592a1f40ec8bcffc8afbd8",
+      "published_sha256": "beb5bbd72fa3c05b7eaf93ef0471e285fdc4380c6a90ac9cc1fcfeee131ebb20",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/calibration-console.log",
+      "original_sha256": "8cc03b90815875f44663d3691cd3019ec4b2a6977d930fa1fddbe2226f049d6a",
+      "published_sha256": "ce93891754d245a850db10a1e002fffb0328acec354d458f0eb70225b8250dd8",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/enforced-menu-audit.json",
+      "original_sha256": "2fc9ddd810b3bd358675bbb138512f184a495e631451bddcb33a2f48d874effe",
+      "published_sha256": "2fc9ddd810b3bd358675bbb138512f184a495e631451bddcb33a2f48d874effe",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/enforced-post-terminal-chest.json",
+      "original_sha256": "59f8850a48221cc1b7255b2c2924856a83d8fb7a6d6521998b1352bc6407a1ee",
+      "published_sha256": "59f8850a48221cc1b7255b2c2924856a83d8fb7a6d6521998b1352bc6407a1ee",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/enforced-post-terminal.json",
+      "original_sha256": "2b047e2908261914c46deffc05c42afc834972ae7288a7d70d2caea616249523",
+      "published_sha256": "2b047e2908261914c46deffc05c42afc834972ae7288a7d70d2caea616249523",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/extract-smelting.py",
+      "original_sha256": "25b757b641f3e1f9c227e950f965aa2604878ae34260ddcc857860bc9f375a87",
+      "published_sha256": "25b757b641f3e1f9c227e950f965aa2604878ae34260ddcc857860bc9f375a87",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/feedback-preflight.json",
+      "original_sha256": "74c3ea026890b8da23024d8d03524f831bb325467bc90960a81ed966bf6cc637",
+      "published_sha256": "a7996bff2707a497d5286e39a7c0a0c7821faf7e4889d80991aa7727de29733f",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/feedback-preflight.mjs",
+      "original_sha256": "04451543e23a683bea9f84e4ce97229ea163deac98e2cbe617fb1b052f638922",
+      "published_sha256": "04451543e23a683bea9f84e4ce97229ea163deac98e2cbe617fb1b052f638922",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/finalize.py",
+      "original_sha256": "0d7cac19d8942df2e6d57c1ca5e58d3d3128164a99e143a95b15b33bde0b7f55",
+      "published_sha256": "0d7cac19d8942df2e6d57c1ca5e58d3d3128164a99e143a95b15b33bde0b7f55",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-results.csv",
+      "original_sha256": "2220ee3b18b749740288ed6219b058f580ac5e5db81ed7f3240c31fc3c041381",
+      "published_sha256": "2220ee3b18b749740288ed6219b058f580ac5e5db81ed7f3240c31fc3c041381",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.1-calibration-02-audit.json",
+      "original_sha256": "147ad2a35489ff46357979bd70fe753bb60219fa106e11820958f7639bee348d",
+      "published_sha256": "147ad2a35489ff46357979bd70fe753bb60219fa106e11820958f7639bee348d",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.1-mixed-711-prompt_only-01-audit.json",
+      "original_sha256": "bc5b9d289e1e7e929812811591b499742193cfefd671081ac9c0762511c10a28",
+      "published_sha256": "bc5b9d289e1e7e929812811591b499742193cfefd671081ac9c0762511c10a28",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.1-mixed-711-prompt_only-01-console.log",
+      "original_sha256": "8d6cdc7255e868c7caf922e8aea29b9d03286ab4a29603d8d8a7e76631b2093b",
+      "published_sha256": "8d6cdc7255e868c7caf922e8aea29b9d03286ab4a29603d8d8a7e76631b2093b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.2-mixed-711-enforced-01-audit.json",
+      "original_sha256": "89fa4e718451c8c05c6633de7b775a09824d624846c38ae9d9ea83f0d8207007",
+      "published_sha256": "89fa4e718451c8c05c6633de7b775a09824d624846c38ae9d9ea83f0d8207007",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.2-mixed-711-enforced-01-console.log",
+      "original_sha256": "8d6cdc7255e868c7caf922e8aea29b9d03286ab4a29603d8d8a7e76631b2093b",
+      "published_sha256": "8d6cdc7255e868c7caf922e8aea29b9d03286ab4a29603d8d8a7e76631b2093b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.2-mixed-711-prompt_only-01-audit.json",
+      "original_sha256": "b03044ccbc073cda8b8bd64736b42c374f43a461e2b684fdf4f6f024bd6ce395",
+      "published_sha256": "b03044ccbc073cda8b8bd64736b42c374f43a461e2b684fdf4f6f024bd6ce395",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.2-mixed-711-prompt_only-01-console.log",
+      "original_sha256": "dc43e11a2869d01035b9f8b377b67b6cbe75edb34fb24a6d25f5428319f6a009",
+      "published_sha256": "9a75428ea0943d36448b8a03ecc7b09896a0b8f25a00780ae4758384d778a844",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.3-mixed-711-enforced-01-audit.json",
+      "original_sha256": "7dd84f962c4c8e39eec8a122de387db1710962706efb942e5fa6ea3d8fd31c87",
+      "published_sha256": "7dd84f962c4c8e39eec8a122de387db1710962706efb942e5fa6ea3d8fd31c87",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/followup-v7.3-mixed-711-enforced-01-console.log",
+      "original_sha256": "47bfb9e69c70488611ec736cbdb68e760a1dec83a084b6bf7352b150a4bd2fb1",
+      "published_sha256": "dd11f6e6138a8d95f3e49b8d09c6d11bd8226dbb931bfe2c06c705bd1c5bda23",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/menu-preflight.json",
+      "original_sha256": "a0e693c4bb19a816767aa48aca8d5d190e0eb74e6276ed1f3c2ae4f011e93bf8",
+      "published_sha256": "d843f602d5bc4ac2ecdd1df6c1cc746d9e038f6749781a8b7fbed7e3b9839da8",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/menu-preflight.mjs",
+      "original_sha256": "75f3d982230f6d3ae32515e674215a8a540add34e6b7d730bc5c1a37749d9e1e",
+      "published_sha256": "75f3d982230f6d3ae32515e674215a8a540add34e6b7d730bc5c1a37749d9e1e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/planner-preflight.json",
+      "original_sha256": "3a0fdddf1644dd294f6fa575150cf5ecd285f82a8a8fcc8e832a0ec6ab74adec",
+      "published_sha256": "a354fb059cf17d09020cbdc0319163de83f87be69e9190068de7857bba6c625f",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/planner-preflight.mjs",
+      "original_sha256": "020b0a634baa95a13f6d37075683eddb039722ddd8bddd536c1d54d7605a2c0b",
+      "published_sha256": "020b0a634baa95a13f6d37075683eddb039722ddd8bddd536c1d54d7605a2c0b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/arm.mcfunction",
+      "original_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "published_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/disarm.mcfunction",
+      "original_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "published_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/production.mcfunction",
+      "original_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "published_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_1.mcfunction",
+      "original_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "published_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_10.mcfunction",
+      "original_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "published_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_11.mcfunction",
+      "original_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "published_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_12.mcfunction",
+      "original_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "published_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_2.mcfunction",
+      "original_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "published_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_3.mcfunction",
+      "original_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "published_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_4.mcfunction",
+      "original_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "published_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_5.mcfunction",
+      "original_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "published_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_6.mcfunction",
+      "original_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "published_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_7.mcfunction",
+      "original_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "published_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_8.mcfunction",
+      "original_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "published_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/test_9.mcfunction",
+      "original_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "published_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/efferents/function/tick.mcfunction",
+      "original_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "published_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/minecraft/tags/function/load.json",
+      "original_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "published_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/data/minecraft/tags/function/tick.json",
+      "original_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "published_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/datapack/pack.mcmeta",
+      "original_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "published_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/library-clean.json",
+      "original_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "published_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/library-mixed.json",
+      "original_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "published_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/observer-fixtures.json",
+      "original_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "published_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/prompt-enforced.txt",
+      "original_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "published_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/prompt-no_gate.txt",
+      "original_sha256": "f08aed3df1b9fa245b36f22aea3c2c46e18f3b515239caf213ea44b636827a14",
+      "published_sha256": "f08aed3df1b9fa245b36f22aea3c2c46e18f3b515239caf213ea44b636827a14",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/prompt-prompt_only.txt",
+      "original_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "published_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/protocol.json",
+      "original_sha256": "2310fa85ad156151c40d0bace30f5e12ab3ae4c5d5c4554d63c1e27d24025774",
+      "published_sha256": "2310fa85ad156151c40d0bace30f5e12ab3ae4c5d5c4554d63c1e27d24025774",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/schedule.json",
+      "original_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "published_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/source/cli.mjs",
+      "original_sha256": "079c8e36ea06575c43d5d5d5421c471fd9c43bc7a94c24ff967c44a07a9a9232",
+      "published_sha256": "079c8e36ea06575c43d5d5d5421c471fd9c43bc7a94c24ff967c44a07a9a9232",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/source/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/source/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/source/model.mjs",
+      "original_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "published_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/source/planner.mjs",
+      "original_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "published_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/source/protocol.mjs",
+      "original_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "published_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/source/smelting.mjs",
+      "original_sha256": "f2cc6deed49a757337c91b1e22b32e64557245540b63cd15c9d33ca6646e03ac",
+      "published_sha256": "f2cc6deed49a757337c91b1e22b32e64557245540b63cd15c9d33ca6646e03ac",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/preflight-freeze-missing-guard-import/source/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/prompt_only-menu-audit.json",
+      "original_sha256": "8530fe1cb286e8639582ae18259aa7d76475bb58589c273e09e4a0d2cde6166a",
+      "published_sha256": "8530fe1cb286e8639582ae18259aa7d76475bb58589c273e09e4a0d2cde6166a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/recipe-book-check.json",
+      "original_sha256": "fb2229a08d9f99d4b1d4227ffd2d31e31c6a0c3c557b5d069c8266409325f5bd",
+      "published_sha256": "fb2229a08d9f99d4b1d4227ffd2d31e31c6a0c3c557b5d069c8266409325f5bd",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/recipe-book-check.mjs",
+      "original_sha256": "8b5d3d9f6246cc9903ec9218a681a835d2cbf5d02a724bb15ff2f41767c26ae2",
+      "published_sha256": "8b5d3d9f6246cc9903ec9218a681a835d2cbf5d02a724bb15ff2f41767c26ae2",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/run-development-7.1.py",
+      "original_sha256": "c93856953d0c3dea5ee202756d40da599f64033d99d5ba2018ad25c5a44b0552",
+      "published_sha256": "c93856953d0c3dea5ee202756d40da599f64033d99d5ba2018ad25c5a44b0552",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/run-development.py",
+      "original_sha256": "d107671a053abdffad9db7ac2fd2459a5c85e86896f02d5fdb18cd7f4eebe32a",
+      "published_sha256": "d107671a053abdffad9db7ac2fd2459a5c85e86896f02d5fdb18cd7f4eebe32a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/run-menu.py",
+      "original_sha256": "ef16c279134eb13dfb01af8435e5589849f6cb4bfd62ae24a26ea792be555dec",
+      "published_sha256": "ef16c279134eb13dfb01af8435e5589849f6cb4bfd62ae24a26ea792be555dec",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/status.py",
+      "original_sha256": "2b73bcd292b5f58312f7b2ded04b6f07e56cd649fcdaf3997bc1adb9fefc5f28",
+      "published_sha256": "2b73bcd292b5f58312f7b2ded04b6f07e56cd649fcdaf3997bc1adb9fefc5f28",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/watch-enforced-blocks.py",
+      "original_sha256": "7cc4ddf3f4e4fec93ec4f71bce6d69529e4fa3f476bfd36a5d11ed133b83ccfc",
+      "published_sha256": "7cc4ddf3f4e4fec93ec4f71bce6d69529e4fa3f476bfd36a5d11ed133b83ccfc",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-evidence-v7/write-report.py",
+      "original_sha256": "057a6da8157dde5934649256563f94770fd6c020cf45593789b00a3be6210c5c",
+      "published_sha256": "057a6da8157dde5934649256563f94770fd6c020cf45593789b00a3be6210c5c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7/cli.mjs",
+      "original_sha256": "08a0abfb203a798da4aec45be60a8ebacd1060e41388569447ccedf48e61358b",
+      "published_sha256": "08a0abfb203a798da4aec45be60a8ebacd1060e41388569447ccedf48e61358b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7/model.mjs",
+      "original_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "published_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7/planner.mjs",
+      "original_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "published_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7/protocol.mjs",
+      "original_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "published_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7/smelting.mjs",
+      "original_sha256": "f2cc6deed49a757337c91b1e22b32e64557245540b63cd15c9d33ca6646e03ac",
+      "published_sha256": "f2cc6deed49a757337c91b1e22b32e64557245540b63cd15c9d33ca6646e03ac",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.1/cli.mjs",
+      "original_sha256": "08a0abfb203a798da4aec45be60a8ebacd1060e41388569447ccedf48e61358b",
+      "published_sha256": "08a0abfb203a798da4aec45be60a8ebacd1060e41388569447ccedf48e61358b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.1/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.1/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.1/model.mjs",
+      "original_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "published_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.1/planner.mjs",
+      "original_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "published_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.1/protocol.mjs",
+      "original_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "published_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.1/smelting.mjs",
+      "original_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "published_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.1/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.2/cli.mjs",
+      "original_sha256": "0b7de654a8316c51c106d607eee8c09b8bbc7cadf6c5ac0ace8df2ba6240681a",
+      "published_sha256": "0b7de654a8316c51c106d607eee8c09b8bbc7cadf6c5ac0ace8df2ba6240681a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.2/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.2/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.2/model.mjs",
+      "original_sha256": "48e66730ed021644bb06c447e5f5fb94b83e8b755e37fc7b4a87253411a4cdba",
+      "published_sha256": "48e66730ed021644bb06c447e5f5fb94b83e8b755e37fc7b4a87253411a4cdba",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.2/planner.mjs",
+      "original_sha256": "69eb5f61bf440d6cf8d777d2a1090bc1becd672fd90e3808bc53c0a83893f984",
+      "published_sha256": "69eb5f61bf440d6cf8d777d2a1090bc1becd672fd90e3808bc53c0a83893f984",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.2/protocol.mjs",
+      "original_sha256": "432f4f34d14ea0dbc85db1b26427825749bd99c6558c8152db46e78aae4358e0",
+      "published_sha256": "432f4f34d14ea0dbc85db1b26427825749bd99c6558c8152db46e78aae4358e0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.2/smelting.mjs",
+      "original_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "published_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.2/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.3/cli.mjs",
+      "original_sha256": "10453af8fb9aafef528682139dce79ff36b47430724d8de76709fa5748c869a6",
+      "published_sha256": "10453af8fb9aafef528682139dce79ff36b47430724d8de76709fa5748c869a6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.3/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.3/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.3/model.mjs",
+      "original_sha256": "48e66730ed021644bb06c447e5f5fb94b83e8b755e37fc7b4a87253411a4cdba",
+      "published_sha256": "48e66730ed021644bb06c447e5f5fb94b83e8b755e37fc7b4a87253411a4cdba",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.3/planner.mjs",
+      "original_sha256": "f31e1de42d5f141b004f28962f0046d0541b61bd9f815e6cfe0c29e66be462f1",
+      "published_sha256": "f31e1de42d5f141b004f28962f0046d0541b61bd9f815e6cfe0c29e66be462f1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.3/protocol.mjs",
+      "original_sha256": "432f4f34d14ea0dbc85db1b26427825749bd99c6558c8152db46e78aae4358e0",
+      "published_sha256": "432f4f34d14ea0dbc85db1b26427825749bd99c6558c8152db46e78aae4358e0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.3/smelting.mjs",
+      "original_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "published_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/followup-v7.3/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/game.mjs",
+      "original_sha256": "78e2fa1c27bcd7ce492016d052005d04a5396655ca074189bfdc9c6b109bd7cc",
+      "published_sha256": "78e2fa1c27bcd7ce492016d052005d04a5396655ca074189bfdc9c6b109bd7cc",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/mc.sh",
+      "original_sha256": "0f4f03f1eaa776bdb13991c2b0fa0b25c9b582e08fe0cbac15d027bf8ca1dc40",
+      "published_sha256": "0f4f03f1eaa776bdb13991c2b0fa0b25c9b582e08fe0cbac15d027bf8ca1dc40",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/model.mjs",
+      "original_sha256": "b8a582df828c3f67c3904e718c5c3bb7a1a34730f457ba1af492b4946d44fe16",
+      "published_sha256": "b8a582df828c3f67c3904e718c5c3bb7a1a34730f457ba1af492b4946d44fe16",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/arm.mcfunction",
+      "original_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "published_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/disarm.mcfunction",
+      "original_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "published_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/production.mcfunction",
+      "original_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "published_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_1.mcfunction",
+      "original_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "published_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_10.mcfunction",
+      "original_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "published_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_11.mcfunction",
+      "original_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "published_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_12.mcfunction",
+      "original_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "published_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_2.mcfunction",
+      "original_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "published_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_3.mcfunction",
+      "original_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "published_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_4.mcfunction",
+      "original_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "published_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_5.mcfunction",
+      "original_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "published_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_6.mcfunction",
+      "original_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "published_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_7.mcfunction",
+      "original_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "published_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_8.mcfunction",
+      "original_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "published_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/test_9.mcfunction",
+      "original_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "published_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/efferents/function/tick.mcfunction",
+      "original_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "published_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/minecraft/tags/function/load.json",
+      "original_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "published_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/data/minecraft/tags/function/tick.json",
+      "original_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "published_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/datapack/pack.mcmeta",
+      "original_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "published_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/development-protocol.md",
+      "original_sha256": "54fec2fb1311e96282562a5dc37567a3026755877322d37a22e9aa5a8817a8f1",
+      "published_sha256": "54fec2fb1311e96282562a5dc37567a3026755877322d37a22e9aa5a8817a8f1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/library-clean.json",
+      "original_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "published_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/library-mixed.json",
+      "original_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "published_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/observer-fixtures.json",
+      "original_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "published_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/prompt-enforced.txt",
+      "original_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "published_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/prompt-no_gate.txt",
+      "original_sha256": "f08aed3df1b9fa245b36f22aea3c2c46e18f3b515239caf213ea44b636827a14",
+      "published_sha256": "f08aed3df1b9fa245b36f22aea3c2c46e18f3b515239caf213ea44b636827a14",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/prompt-prompt_only.txt",
+      "original_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "published_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/protocol.json",
+      "original_sha256": "61673dbbaf30b24a479772dd90bfe4dba70091b52726b8a3860f4006fd618bcf",
+      "published_sha256": "61673dbbaf30b24a479772dd90bfe4dba70091b52726b8a3860f4006fd618bcf",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/schedule.json",
+      "original_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "published_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/source/cli.mjs",
+      "original_sha256": "08a0abfb203a798da4aec45be60a8ebacd1060e41388569447ccedf48e61358b",
+      "published_sha256": "08a0abfb203a798da4aec45be60a8ebacd1060e41388569447ccedf48e61358b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/source/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/source/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/source/model.mjs",
+      "original_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "published_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/source/planner.mjs",
+      "original_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "published_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/source/protocol.mjs",
+      "original_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "published_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/source/smelting.mjs",
+      "original_sha256": "f2cc6deed49a757337c91b1e22b32e64557245540b63cd15c9d33ca6646e03ac",
+      "published_sha256": "f2cc6deed49a757337c91b1e22b32e64557245540b63cd15c9d33ca6646e03ac",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7/source/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/arm.mcfunction",
+      "original_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "published_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/disarm.mcfunction",
+      "original_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "published_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/production.mcfunction",
+      "original_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "published_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_1.mcfunction",
+      "original_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "published_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_10.mcfunction",
+      "original_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "published_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_11.mcfunction",
+      "original_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "published_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_12.mcfunction",
+      "original_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "published_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_2.mcfunction",
+      "original_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "published_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_3.mcfunction",
+      "original_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "published_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_4.mcfunction",
+      "original_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "published_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_5.mcfunction",
+      "original_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "published_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_6.mcfunction",
+      "original_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "published_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_7.mcfunction",
+      "original_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "published_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_8.mcfunction",
+      "original_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "published_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/test_9.mcfunction",
+      "original_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "published_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/efferents/function/tick.mcfunction",
+      "original_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "published_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/minecraft/tags/function/load.json",
+      "original_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "published_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/data/minecraft/tags/function/tick.json",
+      "original_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "published_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/datapack/pack.mcmeta",
+      "original_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "published_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/development-protocol.md",
+      "original_sha256": "1fc6b6664a6de1f3dabf5b81340ec1163d846ca34fbb6bc1bbc141f2d67f7ff9",
+      "published_sha256": "1fc6b6664a6de1f3dabf5b81340ec1163d846ca34fbb6bc1bbc141f2d67f7ff9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/library-clean.json",
+      "original_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "published_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/library-mixed.json",
+      "original_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "published_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/observer-fixtures.json",
+      "original_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "published_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/prompt-enforced.txt",
+      "original_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "published_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/prompt-no_gate.txt",
+      "original_sha256": "f08aed3df1b9fa245b36f22aea3c2c46e18f3b515239caf213ea44b636827a14",
+      "published_sha256": "f08aed3df1b9fa245b36f22aea3c2c46e18f3b515239caf213ea44b636827a14",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/prompt-prompt_only.txt",
+      "original_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "published_sha256": "c74274da9763497d010bc449a9f48203fd682df701c58e2ec5c64be07ab9dc1c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/protocol.json",
+      "original_sha256": "6e584d143737970455122fb86e445892e89096c7dcb0eb406e3cd10072abb553",
+      "published_sha256": "6e584d143737970455122fb86e445892e89096c7dcb0eb406e3cd10072abb553",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/qualification.json",
+      "original_sha256": "223c84480b92c716ea3a5a5ee8c41e84b399fd6c1feac12e120ff1fe9e92d075",
+      "published_sha256": "b80bc231bc4be4dee8ab5dce8e6a4dabb9a7e05c3bf8e82abc5b497096a7d3d6",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/schedule.json",
+      "original_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "published_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/source/cli.mjs",
+      "original_sha256": "08a0abfb203a798da4aec45be60a8ebacd1060e41388569447ccedf48e61358b",
+      "published_sha256": "08a0abfb203a798da4aec45be60a8ebacd1060e41388569447ccedf48e61358b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/source/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/source/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/source/model.mjs",
+      "original_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "published_sha256": "01b222511da8071c543f7df78b6b2ed356f1517ced9de1a8a603bac3225de188",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/source/planner.mjs",
+      "original_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "published_sha256": "d6f2280b4275af0e1b946a3b127e906fe7c80466ee55b9020aa9a6f803aca8f1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/source/protocol.mjs",
+      "original_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "published_sha256": "8aac843b8a77c5709b7a4a2ce1c836070c3a5a8ef73796c1a3016eea40fedece",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/source/smelting.mjs",
+      "original_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "published_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.1/source/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/arm.mcfunction",
+      "original_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "published_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/disarm.mcfunction",
+      "original_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "published_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/production.mcfunction",
+      "original_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "published_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_1.mcfunction",
+      "original_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "published_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_10.mcfunction",
+      "original_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "published_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_11.mcfunction",
+      "original_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "published_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_12.mcfunction",
+      "original_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "published_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_2.mcfunction",
+      "original_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "published_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_3.mcfunction",
+      "original_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "published_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_4.mcfunction",
+      "original_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "published_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_5.mcfunction",
+      "original_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "published_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_6.mcfunction",
+      "original_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "published_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_7.mcfunction",
+      "original_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "published_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_8.mcfunction",
+      "original_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "published_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/test_9.mcfunction",
+      "original_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "published_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/efferents/function/tick.mcfunction",
+      "original_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "published_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/minecraft/tags/function/load.json",
+      "original_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "published_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/data/minecraft/tags/function/tick.json",
+      "original_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "published_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/datapack/pack.mcmeta",
+      "original_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "published_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/development-protocol.md",
+      "original_sha256": "7cc5c22c42635319e1b709ed423a27b911773572fa94f5f500bc733ec9d24b68",
+      "published_sha256": "7cc5c22c42635319e1b709ed423a27b911773572fa94f5f500bc733ec9d24b68",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/library-clean.json",
+      "original_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "published_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/library-mixed.json",
+      "original_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "published_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/observer-fixtures.json",
+      "original_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "published_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/prompt-enforced.txt",
+      "original_sha256": "f1fea185fac4f1b34f0b704bea188611ae1dbe2ba034fad7f1f25e8c094e4a67",
+      "published_sha256": "f1fea185fac4f1b34f0b704bea188611ae1dbe2ba034fad7f1f25e8c094e4a67",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/prompt-no_gate.txt",
+      "original_sha256": "0479ac3c38a0ccb03f803af8fc28fa5fd71ac9442fa0bba57eefe00e208f58aa",
+      "published_sha256": "0479ac3c38a0ccb03f803af8fc28fa5fd71ac9442fa0bba57eefe00e208f58aa",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/prompt-prompt_only.txt",
+      "original_sha256": "f1fea185fac4f1b34f0b704bea188611ae1dbe2ba034fad7f1f25e8c094e4a67",
+      "published_sha256": "f1fea185fac4f1b34f0b704bea188611ae1dbe2ba034fad7f1f25e8c094e4a67",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/protocol.json",
+      "original_sha256": "976d4cf507a44339e64b01e46c76b58bdbf31e0ea6d5340b699af65e1ef30399",
+      "published_sha256": "976d4cf507a44339e64b01e46c76b58bdbf31e0ea6d5340b699af65e1ef30399",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/qualification.json",
+      "original_sha256": "6b8cf646def2cd4836a77b34bf43db9de8930f86c04108d556acbaceb7d5ebf5",
+      "published_sha256": "74becfb23786e4bac1f017690f7f8731351c7642cf9ef0cc5e7f50f574453a0f",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/schedule.json",
+      "original_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "published_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/source/cli.mjs",
+      "original_sha256": "0b7de654a8316c51c106d607eee8c09b8bbc7cadf6c5ac0ace8df2ba6240681a",
+      "published_sha256": "0b7de654a8316c51c106d607eee8c09b8bbc7cadf6c5ac0ace8df2ba6240681a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/source/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/source/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/source/model.mjs",
+      "original_sha256": "48e66730ed021644bb06c447e5f5fb94b83e8b755e37fc7b4a87253411a4cdba",
+      "published_sha256": "48e66730ed021644bb06c447e5f5fb94b83e8b755e37fc7b4a87253411a4cdba",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/source/planner.mjs",
+      "original_sha256": "69eb5f61bf440d6cf8d777d2a1090bc1becd672fd90e3808bc53c0a83893f984",
+      "published_sha256": "69eb5f61bf440d6cf8d777d2a1090bc1becd672fd90e3808bc53c0a83893f984",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/source/protocol.mjs",
+      "original_sha256": "432f4f34d14ea0dbc85db1b26427825749bd99c6558c8152db46e78aae4358e0",
+      "published_sha256": "432f4f34d14ea0dbc85db1b26427825749bd99c6558c8152db46e78aae4358e0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/source/smelting.mjs",
+      "original_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "published_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.2/source/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/arm.mcfunction",
+      "original_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "published_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/disarm.mcfunction",
+      "original_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "published_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/production.mcfunction",
+      "original_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "published_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_1.mcfunction",
+      "original_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "published_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_10.mcfunction",
+      "original_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "published_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_11.mcfunction",
+      "original_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "published_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_12.mcfunction",
+      "original_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "published_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_2.mcfunction",
+      "original_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "published_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_3.mcfunction",
+      "original_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "published_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_4.mcfunction",
+      "original_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "published_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_5.mcfunction",
+      "original_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "published_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_6.mcfunction",
+      "original_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "published_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_7.mcfunction",
+      "original_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "published_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_8.mcfunction",
+      "original_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "published_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/test_9.mcfunction",
+      "original_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "published_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/efferents/function/tick.mcfunction",
+      "original_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "published_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/minecraft/tags/function/load.json",
+      "original_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "published_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/data/minecraft/tags/function/tick.json",
+      "original_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "published_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/datapack/pack.mcmeta",
+      "original_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "published_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/development-protocol.md",
+      "original_sha256": "9a7152b648a5a498bd7f838e518f39f3aa5c12e717c605cd24a77871af7b74c4",
+      "published_sha256": "9a7152b648a5a498bd7f838e518f39f3aa5c12e717c605cd24a77871af7b74c4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/library-clean.json",
+      "original_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "published_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/library-mixed.json",
+      "original_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "published_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/observer-fixtures.json",
+      "original_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "published_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/prompt-enforced.txt",
+      "original_sha256": "f1fea185fac4f1b34f0b704bea188611ae1dbe2ba034fad7f1f25e8c094e4a67",
+      "published_sha256": "f1fea185fac4f1b34f0b704bea188611ae1dbe2ba034fad7f1f25e8c094e4a67",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/prompt-no_gate.txt",
+      "original_sha256": "0479ac3c38a0ccb03f803af8fc28fa5fd71ac9442fa0bba57eefe00e208f58aa",
+      "published_sha256": "0479ac3c38a0ccb03f803af8fc28fa5fd71ac9442fa0bba57eefe00e208f58aa",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/prompt-prompt_only.txt",
+      "original_sha256": "f1fea185fac4f1b34f0b704bea188611ae1dbe2ba034fad7f1f25e8c094e4a67",
+      "published_sha256": "f1fea185fac4f1b34f0b704bea188611ae1dbe2ba034fad7f1f25e8c094e4a67",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/protocol.json",
+      "original_sha256": "a0440bcce5cede0cfda1ccbb73e37374bd544cda03b5b24bb79bf4809fa834d7",
+      "published_sha256": "a0440bcce5cede0cfda1ccbb73e37374bd544cda03b5b24bb79bf4809fa834d7",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/qualification.json",
+      "original_sha256": "d4200c96076152ac5cfae371796bd46a9d84a185390caa56255be43435a10a3f",
+      "published_sha256": "027054da81f88ef853934886ed8b37572ae4c270830bd2bb3ef5ca86489be9e4",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/schedule.json",
+      "original_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "published_sha256": "5349a3d08d907c1cd2543da4155bfe59fab48e5b7e065e3cd4dc48eea90786d8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/source/cli.mjs",
+      "original_sha256": "10453af8fb9aafef528682139dce79ff36b47430724d8de76709fa5748c869a6",
+      "published_sha256": "10453af8fb9aafef528682139dce79ff36b47430724d8de76709fa5748c869a6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/source/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/source/game.mjs",
+      "original_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "published_sha256": "7656f293df7d85d7b4727a2ba9e1f2facaa57ec006ceca8486bc0fddcc8365ea",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/source/model.mjs",
+      "original_sha256": "48e66730ed021644bb06c447e5f5fb94b83e8b755e37fc7b4a87253411a4cdba",
+      "published_sha256": "48e66730ed021644bb06c447e5f5fb94b83e8b755e37fc7b4a87253411a4cdba",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/source/planner.mjs",
+      "original_sha256": "f31e1de42d5f141b004f28962f0046d0541b61bd9f815e6cfe0c29e66be462f1",
+      "published_sha256": "f31e1de42d5f141b004f28962f0046d0541b61bd9f815e6cfe0c29e66be462f1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/source/protocol.mjs",
+      "original_sha256": "432f4f34d14ea0dbc85db1b26427825749bd99c6558c8152db46e78aae4358e0",
+      "published_sha256": "432f4f34d14ea0dbc85db1b26427825749bd99c6558c8152db46e78aae4358e0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/source/smelting.mjs",
+      "original_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "published_sha256": "19961f1e4208bc757138e7ba9e1330511b3c23903146e93006329f8f14c42e57",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-followup-v7.3/source/test.mjs",
+      "original_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "published_sha256": "bc3417a13604f0d6d0e606cd341444944c8687d9838d9d9e37873bfa1f8fae97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/amendment-before-gameplay.md",
+      "original_sha256": "947eb77ca07eea122492aa6d39381e2aea3a3fcd4661000dd1ca35ee26cf64bf",
+      "published_sha256": "947eb77ca07eea122492aa6d39381e2aea3a3fcd4661000dd1ca35ee26cf64bf",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/arm.mcfunction",
+      "original_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "published_sha256": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/disarm.mcfunction",
+      "original_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "published_sha256": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/production.mcfunction",
+      "original_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "published_sha256": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_1.mcfunction",
+      "original_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "published_sha256": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_10.mcfunction",
+      "original_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "published_sha256": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_11.mcfunction",
+      "original_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "published_sha256": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_12.mcfunction",
+      "original_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "published_sha256": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_2.mcfunction",
+      "original_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "published_sha256": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_3.mcfunction",
+      "original_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "published_sha256": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_4.mcfunction",
+      "original_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "published_sha256": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_5.mcfunction",
+      "original_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "published_sha256": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_6.mcfunction",
+      "original_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "published_sha256": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_7.mcfunction",
+      "original_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "published_sha256": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_8.mcfunction",
+      "original_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "published_sha256": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/test_9.mcfunction",
+      "original_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "published_sha256": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/efferents/function/tick.mcfunction",
+      "original_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "published_sha256": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/minecraft/tags/function/load.json",
+      "original_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "published_sha256": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/data/minecraft/tags/function/tick.json",
+      "original_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "published_sha256": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/datapack/pack.mcmeta",
+      "original_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "published_sha256": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/library-clean.json",
+      "original_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "published_sha256": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/library-mixed.json",
+      "original_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "published_sha256": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/observer-fixtures.json",
+      "original_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "published_sha256": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/prompt-enforced.txt",
+      "original_sha256": "59b11e4b5e93e14ce3a2ae54ad0ed5254e84ade6219fa1ecc88c6879622ce771",
+      "published_sha256": "59b11e4b5e93e14ce3a2ae54ad0ed5254e84ade6219fa1ecc88c6879622ce771",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/prompt-no_gate.txt",
+      "original_sha256": "2d6c992a5212c554ef3491ca67a0030fcdb4e4a67fdb7fccbf2723966597250c",
+      "published_sha256": "2d6c992a5212c554ef3491ca67a0030fcdb4e4a67fdb7fccbf2723966597250c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/prompt-prompt_only.txt",
+      "original_sha256": "59b11e4b5e93e14ce3a2ae54ad0ed5254e84ade6219fa1ecc88c6879622ce771",
+      "published_sha256": "59b11e4b5e93e14ce3a2ae54ad0ed5254e84ade6219fa1ecc88c6879622ce771",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/protocol.json",
+      "original_sha256": "d3b0cc32de35097577ef272be9f7cd55ac786bd720ea06b19ea32cabfd3a5585",
+      "published_sha256": "d3b0cc32de35097577ef272be9f7cd55ac786bd720ea06b19ea32cabfd3a5585",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/qualification.json",
+      "original_sha256": "c97cd65535b1fd152946f4bd476363ac5cfdb7ebaf4d6c2147a37831a0d042ae",
+      "published_sha256": "c97cd65535b1fd152946f4bd476363ac5cfdb7ebaf4d6c2147a37831a0d042ae",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/schedule.json",
+      "original_sha256": "45ab6fe4f3b79914afc6fdd90616eac5771ec3b298c80370075ddc74c92f89fb",
+      "published_sha256": "45ab6fe4f3b79914afc6fdd90616eac5771ec3b298c80370075ddc74c92f89fb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/source/cli.mjs",
+      "original_sha256": "0c462a421b81eab3511c319e7d188b317c930c6ca7c87864cb25155b8bdb9313",
+      "published_sha256": "0c462a421b81eab3511c319e7d188b317c930c6ca7c87864cb25155b8bdb9313",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/source/datapack.mjs",
+      "original_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "published_sha256": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/source/game.mjs",
+      "original_sha256": "78e2fa1c27bcd7ce492016d052005d04a5396655ca074189bfdc9c6b109bd7cc",
+      "published_sha256": "78e2fa1c27bcd7ce492016d052005d04a5396655ca074189bfdc9c6b109bd7cc",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/source/model.mjs",
+      "original_sha256": "b8a582df828c3f67c3904e718c5c3bb7a1a34730f457ba1af492b4946d44fe16",
+      "published_sha256": "b8a582df828c3f67c3904e718c5c3bb7a1a34730f457ba1af492b4946d44fe16",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/source/protocol.mjs",
+      "original_sha256": "ec3614951dca2ddb7be088722cd71995054d4cae5c4044cefb587d79bb4569f3",
+      "published_sha256": "ec3614951dca2ddb7be088722cd71995054d4cae5c4044cefb587d79bb4569f3",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/prepared-lan-v6-qwen/source/test.mjs",
+      "original_sha256": "dff2dba7e9f0be22252f6f1edae035d32532c760bf1ab59a968ddfcc3d9b8de4",
+      "published_sha256": "dff2dba7e9f0be22252f6f1edae035d32532c760bf1ab59a968ddfcc3d9b8de4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/protocol.mjs",
+      "original_sha256": "ec3614951dca2ddb7be088722cd71995054d4cae5c4044cefb587d79bb4569f3",
+      "published_sha256": "ec3614951dca2ddb7be088722cd71995054d4cae5c4044cefb587d79bb4569f3",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v2-01/events.jsonl",
+      "original_sha256": "031b0651bcccd4e0ab2a4b6f60ac861b1d33830a035bbd767d7f3247640681d8",
+      "published_sha256": "031b0651bcccd4e0ab2a4b6f60ac861b1d33830a035bbd767d7f3247640681d8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v2-01/manifest.json",
+      "original_sha256": "bb2dfe17c1153d4ecbcdadedb2453195ff7042066040bdc1d9d2a40f4a44e40d",
+      "published_sha256": "bb2dfe17c1153d4ecbcdadedb2453195ff7042066040bdc1d9d2a40f4a44e40d",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v2-01/result.json",
+      "original_sha256": "8b6f4d2fc87ccbfa495aea691924693e01a68851cf5a4155ed10957a02c91ed8",
+      "published_sha256": "8b6f4d2fc87ccbfa495aea691924693e01a68851cf5a4155ed10957a02c91ed8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v3-01/calibration.json",
+      "original_sha256": "867bc0f2e79c734c0d1e62f7fab673ae0a6987a61b5dcf5e5670cabd0c53367a",
+      "published_sha256": "867bc0f2e79c734c0d1e62f7fab673ae0a6987a61b5dcf5e5670cabd0c53367a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v3-01/events.jsonl",
+      "original_sha256": "7aeaef3bf36cc5058fff747144a595dfc5f8476e4f197c361cdd608867b53bb8",
+      "published_sha256": "7aeaef3bf36cc5058fff747144a595dfc5f8476e4f197c361cdd608867b53bb8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v3-01/manifest.json",
+      "original_sha256": "a6bf4f3126fdda9461ce640c8761d6c0748305a4f48afeb358bac005f93614ce",
+      "published_sha256": "a6bf4f3126fdda9461ce640c8761d6c0748305a4f48afeb358bac005f93614ce",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v3-01/result.json",
+      "original_sha256": "f68284db1bdd2e946ca98ab25be5c508bef4c03a43d9a1112dedf6b1e20c2256",
+      "published_sha256": "f68284db1bdd2e946ca98ab25be5c508bef4c03a43d9a1112dedf6b1e20c2256",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v5-01/calibration.json",
+      "original_sha256": "0a96fbf05d7bcc7673f9f6a13c43f1bd433675c6649119820c561e42169919e9",
+      "published_sha256": "0a96fbf05d7bcc7673f9f6a13c43f1bd433675c6649119820c561e42169919e9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v5-01/events.jsonl",
+      "original_sha256": "ee7f6dbefc1ebaacb1af06325fd196e136357ab26ab0264333901af5e0f67b5e",
+      "published_sha256": "ee7f6dbefc1ebaacb1af06325fd196e136357ab26ab0264333901af5e0f67b5e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v5-01/manifest.json",
+      "original_sha256": "ab301607e33ac03bca635c5c2368c9650ffeab5d718bcea2b25c435112a0f6b6",
+      "published_sha256": "ab301607e33ac03bca635c5c2368c9650ffeab5d718bcea2b25c435112a0f6b6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/calibration-20261108-lan-v5-01/result.json",
+      "original_sha256": "95e8365cb88e4d5b657d636c023f84b3635c73cf0064f6835d4e98bb5230952d",
+      "published_sha256": "95e8365cb88e4d5b657d636c023f84b3635c73cf0064f6835d4e98bb5230952d",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7-calibration-01/calibration.json",
+      "original_sha256": "c9bf05e180c80457d3b8b7873da2c376dcd559d222148288e955de8eb580799b",
+      "published_sha256": "c9bf05e180c80457d3b8b7873da2c376dcd559d222148288e955de8eb580799b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7-calibration-01/events.jsonl",
+      "original_sha256": "a4802ef279cff0d5762b0c1e674ca6dc039b65fb3e814c3fe7c8316afb0424a9",
+      "published_sha256": "a4802ef279cff0d5762b0c1e674ca6dc039b65fb3e814c3fe7c8316afb0424a9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7-calibration-01/manifest.json",
+      "original_sha256": "a401334d2b51a32261d8b9e7876c076bf28bf0e2d9fd3a50fccf541faacb1d35",
+      "published_sha256": "a401334d2b51a32261d8b9e7876c076bf28bf0e2d9fd3a50fccf541faacb1d35",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7-calibration-01/result.json",
+      "original_sha256": "4984914ea7eb025bfa67141eb39be018f7ea91f8c0f1cffcacb2bc267e96b443",
+      "published_sha256": "4984914ea7eb025bfa67141eb39be018f7ea91f8c0f1cffcacb2bc267e96b443",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-calibration-02/calibration.json",
+      "original_sha256": "0a96fbf05d7bcc7673f9f6a13c43f1bd433675c6649119820c561e42169919e9",
+      "published_sha256": "0a96fbf05d7bcc7673f9f6a13c43f1bd433675c6649119820c561e42169919e9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-calibration-02/development-controls.json",
+      "original_sha256": "dd89ab0b5a5bb2d4b9290ec4ee04f5dbeeaf1d82f3cea912aca275eab08ba778",
+      "published_sha256": "dd89ab0b5a5bb2d4b9290ec4ee04f5dbeeaf1d82f3cea912aca275eab08ba778",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-calibration-02/events.jsonl",
+      "original_sha256": "4dc918ec3b16156359c408111bd283be28c73363bea494f9186e09248741ed78",
+      "published_sha256": "4dc918ec3b16156359c408111bd283be28c73363bea494f9186e09248741ed78",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-calibration-02/manifest.json",
+      "original_sha256": "14de9e6fd88d592d5c33f4af8d367894a1a9d5855a6af9c1e65acd12974a9f9c",
+      "published_sha256": "14de9e6fd88d592d5c33f4af8d367894a1a9d5855a6af9c1e65acd12974a9f9c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-calibration-02/result.json",
+      "original_sha256": "f9972f814b1730ba6707abd52d4cca67da90be33934f412cf5249df649602ea9",
+      "published_sha256": "f9972f814b1730ba6707abd52d4cca67da90be33934f412cf5249df649602ea9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-mixed-711-prompt_only-01/events.jsonl",
+      "original_sha256": "30a81abb117b6d0c8f181735343911b59d6f5faf37127b2265aa92d826d73488",
+      "published_sha256": "fae04db006dd133698b7603a5bceddbb36bc12584d5affb6134dfa65d9230885",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-mixed-711-prompt_only-01/interruption.json",
+      "original_sha256": "f0dbaa7e951e90ad9a348ccb314e22608f521e643953dda6ec40f57981d1f326",
+      "published_sha256": "f0dbaa7e951e90ad9a348ccb314e22608f521e643953dda6ec40f57981d1f326",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-mixed-711-prompt_only-01/manifest.json",
+      "original_sha256": "fc4c7c9f429507f18301d914cbfdd0ae3720bc99e2a93fe1e314a886d89adebf",
+      "published_sha256": "3717bc5b9ac05984341cd6e165da099944205afad03d24bebae0b82ad0f59877",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.1-mixed-711-prompt_only-01/result.json",
+      "original_sha256": "bc1c44f02e654abca1b7eb24a28bc4de7fad4ebd29b347ce1b9275a4166033c1",
+      "published_sha256": "bc1c44f02e654abca1b7eb24a28bc4de7fad4ebd29b347ce1b9275a4166033c1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.2-mixed-711-enforced-01/events.jsonl",
+      "original_sha256": "0783ce46d280c9ec2ef5c821a1bd7cb0cc244b8d9c9da9abb43a401e049a76fd",
+      "published_sha256": "ae00e1da11ba836d2b95ffb61f561202678ba6ff127de5225c11838b456954c3",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.2-mixed-711-enforced-01/interruption.json",
+      "original_sha256": "1036057dd0e5a9016b3d7de0eca1b7d6bef41fe787dc7d766c5842758dbc99cc",
+      "published_sha256": "1036057dd0e5a9016b3d7de0eca1b7d6bef41fe787dc7d766c5842758dbc99cc",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.2-mixed-711-enforced-01/manifest.json",
+      "original_sha256": "ef72a01e1e8437e013ab3192afad85e2723038b517f566d35a087a48bbe2638b",
+      "published_sha256": "08c492a5c79f805f3e59aeb1fd98bfcdbe3753edcc7aac9c0d031cef2e88ea85",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.2-mixed-711-enforced-01/result.json",
+      "original_sha256": "018a3a7c5dd4d42c7692a218d80bdd35a2f6ac896bbee603210ae72d7e8873db",
+      "published_sha256": "018a3a7c5dd4d42c7692a218d80bdd35a2f6ac896bbee603210ae72d7e8873db",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.2-mixed-711-prompt_only-01/events.jsonl",
+      "original_sha256": "829cc2f89fd47157fd9f4df473856bb15fbe2a527673bdb53b362a6fa238ed87",
+      "published_sha256": "913e6e3074cd052c9953a2f2890aa85394124ad04225dcd245a93ad553426f04",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.2-mixed-711-prompt_only-01/manifest.json",
+      "original_sha256": "689c1c2233c9821cfbde2ecab77b9d00ddfe64a4afdb527ef15481b19aa676dc",
+      "published_sha256": "6abdf8bbed6dc91e9b79275d04d3e7612a287571cfaf2881afbc83d93738e59c",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.2-mixed-711-prompt_only-01/result.json",
+      "original_sha256": "83c3907856cbe5781b8578575173ad7dfa59d1d597c0e181618c3394c7646d62",
+      "published_sha256": "83c3907856cbe5781b8578575173ad7dfa59d1d597c0e181618c3394c7646d62",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.3-mixed-711-enforced-01/events.jsonl",
+      "original_sha256": "cfe6c3d18247fa50a4cb6fef041101e67b9b0b814fb3ce767811ec95445611d1",
+      "published_sha256": "ea66a835759a44ad9e216665db7093075ec03421f2336d9a4ff9ddec9c9fb973",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.3-mixed-711-enforced-01/manifest.json",
+      "original_sha256": "17a30310483a883519bdc79ffb1b3b1fcb92ac687d8d53043c167482aab5144e",
+      "published_sha256": "4357ca47ba499da75f7284ead7228fd8991df848d84c7673e830d7ef21708414",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/followup-v7.3-mixed-711-enforced-01/result.json",
+      "original_sha256": "f0ba82803d71b8ef48ed84efcd5cdb6bb56782e42595884856e919b0632e1f57",
+      "published_sha256": "f0ba82803d71b8ef48ed84efcd5cdb6bb56782e42595884856e919b0632e1f57",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v5-mixed-r1-no_gate/events.jsonl",
+      "original_sha256": "65f5973488742feffebdff596a2c7a09062746b8491f4bc0523df45961ccf7cb",
+      "published_sha256": "65f5973488742feffebdff596a2c7a09062746b8491f4bc0523df45961ccf7cb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v5-mixed-r1-no_gate/interruption.json",
+      "original_sha256": "724978b83fbe2cc46b9489ad5739f972657c05543d1938c7d3a13af3e5478088",
+      "published_sha256": "724978b83fbe2cc46b9489ad5739f972657c05543d1938c7d3a13af3e5478088",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v5-mixed-r1-no_gate/manifest.json",
+      "original_sha256": "4e0af4393afd74fc741467469c3f2966b6f16b493feb7bed746870fbc372920a",
+      "published_sha256": "4e0af4393afd74fc741467469c3f2966b6f16b493feb7bed746870fbc372920a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v5-mixed-r1-no_gate/result.json",
+      "original_sha256": "92b95f07295d7217eb564695d1db9a69952dddde1bea67b047326ae7c533765b",
+      "published_sha256": "92b95f07295d7217eb564695d1db9a69952dddde1bea67b047326ae7c533765b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-enforced/events.jsonl",
+      "original_sha256": "42b6cadc86884b73b2f02ad57811d6c995161568b63c5ca09442793e044e4eaa",
+      "published_sha256": "b3d1c494b444f30c210304e32faff640b0495ad0d045666930ac029596e4a407",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-enforced/manifest.json",
+      "original_sha256": "6a16c380afd107d9735e51e3509d44995d04b4b1a2dc3a10c14866a88db8104d",
+      "published_sha256": "6a16c380afd107d9735e51e3509d44995d04b4b1a2dc3a10c14866a88db8104d",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-enforced/result.json",
+      "original_sha256": "0a8469c2ace3072af88caf8aca3f703bdbd810df2aab3eaf1d1bd35fc491ff6e",
+      "published_sha256": "0a8469c2ace3072af88caf8aca3f703bdbd810df2aab3eaf1d1bd35fc491ff6e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-no_gate/events.jsonl",
+      "original_sha256": "6de533e073e95ba3a4eab9acf0628c85ea63dc4845af470905a80d6ee6eb7803",
+      "published_sha256": "72ba66784bc20109ed2e07073f82b9d14f1f27cc585850cd3f0af09914fb40f5",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-no_gate/manifest.json",
+      "original_sha256": "422b35348c1d41ca0b14838ce081752986c4a19ed9230c82359f8d04ac0081bb",
+      "published_sha256": "422b35348c1d41ca0b14838ce081752986c4a19ed9230c82359f8d04ac0081bb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-no_gate/result.json",
+      "original_sha256": "a1e3b8c19c3a3fb4131c47bf7f4f5fa400b4cd1ce9fe5584d092d70907190712",
+      "published_sha256": "a1e3b8c19c3a3fb4131c47bf7f4f5fa400b4cd1ce9fe5584d092d70907190712",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-prompt_only/events.jsonl",
+      "original_sha256": "e28c026f93b7aa442ff4a6302540515cd9f86af45fc120baa640d3fb2ea68c64",
+      "published_sha256": "b45f3d80004bf0f2d7e42fd3f4c77f7047ac27f19d8cb6563cfe735192f3b8b7",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-prompt_only/manifest.json",
+      "original_sha256": "4e70a86a9133d8c1cbde26f1ca44182230c45a5a0af13d8afe7c3e41b1759c02",
+      "published_sha256": "4e70a86a9133d8c1cbde26f1ca44182230c45a5a0af13d8afe7c3e41b1759c02",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-prompt_only/result.json",
+      "original_sha256": "b0591c48677d0c8c05ccfcc032c258d7c496abde0def3991db41748e497608b6",
+      "published_sha256": "b0591c48677d0c8c05ccfcc032c258d7c496abde0def3991db41748e497608b6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/LAN-RESULTS.md",
+      "original_sha256": "60ce423e43da8335adafdabc82764e643a4b6067049ec4074bb005c7ea97676f",
+      "published_sha256": "60ce423e43da8335adafdabc82764e643a4b6067049ec4074bb005c7ea97676f",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/audit-run.py",
+      "original_sha256": "d1563c9d5433ad090c91859ed7f65899a888c988e28a07ffa7689e1c5c9bbee7",
+      "published_sha256": "d1563c9d5433ad090c91859ed7f65899a888c988e28a07ffa7689e1c5c9bbee7",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/calibration-lan-v5-audit.json",
+      "original_sha256": "6257ddde9ed667bfa46b0840b691c873ddb4bcc502103de60270c5d712a9a374",
+      "published_sha256": "6257ddde9ed667bfa46b0840b691c873ddb4bcc502103de60270c5d712a9a374",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/historical-docs/OPERATOR-before-v6-rewrite.md",
+      "original_sha256": "48bf0e740787a1471667750053e1052a10c3832b88b2d9d93efa7db6ba47ef36",
+      "published_sha256": "15c24e9ca6c25fc7e1702d0dc6272c3196a00bb196666e95f23830c0bd32f410",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/historical-docs/README-before-v6-rewrite.md",
+      "original_sha256": "c057baa4b2bd308a97be2b75f19b16e4ac3d7e28243113595fd877d90593cd4f",
+      "published_sha256": "97cdaeadf3798ec3884d937a255afefe48bbb320dccca17810c8fa79d30d337d",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-choice-01/craft.json",
+      "original_sha256": "ed37e9aac96c7c2d796a077a24db8ad1b371266b893851a0a60dae5f55f372fd",
+      "published_sha256": "ed37e9aac96c7c2d796a077a24db8ad1b371266b893851a0a60dae5f55f372fd",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-choice-01/inventory.json",
+      "original_sha256": "537519718afc6de82ab0d74584df9fee29ecacf853b52254f16b1e7b357459f6",
+      "published_sha256": "537519718afc6de82ab0d74584df9fee29ecacf853b52254f16b1e7b357459f6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-choice-01/recipe.json",
+      "original_sha256": "add70ae39f1a06e7bf00d5017e0fe84959383a6e68e180f63c605ffaee500d3b",
+      "published_sha256": "add70ae39f1a06e7bf00d5017e0fe84959383a6e68e180f63c605ffaee500d3b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-choice-01/spec.json",
+      "original_sha256": "aaecf9d62fdef17d5bfbb7f7702dd2e0ccb6ea9421c166f3fd04b8311a613fa0",
+      "published_sha256": "aaecf9d62fdef17d5bfbb7f7702dd2e0ccb6ea9421c166f3fd04b8311a613fa0",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-choice-01/use.json",
+      "original_sha256": "87d8d34c3aaa7283a0665ba9188b4b8921221cd700ae9a5edc1a5e67a69d3ad1",
+      "published_sha256": "87d8d34c3aaa7283a0665ba9188b4b8921221cd700ae9a5edc1a5e67a69d3ad1",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-choice-01/verify.json",
+      "original_sha256": "a18acc8bcd29f766f263860c7b8e792f58081f04e28bc41431f2655314cced96",
+      "published_sha256": "a18acc8bcd29f766f263860c7b8e792f58081f04e28bc41431f2655314cced96",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-command-first-01/craft.json",
+      "original_sha256": "1a4807d41204fe81e61e2057be33fa55734f5a689c9978b923659612e46b1c5a",
+      "published_sha256": "1a4807d41204fe81e61e2057be33fa55734f5a689c9978b923659612e46b1c5a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-command-first-01/inventory.json",
+      "original_sha256": "bd3c4aca75609a7e0d13bd8e49c74dadac5959d889105f2614d94e977fe3a7e3",
+      "published_sha256": "bd3c4aca75609a7e0d13bd8e49c74dadac5959d889105f2614d94e977fe3a7e3",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-command-first-01/recipe.json",
+      "original_sha256": "4d98e2d2bb7fb7a74ff877774e2b06096be92e62e34cfd4bcd3a75f8d0a3c4a8",
+      "published_sha256": "4d98e2d2bb7fb7a74ff877774e2b06096be92e62e34cfd4bcd3a75f8d0a3c4a8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-command-first-01/spec.json",
+      "original_sha256": "f4f68e20e2b62f385e2526f7825682c861ab4d43d1fbd461dc55d71d7de489bc",
+      "published_sha256": "f4f68e20e2b62f385e2526f7825682c861ab4d43d1fbd461dc55d71d7de489bc",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-command-first-01/use.json",
+      "original_sha256": "b76453bb965085dbf00ece0c9f74aaf0d6047b8fa0d24da23c7515c1fa238250",
+      "published_sha256": "b76453bb965085dbf00ece0c9f74aaf0d6047b8fa0d24da23c7515c1fa238250",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-command-first-01/verify.json",
+      "original_sha256": "b38de1c646751851c9eb0988ef759cd67389b73f0ceb63079345dcf7f4b648f5",
+      "published_sha256": "b38de1c646751851c9eb0988ef759cd67389b73f0ceb63079345dcf7f4b648f5",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-menu-01/craft.json",
+      "original_sha256": "9f2a329ea1e071ce5b8fbac70baf0cf0242f9ad98664f3f1155a83a3a881fd80",
+      "published_sha256": "9f2a329ea1e071ce5b8fbac70baf0cf0242f9ad98664f3f1155a83a3a881fd80",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-menu-01/inventory.json",
+      "original_sha256": "1a59b93ee2c9498e9ee91e798f85f2afaed0716640c94217fe89e4aa407a007a",
+      "published_sha256": "1a59b93ee2c9498e9ee91e798f85f2afaed0716640c94217fe89e4aa407a007a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-menu-01/recipe.json",
+      "original_sha256": "d683abad443498c090899336d097047d5605285257cb3ba3540f84027e224a80",
+      "published_sha256": "d683abad443498c090899336d097047d5605285257cb3ba3540f84027e224a80",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-menu-01/spec.json",
+      "original_sha256": "ebb3a264be7158a26800aa67701ba5b1d5c24ce37d9e2a855ea3a12d45d91e43",
+      "published_sha256": "ebb3a264be7158a26800aa67701ba5b1d5c24ce37d9e2a855ea3a12d45d91e43",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-menu-01/use.json",
+      "original_sha256": "7ad0dd1d3a0885c829091a6ed67da5bcc3d0bfe0d240d344cad618ef572724c8",
+      "published_sha256": "7ad0dd1d3a0885c829091a6ed67da5bcc3d0bfe0d240d344cad618ef572724c8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-menu-01/verify.json",
+      "original_sha256": "b66fd7d934942a4e52e77ec85e03ef5ead48abf9ec3047e52695c2c20d483752",
+      "published_sha256": "b66fd7d934942a4e52e77ec85e03ef5ead48abf9ec3047e52695c2c20d483752",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-native-menu-01/craft.json",
+      "original_sha256": "abd49860a21b9293ce6bb7a590e53bb387178f3b5febebb914f73be5b826cb13",
+      "published_sha256": "abd49860a21b9293ce6bb7a590e53bb387178f3b5febebb914f73be5b826cb13",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-native-menu-01/inventory.json",
+      "original_sha256": "10c515b6b54982588fe6f5e19b499fe4afe82f60e441d32a33b1a9817c94ece6",
+      "published_sha256": "10c515b6b54982588fe6f5e19b499fe4afe82f60e441d32a33b1a9817c94ece6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-native-menu-01/recipe.json",
+      "original_sha256": "ae3676faef092e485e79ecacae39fd6cf7a618d2b3a123adcad1c22e76602691",
+      "published_sha256": "ae3676faef092e485e79ecacae39fd6cf7a618d2b3a123adcad1c22e76602691",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-native-menu-01/spec.json",
+      "original_sha256": "597ba569c4e0020bca87ca698298518bfeb39943480976018fa5842649b974fd",
+      "published_sha256": "597ba569c4e0020bca87ca698298518bfeb39943480976018fa5842649b974fd",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-native-menu-01/use.json",
+      "original_sha256": "d7e38a1641d1d850599d7febc8a76d9a5e5399b4262e2b5b66c89d3cd3ccad9c",
+      "published_sha256": "d7e38a1641d1d850599d7febc8a76d9a5e5399b4262e2b5b66c89d3cd3ccad9c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-native-menu-01/verify.json",
+      "original_sha256": "9effa42a19f77f2da6453cbbaa69df6db920235c3cfee35cf344b4ea2e6314c2",
+      "published_sha256": "9effa42a19f77f2da6453cbbaa69df6db920235c3cfee35cf344b4ea2e6314c2",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-observation-01.json",
+      "original_sha256": "58f2b756c5e1248109f4806eb3ac36306773d507e7431757c8881bcf20ba4dca",
+      "published_sha256": "58f2b756c5e1248109f4806eb3ac36306773d507e7431757c8881bcf20ba4dca",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-probe-v5-01/chat-json.json",
+      "original_sha256": "ef306353db16569ca3227e3f99262d40290dfb2f3cb726845abe52de8daf299e",
+      "published_sha256": "ef306353db16569ca3227e3f99262d40290dfb2f3cb726845abe52de8daf299e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-probe-v5-01/chat-schema.json",
+      "original_sha256": "65ff3689af5b5eed6c2a096b8cd1053d1ea8dd20d0a55ad246efed8a19f89976",
+      "published_sha256": "65ff3689af5b5eed6c2a096b8cd1053d1ea8dd20d0a55ad246efed8a19f89976",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/interface-probe-v5-01/raw-schema.json",
+      "original_sha256": "29df892ee2a1e19ac9516f79df757867e6783dcc8a556daec84531c00489b3f6",
+      "published_sha256": "29df892ee2a1e19ac9516f79df757867e6783dcc8a556daec84531c00489b3f6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/launch-matched.py",
+      "original_sha256": "facba92e406eb47e3969b1676eb503fb88123bc2f25c1c3191c11090ee975820",
+      "published_sha256": "facba92e406eb47e3969b1676eb503fb88123bc2f25c1c3191c11090ee975820",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/launch-mlx-pilot.py",
+      "original_sha256": "3362604671ab4e549c750aa51037f7fa991850396e92e7327425fd0ff9150021",
+      "published_sha256": "3362604671ab4e549c750aa51037f7fa991850396e92e7327425fd0ff9150021",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/local-runtime-20261108.json",
+      "original_sha256": "bd67c30faece9051dc5d7d94c31bef363080ab7e46b772ce50dfb362da1f6ce9",
+      "published_sha256": "bd67c30faece9051dc5d7d94c31bef363080ab7e46b772ce50dfb362da1f6ce9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/method-outcomes.py",
+      "original_sha256": "4c51428f39d45ff71b7050ec36d68d99d15f38c69f211b50a8e1edf4a97c89d8",
+      "published_sha256": "4c51428f39d45ff71b7050ec36d68d99d15f38c69f211b50a8e1edf4a97c89d8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/amendment-before-gameplay.md",
+      "original_sha256": "947eb77ca07eea122492aa6d39381e2aea3a3fcd4661000dd1ca35ee26cf64bf",
+      "published_sha256": "947eb77ca07eea122492aa6d39381e2aea3a3fcd4661000dd1ca35ee26cf64bf",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/enforced-audit.json",
+      "original_sha256": "a69f4f740c8159507e2b3ca4938e7c73a8c61134c745562883a1bbe2a38c8e45",
+      "published_sha256": "a69f4f740c8159507e2b3ca4938e7c73a8c61134c745562883a1bbe2a38c8e45",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/enforced-revisions.json",
+      "original_sha256": "be269ffe37dbf40ae7db4f391355048b79b00a689e63a332032405b60be0a469",
+      "published_sha256": "be269ffe37dbf40ae7db4f391355048b79b00a689e63a332032405b60be0a469",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/model-neutral-01.mjs",
+      "original_sha256": "cccbd5eda0398c282a404e2af44052a6e83c2e9888df39c8c3d1cefe864c9b87",
+      "published_sha256": "cccbd5eda0398c282a404e2af44052a6e83c2e9888df39c8c3d1cefe864c9b87",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-01/craft.json",
+      "original_sha256": "b475dd103acf2954d44b4e39574bf4fed5c24d98c34daa2b0b6874b40d9ef28f",
+      "published_sha256": "3b13169ecb14e715b1362e8edae476f12dc52d2c68d27d2b133029d0aa4322ae",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-01/finish.json",
+      "original_sha256": "6fbff07a6e6ff5df3edd4ba16c36165fbc21c037f9adb730ba1b01b4e137d355",
+      "published_sha256": "2647dc8bc3d4b852df1d21c4845eb4ad576cb82e6c6b1226281b0a2cca948703",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-01/inventory.json",
+      "original_sha256": "d675992a06b0a5ad9a20b0ef1a8e8585db84c3c8b1eb8f30465032959b5d2cae",
+      "published_sha256": "e6d2f6689be34d8da51d51c1bef4cf5960858f50067ef5b4f9c6f02e57214b9e",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-01/recipe.json",
+      "original_sha256": "64e6c7e37b57cf4ebb95bcadbe43817e2d3ffc22b775d3f7be02f5ac4b7641ce",
+      "published_sha256": "080d82f2de15103075a262e897091282ebe4e8d0058b216ee534cd733cab82d6",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-01/rely.json",
+      "original_sha256": "478af16cba2a67c4dce7fb1172e0c70cca226d8aea8165215d7c0dd4fd343c13",
+      "published_sha256": "8a8f25d9b6603fb58213ac746e39ca8403ef74fc6d1ea9e48c16bb8e8098c3f3",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-01/smelt.json",
+      "original_sha256": "d9b999cdc24d129437b9224cdc53dcbadc275099a0676ca8b539a8e8efd3702a",
+      "published_sha256": "7b3d6fae6f8b0c8dd2a91ba385e1957ca710a52bc2b0a65e49c183c9c4b7a210",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-01/spec.json",
+      "original_sha256": "3e48be15e223051e6cc7f2a05484b6f888497049b256a529482264f1f1e3811f",
+      "published_sha256": "3e48be15e223051e6cc7f2a05484b6f888497049b256a529482264f1f1e3811f",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-01/test.json",
+      "original_sha256": "2137fe2324c10f0b537fe44bbfa70aa6af20b0951c7f31f93cc0d9bfdd4e6366",
+      "published_sha256": "9f273284be1730fa685b1ebe827c27e37199d12948058e3738ab59819f7e9176",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/execute.json",
+      "original_sha256": "6ff23e3f94e8d26d9c18ceeed05e2f22e26917df438f35a5b8a9e798e6c65b8f",
+      "published_sha256": "83e4113dc61014d201f41fa49fbe3c7cbe99bcc68901ee6e62cf1445fb05b281",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/heat.json",
+      "original_sha256": "d5ef832ad9d3aa92da89aefb31d37d653fb21629f863a6544b39a376e11e7438",
+      "published_sha256": "cb312db79de3de9e74f012aaa43ab0693de788f26540a95c1a4c390a6d48605e",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/look.json",
+      "original_sha256": "2e327a50472e6e83393b6a10f38f3882d120fcac7b8de89cbb7d03529da17b75",
+      "published_sha256": "1eaf705905f89ed6cf28891dc25e9fc36a4a38d613d91b53e3a23c149a6598cd",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/lookup.json",
+      "original_sha256": "9cb40d991db308a4439988202e96c4979c1fffe7db5ac7a03d7cddbedfbd4215",
+      "published_sha256": "29761341a63c7401437a5ac05aa74875ca75c3ce354c1d1ad5c356a36dd3328e",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/make.json",
+      "original_sha256": "0d21d1b1dd2d3952a270b7ddcc8dc79903c3c1dba73ca4bd22a9c5a3535ac448",
+      "published_sha256": "620f32b142b52aec85b72c0aef9c70ed563c24d3ba3b61cf4b4e2fce9169967a",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/replace.json",
+      "original_sha256": "29ca72f0887b6bcef9774841a4c71a1167ce2bb89eb66af43fa6db22587cc4e1",
+      "published_sha256": "7867d24796981063def5d2e68d3919c5938777a9a0c1bcdb89cd0690b20422fd",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/reproduce.json",
+      "original_sha256": "96587572d04455f0fc52e053c286a01fc3b0f5ba79853a324c2ea5453583a652",
+      "published_sha256": "e6af037b2198d2215ba00f7fb8dc9c208db303b5d42dbb3eb3258c8158ba2280",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/spec.json",
+      "original_sha256": "0fcc889239a0ff586f554db130e58abaff9d37480e01a8beb6acfe3eab2d4c15",
+      "published_sha256": "0fcc889239a0ff586f554db130e58abaff9d37480e01a8beb6acfe3eab2d4c15",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02/stop.json",
+      "original_sha256": "3f5cd0c541b8e5e56e46e05e45652bbc7db0525628dd410108bfcf8bea15b01f",
+      "published_sha256": "078a6bd78c7b760f35a4365b85a42a9ea3f520e98a3775c909a69e0dcf16cb1d",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral-rationale-optional.mjs",
+      "original_sha256": "97d162772704f6867754c61e416e388bc6dd4af9c9b45a92f9b495454f5daeca",
+      "published_sha256": "97d162772704f6867754c61e416e388bc6dd4af9c9b45a92f9b495454f5daeca",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/neutral.mjs",
+      "original_sha256": "08d6d37e2c4ec1cad24eb9501fe86f34d47a373b87fb85763f7bf2787073fc3f",
+      "published_sha256": "08d6d37e2c4ec1cad24eb9501fe86f34d47a373b87fb85763f7bf2787073fc3f",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/no-gate-audit.json",
+      "original_sha256": "a79c5d00dfe9c13665c19a265ee12976404a6af2b7314b991ffaac12ffde90d4",
+      "published_sha256": "a79c5d00dfe9c13665c19a265ee12976404a6af2b7314b991ffaac12ffde90d4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/no-gate-revisions.json",
+      "original_sha256": "a0d443c09d9e21520403ec2fb599b33d64ce8211e8155a303413c712435c7d8f",
+      "published_sha256": "a0d443c09d9e21520403ec2fb599b33d64ce8211e8155a303413c712435c7d8f",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/pilot-comparison.csv",
+      "original_sha256": "d8c73119e50f0afdfa782d2c9f0e89a0142b9f97f5ef735bbf32d4566ccdb12c",
+      "published_sha256": "d8c73119e50f0afdfa782d2c9f0e89a0142b9f97f5ef735bbf32d4566ccdb12c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/pilot-report.md",
+      "original_sha256": "aaee7c213ffb42a3bef4d7b03dd997bdf76a3e5a53ed6afcdd4a7d2926810ffd",
+      "published_sha256": "aaee7c213ffb42a3bef4d7b03dd997bdf76a3e5a53ed6afcdd4a7d2926810ffd",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/pilot-terminal.log",
+      "original_sha256": "020826853723c67224251e5fdc53721ce1c067d5da2d3901c54a65e21af68fe4",
+      "published_sha256": "779dbfff5d024265cac2bde44fa572f4eaf65cec2d51778bb08480655b0549c6",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/post-terminal-enforced-chest.json",
+      "original_sha256": "b2e4ec791ea7105411ddb1d345304f2cf634cdcf1d0c1a333a12889c6a44ba97",
+      "published_sha256": "b2e4ec791ea7105411ddb1d345304f2cf634cdcf1d0c1a333a12889c6a44ba97",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/post-terminal-enforced.json",
+      "original_sha256": "37cd9bbcffbff3a816d3aa9e0589ede652490c01461e72ff596c212afe2ace28",
+      "published_sha256": "37cd9bbcffbff3a816d3aa9e0589ede652490c01461e72ff596c212afe2ace28",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/post-terminal-no_gate.json",
+      "original_sha256": "2118d21a626e78bf630afdd9ef5fcb28dc0c747d1f28813caeb9d49cbf851710",
+      "published_sha256": "2118d21a626e78bf630afdd9ef5fcb28dc0c747d1f28813caeb9d49cbf851710",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/post-terminal-prompt_only-chest.json",
+      "original_sha256": "87c24a5929ec73c82689798a9c27785c36d493916e35d437f8a5f22292acb638",
+      "published_sha256": "87c24a5929ec73c82689798a9c27785c36d493916e35d437f8a5f22292acb638",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/post-terminal-prompt_only.json",
+      "original_sha256": "b1f6f881aa520d841ed7fe13c741432ef798c9d80ee139dda148857f09aad165",
+      "published_sha256": "b1f6f881aa520d841ed7fe13c741432ef798c9d80ee139dda148857f09aad165",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/post-terminal-timeline.log",
+      "original_sha256": "f1e0fadecb941799752fb9f7ccd09c5ef645dd18b46fa5c0cc5cdd43bff88f30",
+      "published_sha256": "b6b1c91abed3cc08f045882348d363739bd1663c2dc3eafa90b6a4cd37d8724e",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/prompt-only-audit.json",
+      "original_sha256": "829e5aa1029f0a61025a75243df1c6747fdfb52cf00b4692004390cb871ab9e8",
+      "published_sha256": "829e5aa1029f0a61025a75243df1c6747fdfb52cf00b4692004390cb871ab9e8",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/prompt-only-revisions.json",
+      "original_sha256": "8c9d701974e5c670fcc7ed7dbd890e1ca0adbb472808f35ffac3042ae1ba7c50",
+      "published_sha256": "8c9d701974e5c670fcc7ed7dbd890e1ca0adbb472808f35ffac3042ae1ba7c50",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/provenance.json",
+      "original_sha256": "f303b47b0988b5c89d63e4e9c1c2ee4388a0754a67eb22197d30710fde65a9f7",
+      "published_sha256": "c77b35025fbdbf85bbda05e19bacbe8aaa24ef09e61b3abfef8d521b86872be3",
+      "redacted_author_home": true
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/mlx-qwen/v6-source-integrity.json",
+      "original_sha256": "5ccf4a419f073f72b24657f06fb63b5c1facb5e09e43ed263bf18927367880b9",
+      "published_sha256": "5ccf4a419f073f72b24657f06fb63b5c1facb5e09e43ed263bf18927367880b9",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/pilot-lan-v5-report.md",
+      "original_sha256": "5aec5fb624d1f7b6ee8547a47bb3ad854dc1a240f53da6e7ca8dca81e57534ae",
+      "published_sha256": "5aec5fb624d1f7b6ee8547a47bb3ad854dc1a240f53da6e7ca8dca81e57534ae",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/pilot-lan-v5-terminal.log",
+      "original_sha256": "f564b71c2f6c71534968b29eb06bdfd4b9d5263bcbc41786bcb447ed65190ddc",
+      "published_sha256": "f564b71c2f6c71534968b29eb06bdfd4b9d5263bcbc41786bcb447ed65190ddc",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/pilot-observer.json",
+      "original_sha256": "65cd97ab9f0cb1a3f814e78d8f5ad69fae7fc280a6ad6ff1d92900fc3625843e",
+      "published_sha256": "65cd97ab9f0cb1a3f814e78d8f5ad69fae7fc280a6ad6ff1d92900fc3625843e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/pilot-progress.py",
+      "original_sha256": "cb6086a7606aac8f6dfa1d390068f7f079d2fb985eeb55d7c38bac8dde07bab7",
+      "published_sha256": "cb6086a7606aac8f6dfa1d390068f7f079d2fb985eeb55d7c38bac8dde07bab7",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/post-arm-furnace.mjs",
+      "original_sha256": "e01dfb632e38d50a99ce054bf92dd0db1279b6da1e0e93245da207fde2ed4485",
+      "published_sha256": "e01dfb632e38d50a99ce054bf92dd0db1279b6da1e0e93245da207fde2ed4485",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/post-arm-watch.py",
+      "original_sha256": "ef883fbc0a8dfb9ff24e4c993688d197ba3bad37f007d67db6ef1620dde9e544",
+      "published_sha256": "ef883fbc0a8dfb9ff24e4c993688d197ba3bad37f007d67db6ef1620dde9e544",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/preflight-fingerprint.cjs",
+      "original_sha256": "5327d85d537a4bf6fae751060e664a61add9aa440cf821987bcc63412cd8f0fc",
+      "published_sha256": "5327d85d537a4bf6fae751060e664a61add9aa440cf821987bcc63412cd8f0fc",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-batch-01.log",
+      "original_sha256": "ec473b4ad924d4fa3a0d87c82b4e2b02680eebb46ed80a25db84a8c53aec0412",
+      "published_sha256": "ec473b4ad924d4fa3a0d87c82b4e2b02680eebb46ed80a25db84a8c53aec0412",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-batch.mjs",
+      "original_sha256": "d1b05f26198b5adfc098bacc00a0d42cf009cfd5f2eaec08b3c8cfe6d68d9c85",
+      "published_sha256": "d1b05f26198b5adfc098bacc00a0d42cf009cfd5f2eaec08b3c8cfe6d68d9c85",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-choice.mjs",
+      "original_sha256": "4795b349d4bd2e969c963a11b5005fea1113c00ffae45bd53ab8b91266bfb63d",
+      "published_sha256": "4795b349d4bd2e969c963a11b5005fea1113c00ffae45bd53ab8b91266bfb63d",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-command-first.mjs",
+      "original_sha256": "d6ee4b0b041ab9416446c8692d536e34e0ed42eedb67703fbd312575041c63be",
+      "published_sha256": "d6ee4b0b041ab9416446c8692d536e34e0ed42eedb67703fbd312575041c63be",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-interface.py",
+      "original_sha256": "283739db384eff96f34452a11178487cececbcc3fb8d3c7d6ccd5616d0afc594",
+      "published_sha256": "283739db384eff96f34452a11178487cececbcc3fb8d3c7d6ccd5616d0afc594",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-menu.mjs",
+      "original_sha256": "faaee0661a724df2473ea11fab657875f12800399c0f75c7db255a93e515618c",
+      "published_sha256": "faaee0661a724df2473ea11fab657875f12800399c0f75c7db255a93e515618c",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-native-menu.mjs",
+      "original_sha256": "0f2be3d18b1344d5c4a9dc2b89a18eedb8200223795cecaa045f97cb3ae96442",
+      "published_sha256": "0f2be3d18b1344d5c4a9dc2b89a18eedb8200223795cecaa045f97cb3ae96442",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-ready.cjs",
+      "original_sha256": "0959bdd371a29c7c9eaa4e06da7dad5b4871af3cbfcc7587e7dec251f61350e2",
+      "published_sha256": "0959bdd371a29c7c9eaa4e06da7dad5b4871af3cbfcc7587e7dec251f61350e2",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/probe-ready.log",
+      "original_sha256": "55f0f1cd712fdff9e35c5e757b8ae25c87006fefc29b7a9e990e2c01ce57f722",
+      "published_sha256": "55f0f1cd712fdff9e35c5e757b8ae25c87006fefc29b7a9e990e2c01ce57f722",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/qualification-v1/after-pilot.py",
+      "original_sha256": "97bae4ab513e737829a4da436cd24b60b73b4476bc12f8a7889ef91bb1e48667",
+      "published_sha256": "97bae4ab513e737829a4da436cd24b60b73b4476bc12f8a7889ef91bb1e48667",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/qualification-v1/freeze.json",
+      "original_sha256": "38b6bcf613af56cc45574b87bf528f75705b79ffd064871fc343ad67dbc28a79",
+      "published_sha256": "38b6bcf613af56cc45574b87bf528f75705b79ffd064871fc343ad67dbc28a79",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/qualification-v1/result-01/events.jsonl",
+      "original_sha256": "b1e2affe7ed22a59fbfdcc8ae331b55c0579a2973962b87250671f474008eab3",
+      "published_sha256": "b1e2affe7ed22a59fbfdcc8ae331b55c0579a2973962b87250671f474008eab3",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/qualification-v1/result-01/manifest.json",
+      "original_sha256": "408323543eb32aa3c3edcfde662dd41d33ddb69cf55dc749fc812f7d1f0f785b",
+      "published_sha256": "408323543eb32aa3c3edcfde662dd41d33ddb69cf55dc749fc812f7d1f0f785b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/qualification-v1/result-01/result.json",
+      "original_sha256": "3c3d4ae422381ad80f9c5e77baf7f15564f4251a9fcde643c24ebdd09f0cd135",
+      "published_sha256": "3c3d4ae422381ad80f9c5e77baf7f15564f4251a9fcde643c24ebdd09f0cd135",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/qualification-v1/run.mjs",
+      "original_sha256": "3ec85f087fa8d2f5b5252a8924535697981c30f876895fb11051cc005e87b25b",
+      "published_sha256": "3ec85f087fa8d2f5b5252a8924535697981c30f876895fb11051cc005e87b25b",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/qualification-v1/spec.json",
+      "original_sha256": "5a6e0a9aaff257990fdd2c85ae5d67285ca34c39bb31a2828e4a1948ff1b19e7",
+      "published_sha256": "5a6e0a9aaff257990fdd2c85ae5d67285ca34c39bb31a2828e4a1948ff1b19e7",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/qualify-mlx.py",
+      "original_sha256": "75485bb338e4e855649901d7c7713db1b9882614d38ef43743cc8ba0f4b6b067",
+      "published_sha256": "75485bb338e4e855649901d7c7713db1b9882614d38ef43743cc8ba0f4b6b067",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/reload-lan-v5.log",
+      "original_sha256": "0013e7d412ce2c35c5d34a2e75e341a742c9b8fe3d3e057b8d3c0df9cb55444f",
+      "published_sha256": "0013e7d412ce2c35c5d34a2e75e341a742c9b8fe3d3e057b8d3c0df9cb55444f",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/report-matched.py",
+      "original_sha256": "05ab1af1020e6833b3cbe8edfb4e847eec970eff2bc10c2b2c001df6a8e3ad61",
+      "published_sha256": "05ab1af1020e6833b3cbe8edfb4e847eec970eff2bc10c2b2c001df6a8e3ad61",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/revision-audit.cjs",
+      "original_sha256": "d4336e66bc7b05c3d82d81ef998dca023f6a04d8f1b3cd6f75c4f3a8148d7685",
+      "published_sha256": "d4336e66bc7b05c3d82d81ef998dca023f6a04d8f1b3cd6f75c4f3a8148d7685",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/same-model-preflight.json",
+      "original_sha256": "4d732ca9f59cdf4d0b06075f048ab7889a49da79171a6d8b95bf958771bd8ce7",
+      "published_sha256": "4d732ca9f59cdf4d0b06075f048ab7889a49da79171a6d8b95bf958771bd8ce7",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/setup-evidence/write-pilot-results.py",
+      "original_sha256": "7058011532cb1563b0e77244ecf45d55032bd15913097def7a652d8ba1bcf37e",
+      "published_sha256": "7058011532cb1563b0e77244ecf45d55032bd15913097def7a652d8ba1bcf37e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "minecraft-verification/test.mjs",
+      "original_sha256": "dff2dba7e9f0be22252f6f1edae035d32532c760bf1ab59a968ddfcc3d9b8de4",
+      "published_sha256": "dff2dba7e9f0be22252f6f1edae035d32532c760bf1ab59a968ddfcc3d9b8de4",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/evaluation/evaluate_verifier.py",
+      "original_sha256": "88290b051bd8f42e09390a674c90e2f7e499eda4f0f068c0c69d846afb3627d6",
+      "published_sha256": "88290b051bd8f42e09390a674c90e2f7e499eda4f0f068c0c69d846afb3627d6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/evaluation/evaluation_results.json",
+      "original_sha256": "9f0861c8fc9d26379ae8f8791bfc72f4f36e11894a5e6f6b496731eeefee9dfd",
+      "published_sha256": "9f0861c8fc9d26379ae8f8791bfc72f4f36e11894a5e6f6b496731eeefee9dfd",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/LICENSE",
+      "original_sha256": "85dcbe174583e8e877e55adc124e730c929b1fb6a39ae4c604e3b45c97fcf7e3",
+      "published_sha256": "85dcbe174583e8e877e55adc124e730c929b1fb6a39ae4c604e3b45c97fcf7e3",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/NOTICE",
+      "original_sha256": "bf151dab195997c439afc6e1d9e5cc8c1bcd9b232a0d9b039383eb0ffc875b22",
+      "published_sha256": "bf151dab195997c439afc6e1d9e5cc8c1bcd9b232a0d9b039383eb0ffc875b22",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/efferents/agents/executor.py",
+      "original_sha256": "3fd6bfcca9d59fa2d18dd3a99ae05a1f46d0c6de353a2ea3ba75490bc397641f",
+      "published_sha256": "3fd6bfcca9d59fa2d18dd3a99ae05a1f46d0c6de353a2ea3ba75490bc397641f",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/efferents/agents/federation.py",
+      "original_sha256": "93014786bf053141b37b31893f9a40a91d2cdf1e252902189bc34f26bed79859",
+      "published_sha256": "93014786bf053141b37b31893f9a40a91d2cdf1e252902189bc34f26bed79859",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/examples/challengescape/venue/venue.py",
+      "original_sha256": "c40c18821f5b403f6c4a080ddd8700718c147ab08e7ea9e8e0813c771d836ba2",
+      "published_sha256": "c40c18821f5b403f6c4a080ddd8700718c147ab08e7ea9e8e0813c771d836ba2",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/examples/challengescape/venue/venue.yaml",
+      "original_sha256": "8b45b99760c0902fbaf623b452904098a48a845e76f701919588a4b30659f2b5",
+      "published_sha256": "8b45b99760c0902fbaf623b452904098a48a845e76f701919588a4b30659f2b5",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/examples/repo-adapter/README.md",
+      "original_sha256": "c3e4333bde01c50ad859c415d9e52dfcacc4384436ab3158500cb30a1f8d1623",
+      "published_sha256": "c3e4333bde01c50ad859c415d9e52dfcacc4384436ab3158500cb30a1f8d1623",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/examples/repo-adapter/configs/base.yaml",
+      "original_sha256": "06577040323c4389873d4e53c2a79a576a6e2f0d131f0120fb3012f45c3a45e3",
+      "published_sha256": "06577040323c4389873d4e53c2a79a576a6e2f0d131f0120fb3012f45c3a45e3",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/examples/repo-adapter/efferents.yaml",
+      "original_sha256": "f38a6b450a8811d93da1fc9b025887531c29a73d52a7178ab0d083bd123aecfb",
+      "published_sha256": "f38a6b450a8811d93da1fc9b025887531c29a73d52a7178ab0d083bd123aecfb",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/examples/repo-adapter/eval.py",
+      "original_sha256": "9f45b3a34ac206a57a036fc97908bf8beaf50dc9cc6062c1ef92c51fc46fd29e",
+      "published_sha256": "9f45b3a34ac206a57a036fc97908bf8beaf50dc9cc6062c1ef92c51fc46fd29e",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/examples/repo-adapter/train.py",
+      "original_sha256": "a53a3d3f1c4c45fffefb43a0c5a455d7a4b37adbe4f7f4c885a5d31847b615d6",
+      "published_sha256": "a53a3d3f1c4c45fffefb43a0c5a455d7a4b37adbe4f7f4c885a5d31847b615d6",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/pyproject.toml",
+      "original_sha256": "9f792722263eae8cf6a3eb9a90974d35621704bb7cd058de346b62e83d4895bc",
+      "published_sha256": "9f792722263eae8cf6a3eb9a90974d35621704bb7cd058de346b62e83d4895bc",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/framework-excerpts/tests/test_foundational_verification_gate.py",
+      "original_sha256": "aa5294e40ab29c192e71cfb5c09a6f4c854f4293b4649fb0b533905481840c71",
+      "published_sha256": "aa5294e40ab29c192e71cfb5c09a6f4c854f4293b4649fb0b533905481840c71",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/supplement/LICENSE",
+      "original_sha256": "4bb477c64093aac8e4aca5dcc19bf82c5ae063bbe1c3cf013ad29fd86e200002",
+      "published_sha256": "4bb477c64093aac8e4aca5dcc19bf82c5ae063bbe1c3cf013ad29fd86e200002",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/supplement/README.md",
+      "original_sha256": "6555bba453a42562dcadd09bd0b29b8334eb94cc9004dc1ab1fcdf0d41155921",
+      "published_sha256": "6555bba453a42562dcadd09bd0b29b8334eb94cc9004dc1ab1fcdf0d41155921",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/supplement/evaluate.py",
+      "original_sha256": "6bfcc063430eedd1c0032eeea0d5f9c110eaf8294b61d162819f809377c93198",
+      "published_sha256": "6bfcc063430eedd1c0032eeea0d5f9c110eaf8294b61d162819f809377c93198",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/supplement/evaluation_results.json",
+      "original_sha256": "cbf167708f0d17eb802f2feeefdbfc7bc62bdc81663c97a8883f02d7578273be",
+      "published_sha256": "cbf167708f0d17eb802f2feeefdbfc7bc62bdc81663c97a8883f02d7578273be",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/supplement/fixture_experiment.py",
+      "original_sha256": "b3e7327f1e444c1450e3b57b98252420b5b1552a71300b1c4eaed42ddc25008a",
+      "published_sha256": "b3e7327f1e444c1450e3b57b98252420b5b1552a71300b1c4eaed42ddc25008a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/supplement/framework_evaluation_results.json",
+      "original_sha256": "9f0861c8fc9d26379ae8f8791bfc72f4f36e11894a5e6f6b496731eeefee9dfd",
+      "published_sha256": "9f0861c8fc9d26379ae8f8791bfc72f4f36e11894a5e6f6b496731eeefee9dfd",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/supplement/test_verifier.py",
+      "original_sha256": "7c498d1e1d2ca0bbcdd0a17ad89a4ada5cb36072fb2397c8c1629c743fcf6c89",
+      "published_sha256": "7c498d1e1d2ca0bbcdd0a17ad89a4ada5cb36072fb2397c8c1629c743fcf6c89",
+      "redacted_author_home": false
+    },
+    {
+      "path": "python/supplement/verifier.py",
+      "original_sha256": "d631cc2ca78631273f7a3ac86a83c4d1773a8ca2742b087436a1905bad31ec5a",
+      "published_sha256": "d631cc2ca78631273f7a3ac86a83c4d1773a8ca2742b087436a1905bad31ec5a",
+      "redacted_author_home": false
+    },
+    {
+      "path": "paper/figure-sources/figure2-provenance.json",
+      "original_sha256": "3052de17b2d430b87d96d060ffc76236eec85fb785fc4aa6d54c9035e1d7e9a8",
+      "published_sha256": "0c7fd8c0cf8e2349bfe5b8a04193aed1e726f9fc7a871df346bdd1b2427f6e91",
+      "redacted_author_home": true
+    }
+  ]
+}

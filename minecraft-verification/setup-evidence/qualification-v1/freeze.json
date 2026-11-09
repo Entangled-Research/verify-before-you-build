@@ -1,0 +1,8 @@
+{
+  "frozenAt": "2026-11-09T05:33:53.202321+00:00",
+  "statusAtFreeze": "Qwen enforced pilot still running; no qualification actions executed",
+  "sources": {
+    "spec.json": "5a6e0a9aaff257990fdd2c85ae5d67285ca34c39bb31a2828e4a1948ff1b19e7",
+    "run.mjs": "3ec85f087fa8d2f5b5252a8924535697981c30f876895fb11051cc005e87b25b"
+  }
+}

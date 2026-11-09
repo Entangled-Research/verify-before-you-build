@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-11-09T03:18:41.176716+00:00",
+  "source": "direct confirmation from separate Replay Mod controller, before pilot",
+  "observer": "ChronoCam",
+  "mode": "Spectator",
+  "position": [
+    16.5,
+    123,
+    40.5
+  ],
+  "recording": "one steady replay client in all three pilot arms; host unchanged",
+  "rendering": "prior recorder and viewer closed; offline FFmpeg render completed; no playback or postprocessing during pilot",
+  "plannedArms": [
+    "no_gate",
+    "prompt_only",
+    "enforced"
+  ],
+  "library": "mixed",
+  "seed": 701,
+  "prepared": "prepared-lan-v5",
+  "model": "sweaterdog/andy-4:micro-q8_0",
+  "model_digest": "12ec425c590db3d8ada7cdec6a1745e354481a78e1613e137ccc771b67a82952",
+  "host_ram_bytes": 25769803776
+}

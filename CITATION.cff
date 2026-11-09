@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the accompanying paper."
+title: "Verify Before You Build: Executable Dependency Gates for Agent-Generated Science"
+type: software
+authors:
+  - family-names: Baidachna
+    given-names: Mariia
+  - family-names: Nesen
+    given-names: Alina
+year: 2026
+repository-code: "https://github.com/Entangled-Research/verify-before-you-build"
+url: "https://github.com/Entangled-Research/verify-before-you-build"

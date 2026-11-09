@@ -1,0 +1,29 @@
+{
+  "expected": {
+    "tool": "inspect"
+  },
+  "action": {
+    "tool": "smelt",
+    "count": 1,
+    "input": "raw_iron",
+    "output": "iron_ingot"
+  },
+  "pass": false,
+  "data": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "created_at": "2026-11-09T03:28:56.787914Z",
+    "message": {
+      "role": "assistant",
+      "content": "{ \"command\": \"smelt\", \"parameters\": {\"count\": 1, \"input\": \"raw_iron\",\"output\":\"iron_ingot\"} }"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1303319958,
+    "load_duration": 110767375,
+    "prompt_eval_count": 116,
+    "prompt_eval_duration": 235003000,
+    "eval_count": 38,
+    "eval_duration": 948895000
+  },
+  "elapsedMs": 1339
+}

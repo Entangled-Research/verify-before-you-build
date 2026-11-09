@@ -1,0 +1,234 @@
+{
+  "run": "prepared-lan-v6-qwen-mixed-r1-no_gate",
+  "rows": [
+    {
+      "turn": 6,
+      "id": "dispenser",
+      "before": "ffce672ab94d6fd54c71d33ae1ae0f6a240f6c9ac2abf99e4b27cdea4e928faa",
+      "after": "ffce672ab94d6fd54c71d33ae1ae0f6a240f6c9ac2abf99e4b27cdea4e928faa",
+      "key": "e7297ab9b42f1db1180c328c6b73df9cc97aed814058ccec5b549724e956ae80",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 13,
+      "id": "dispenser",
+      "before": "ffce672ab94d6fd54c71d33ae1ae0f6a240f6c9ac2abf99e4b27cdea4e928faa",
+      "after": "ffce672ab94d6fd54c71d33ae1ae0f6a240f6c9ac2abf99e4b27cdea4e928faa",
+      "key": "e7297ab9b42f1db1180c328c6b73df9cc97aed814058ccec5b549724e956ae80",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 19,
+      "id": "crossbow",
+      "before": "60acedc1783ab1b36707741c3cb2f61482ba335dee7acca80e7d6946fb0cf03c",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "69504228dc18d58916db2aa9562a2e26b8eed0750c6cde6c5bc33bd54abf013b",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [
+        {
+          "turn": 20,
+          "receipt": "missing"
+        },
+        {
+          "turn": 23,
+          "receipt": "missing"
+        },
+        {
+          "turn": 24,
+          "receipt": "missing"
+        },
+        {
+          "turn": 25,
+          "receipt": "missing"
+        },
+        {
+          "turn": 26,
+          "receipt": "missing"
+        },
+        {
+          "turn": 28,
+          "receipt": "missing"
+        },
+        {
+          "turn": 29,
+          "receipt": "missing"
+        },
+        {
+          "turn": 32,
+          "receipt": "missing"
+        },
+        {
+          "turn": 33,
+          "receipt": "missing"
+        },
+        {
+          "turn": 36,
+          "receipt": "missing"
+        },
+        {
+          "turn": 38,
+          "receipt": "missing"
+        },
+        {
+          "turn": 39,
+          "receipt": "missing"
+        },
+        {
+          "turn": 43,
+          "receipt": "missing"
+        },
+        {
+          "turn": 45,
+          "receipt": "missing"
+        },
+        {
+          "turn": 46,
+          "receipt": "missing"
+        },
+        {
+          "turn": 47,
+          "receipt": "missing"
+        },
+        {
+          "turn": 51,
+          "receipt": "missing"
+        },
+        {
+          "turn": 53,
+          "receipt": "missing"
+        },
+        {
+          "turn": 54,
+          "receipt": "missing"
+        },
+        {
+          "turn": 55,
+          "receipt": "missing"
+        },
+        {
+          "turn": 56,
+          "receipt": "missing"
+        },
+        {
+          "turn": 57,
+          "receipt": "missing"
+        },
+        {
+          "turn": 58,
+          "receipt": "missing"
+        },
+        {
+          "turn": 59,
+          "receipt": "missing"
+        },
+        {
+          "turn": 60,
+          "receipt": "missing"
+        },
+        {
+          "turn": 61,
+          "receipt": "missing"
+        },
+        {
+          "turn": 62,
+          "receipt": "missing"
+        },
+        {
+          "turn": 66,
+          "receipt": "missing"
+        },
+        {
+          "turn": 68,
+          "receipt": "missing"
+        },
+        {
+          "turn": 69,
+          "receipt": "missing"
+        }
+      ],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 22,
+      "id": "dispenser",
+      "before": "ffce672ab94d6fd54c71d33ae1ae0f6a240f6c9ac2abf99e4b27cdea4e928faa",
+      "after": "22504d453df3bae1b1d0b5208cafc6546249afc7425fac1070f7f94cdaec9619",
+      "key": "e1767d19d233e4c010aa44680f9f01ce556106713327896f3dbd85d8e0d73d05",
+      "changed": true,
+      "testReceipts": [],
+      "productionStarts": [
+        {
+          "turn": 37,
+          "receipt": "missing"
+        }
+      ],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 27,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "69504228dc18d58916db2aa9562a2e26b8eed0750c6cde6c5bc33bd54abf013b",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 34,
+      "id": "hopper_minecart",
+      "before": "da8fd02eb930e7e8beda6044f731b8de0966fddc70ed2bdcf92fd7e7c1cecf03",
+      "after": "da8fd02eb930e7e8beda6044f731b8de0966fddc70ed2bdcf92fd7e7c1cecf03",
+      "key": "4b6a77ed3544c2c0d3bac80c8c2f3bff8af8dc939e8ddbf85715ba15e6d9d10b",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 40,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "69504228dc18d58916db2aa9562a2e26b8eed0750c6cde6c5bc33bd54abf013b",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 48,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "69504228dc18d58916db2aa9562a2e26b8eed0750c6cde6c5bc33bd54abf013b",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    },
+    {
+      "turn": 63,
+      "id": "crossbow",
+      "before": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "after": "427f266de047b14befd589e7a4727f4e79b6c7ac0a6465e68e8a9c436ca89a2e",
+      "key": "69504228dc18d58916db2aa9562a2e26b8eed0750c6cde6c5bc33bd54abf013b",
+      "changed": false,
+      "testReceipts": [],
+      "productionStarts": [],
+      "newlyDelivered": 0
+    }
+  ],
+  "requests": 9,
+  "distinctChanges": 2,
+  "noopRequests": 7,
+  "changedRevisionsProducingTarget": 0
+}

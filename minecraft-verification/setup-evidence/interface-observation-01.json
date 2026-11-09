@@ -1,0 +1,83 @@
+{
+  "observed_at": "2026-11-09T03:24:40.123734+00:00",
+  "source": "read-only midpilot snapshot, no separate diagnostic inference",
+  "models": [
+    {
+      "name": "sweaterdog/andy-4:micro-q8_0",
+      "digest": "12ec425c590db3d8ada7cdec6a1745e354481a78e1613e137ccc771b67a82952",
+      "capabilities": [
+        "tools",
+        "completion"
+      ],
+      "package_system": "\nYou are a Minecraft AI named Andy-4-micro, you were made by Sweaterdog. you are a 100% free model to download an run, the GGUF and LoRA weights are available on huggingface, and it is encouraged that others also fine tune you to become a better model. The current biome is \"COMPUTER\", the coordinates are 0, 0, 0. You are a Q & A Minecraft bot, who doesn't use commands.\n"
+    },
+    {
+      "name": "embeddinggemma:latest",
+      "digest": "85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "capabilities": [
+        "embedding"
+      ],
+      "package_system": null
+    }
+  ],
+  "request": {
+    "endpoint": "/api/chat",
+    "format": "json",
+    "stream": false,
+    "model": "sweaterdog/andy-4:micro-q8_0"
+  },
+  "response_observations": [
+    {
+      "turn": 0,
+      "valid_required_object": false,
+      "contains_open_brace": false,
+      "prompt_tokens": 1933,
+      "output_tokens": 1024,
+      "has_think_wrapper": true
+    },
+    {
+      "turn": 1,
+      "valid_required_object": false,
+      "contains_open_brace": false,
+      "prompt_tokens": 1939,
+      "output_tokens": 900,
+      "has_think_wrapper": true
+    },
+    {
+      "turn": 2,
+      "valid_required_object": false,
+      "contains_open_brace": false,
+      "prompt_tokens": 1939,
+      "output_tokens": 1024,
+      "has_think_wrapper": true
+    },
+    {
+      "turn": 3,
+      "valid_required_object": false,
+      "contains_open_brace": false,
+      "prompt_tokens": 1939,
+      "output_tokens": 778,
+      "has_think_wrapper": true
+    },
+    {
+      "turn": 4,
+      "valid_required_object": false,
+      "contains_open_brace": false,
+      "prompt_tokens": 1939,
+      "output_tokens": 743,
+      "has_think_wrapper": true
+    },
+    {
+      "turn": 5,
+      "valid_required_object": false,
+      "contains_open_brace": false,
+      "prompt_tokens": 1939,
+      "output_tokens": 1024,
+      "has_think_wrapper": true
+    }
+  ],
+  "tools_executed": 0,
+  "primary_docs": "https://docs.ollama.com/capabilities/structured-outputs",
+  "upstream_source": "https://github.com/ollama/ollama/blob/v0.32.5/llm/llama_server.go",
+  "interpretation": "Observed JSON mode returned non-JSON on this backend/model; reason not proven without isolated post-block diagnostic. Existing Minecraft demo uses a different contract: strips think blocks and parses exclamation commands. No v5 changes or substitutions."
+}

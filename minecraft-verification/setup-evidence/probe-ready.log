@@ -1,0 +1,33 @@
+out teleport_confirm { teleportId: 1 }
+position Vec3 { x: 0.5, y: 100, z: 0.5 } furnace Vec3 { x: -1, y: 100, z: 0 }
+out block_place {
+  location: Vec3 { x: -1, y: 100, z: 0 },
+  direction: 1,
+  hand: 0,
+  cursorX: 0.5,
+  cursorY: 0.5,
+  cursorZ: 0.5,
+  insideBlock: false,
+  sequence: 0,
+  worldBorderHit: false
+}
+before ready undefined
+out player_loaded {}
+out block_place {
+  location: Vec3 { x: -1, y: 100, z: 0 },
+  direction: 1,
+  hand: 0,
+  cursorX: 0.5,
+  cursorY: 0.5,
+  cursorZ: 0.5,
+  insideBlock: false,
+  sequence: 0,
+  worldBorderHit: false
+}
+in open_window {
+  windowId: 1,
+  inventoryType: 14,
+  windowTitle: { type: 'compound', value: { translate: [Object] } }
+}
+in acknowledge_player_digging { sequenceId: 0 }
+after ready minecraft:furnace

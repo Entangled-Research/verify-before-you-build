@@ -1,0 +1,22 @@
+[
+  {
+    "run": "prepared-lan-v6-qwen-mixed-r1-prompt_only",
+    "status": "budget_exhausted",
+    "receipts": [
+      {
+        "id": "crossbow",
+        "status": "failed"
+      }
+    ],
+    "delivered": {
+      "hopper_minecart": 1,
+      "chest_minecart": 1
+    },
+    "modelCalls": 70,
+    "verifiedTokenCounts": [
+      195735,
+      6739
+    ],
+    "defects": []
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "kind": "agent_episode",
+  "status": "operator_interrupted_stalled",
+  "error": "repeated identical dispenser revision and failed receipt cache cycle; no change to procedure or production state",
+  "complete": false,
+  "delivered": {
+    "hopper_minecart": 1,
+    "chest_minecart": 1,
+    "crossbow": 1
+  },
+  "distinctTargets": 3,
+  "arm": "prompt_only",
+  "seed": 711,
+  "model": "mlx-community/Qwen3.5-9B-MLX-4bit",
+  "promptTokens": 17334,
+  "generatedTokens": 1187,
+  "usageComplete": false,
+  "modelTurns": 21,
+  "wallSeconds": 548.486649,
+  "primitiveActions": 34,
+  "verificationAttempts": 4,
+  "testKits": [
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 2,
+      "coal": 1,
+      "string": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 2,
+      "coal": 1,
+      "string": 2
+    },
+    {
+      "oak_log": 2,
+      "string": 3,
+      "cobblestone": 7,
+      "redstone": 1
+    }
+  ],
+  "unverifiedMethodStarts": 1,
+  "blockedMethodStarts": 0,
+  "repairs": 8,
+  "retainedCacheHits": 6,
+  "retainedNoopRevisions": 7,
+  "provenance": "external terminal accounting derived from retained events after explicit operator interruption",
+  "endTime": "2026-11-09T15:43:47.300649+00:00"
+}

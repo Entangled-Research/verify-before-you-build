@@ -1,0 +1,111 @@
+{
+  "kind": "separate deterministic live calibration",
+  "path": "$AUTHOR_HOME/Documents/efferents/efferents research/minecraft-verification/runs/followup-v7.1-calibration-02",
+  "sourceHashes": {
+    "cli.mjs": "d4a2d75ca40b10de6929459f761c6ffd15088c5a1b6d607f0551241d8b9dc07e",
+    "datapack.mjs": "74fd368bc0ea7f4ba138b629a758ba0b57b75d18e99bee147832296d2b4ce4fa",
+    "game.mjs": "011af087c3c9f0472efe877d496433c628772157083494448a6744cc6e0e9a09",
+    "model.mjs": "6e05b03542d3a64bd333dcfba1a3b13884ddf052f71aa6f0f22043aa8d14909e",
+    "planner.mjs": "7dc66a26d294c9e49a9a597f3f986f12ac91e0c895ddb238c512df40dd0abbc4",
+    "protocol.mjs": "24c6a14fb17303d9f90e0d4d137eeb964c264a878ab62c5e1a4ffb69824d2c1b",
+    "smelting.mjs": "4fe81543deee071d904b431c1247fdf2582cda176156d2795516afa61180ac18",
+    "test.mjs": "8fe200aa9c94ff6d9681da8f4cce8a51711d07a20ddcc3e242ed246fd98eb9a5"
+  },
+  "status": "calibration_passed",
+  "controls": [
+    {
+      "name": "real passing receipt cached without another kit",
+      "ok": true
+    },
+    {
+      "name": "original faulty crossbow fails without automatic edits",
+      "ok": true,
+      "error": "No executable recipe for crossbow from current inventory"
+    },
+    {
+      "name": "original faulty dispenser fails without automatic edits",
+      "ok": true,
+      "error": "No executable recipe for dispenser from current inventory"
+    },
+    {
+      "name": "original faulty lectern fails without automatic edits",
+      "ok": true,
+      "error": "No executable recipe for bookshelf from current inventory"
+    },
+    {
+      "name": "original faulty blast_furnace fails without automatic edits",
+      "ok": true,
+      "error": "No executable recipe for blast_furnace from current inventory"
+    },
+    {
+      "name": "insufficient smelt rejected before moving inputs",
+      "ok": true
+    },
+    {
+      "name": "staged abandoned input physically recovered",
+      "ok": true
+    }
+  ],
+  "positive": [
+    {
+      "id": "hopper_minecart",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "chest_minecart",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "crossbow",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "dispenser",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "sticky_piston",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "comparator",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "repeater",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "lectern",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "enchanting_table",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "blast_furnace",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "armor_stand",
+      "status": "verified",
+      "failure": null
+    },
+    {
+      "id": "daylight_detector",
+      "status": "verified",
+      "failure": null
+    }
+  ]
+}

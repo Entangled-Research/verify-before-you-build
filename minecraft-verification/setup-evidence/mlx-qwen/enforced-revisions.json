@@ -1,0 +1,8 @@
+{
+  "run": "prepared-lan-v6-qwen-mixed-r1-enforced",
+  "rows": [],
+  "requests": 0,
+  "distinctChanges": 0,
+  "noopRequests": 0,
+  "changedRevisionsProducingTarget": 0
+}

@@ -1,0 +1,116 @@
+{
+  "time": "2026-11-09T03:38:30.043915+00:00",
+  "calibration_run": "calibration-20261108-lan-v5-01",
+  "calibration_status": "reused (not rerun): twelve server-readback controls and one delivery smoke test",
+  "reason": "Same live server, installed datapack, action executor, exact stock, target/fault fixtures, recipes, arm enforcement and schedule. Change is the planner transport, checkpoint and response decoding. Receipt context will be regenerated per episode.",
+  "prior_audit": {
+    "run": "calibration-20261108-lan-v5-01",
+    "status": "calibration_passed",
+    "receipts": [
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "chest_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "crossbow",
+        "status": "verified"
+      },
+      {
+        "id": "dispenser",
+        "status": "verified"
+      },
+      {
+        "id": "sticky_piston",
+        "status": "verified"
+      },
+      {
+        "id": "comparator",
+        "status": "verified"
+      },
+      {
+        "id": "repeater",
+        "status": "verified"
+      },
+      {
+        "id": "lectern",
+        "status": "verified"
+      },
+      {
+        "id": "enchanting_table",
+        "status": "verified"
+      },
+      {
+        "id": "blast_furnace",
+        "status": "verified"
+      },
+      {
+        "id": "armor_stand",
+        "status": "verified"
+      },
+      {
+        "id": "daylight_detector",
+        "status": "verified"
+      }
+    ],
+    "delivered": {
+      "dispenser": 1
+    },
+    "modelCalls": 0,
+    "verifiedTokenCounts": [
+      0,
+      0
+    ],
+    "defects": []
+  },
+  "bitwise_unchanged": {
+    "source/protocol.mjs": "ec3614951dca2ddb7be088722cd71995054d4cae5c4044cefb587d79bb4569f3",
+    "source/game.mjs": "78e2fa1c27bcd7ce492016d052005d04a5396655ca074189bfdc9c6b109bd7cc",
+    "source/datapack.mjs": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+    "source/test.mjs": "dff2dba7e9f0be22252f6f1edae035d32532c760bf1ab59a968ddfcc3d9b8de4",
+    "library-mixed.json": "8ff309d31af8fb135ef25db83b99f2312a43042eff4ddbfd010be5fe529137d0",
+    "library-clean.json": "49143c73f35a40e42b3337d27788c7311e99a5619b820a5a58d8673d3a455bf1",
+    "observer-fixtures.json": "e7d44b18d75b0b2216cbecddb8aa8fc2942d442f48782755b0e93849f6b88836",
+    "schedule.json": "45ab6fe4f3b79914afc6fdd90616eac5771ec3b298c80370075ddc74c92f89fb"
+  },
+  "live_datapack_sha256_by_file": {
+    "data/efferents/function/arm.mcfunction": "85829a72c5e4ad2e9f4efda256621265e03f73fe1cb326c1f2c1ec398aa12796",
+    "data/efferents/function/disarm.mcfunction": "3dd366a1ff573277adc57a85edc96f576e417a1c4ee74e7effc5a24e5879f6fb",
+    "data/efferents/function/production.mcfunction": "95271b68ed39fc560f18c541c92b0897d76e2bcb394ba8317ed6040cb16ea803",
+    "data/efferents/function/test_1.mcfunction": "95b939538a98809de3386a13581faff622345a9f8328c59b6c5a97edba91d23e",
+    "data/efferents/function/test_10.mcfunction": "253abe5903a9f448ec7a39ff230b9a2d4f6900c0341246ee7fdd0b0e451c065e",
+    "data/efferents/function/test_11.mcfunction": "497c221c137518a980b8bc66cb8cecd84a6936a97659430ee2fbbb5f171c01b4",
+    "data/efferents/function/test_12.mcfunction": "477fcd811c4f7eab57db127e37e8686a4b91c8e9dfd4bf88bd70f00c9fd2c989",
+    "data/efferents/function/test_2.mcfunction": "4eab8a6b66b28bf0ebeb108bbc875c9ac4820e699b4b8af46a9e73a413478371",
+    "data/efferents/function/test_3.mcfunction": "4fcc72fe6d18ba2d91353ba3f842f9fd6a98474e5c8b0cc56805de9e9ac0836b",
+    "data/efferents/function/test_4.mcfunction": "5916f41236419fb8f921ac932de1858d6b8549451983a8ffad8abedff965cef9",
+    "data/efferents/function/test_5.mcfunction": "3991f7c174c3d4b2592524e47f02687c5c2f48bf3e9ba9f0db9d3afac3fdc153",
+    "data/efferents/function/test_6.mcfunction": "8915703c36e2a06454d77173a80a49743db9966ee9c3afc25c729331ffe292c5",
+    "data/efferents/function/test_7.mcfunction": "6aa13a18c3173f345015dffce7eee2f6c0659a772ec97d3ce5a9060b8fd17667",
+    "data/efferents/function/test_8.mcfunction": "112d884edbf382f88cc640ad4a09c65188e1f7dc258e4976c5da42ed5249d23a",
+    "data/efferents/function/test_9.mcfunction": "7c5ddadd1b454851073f1b6024e27255a5f67500b45712780b6e422c9615eae9",
+    "data/efferents/function/tick.mcfunction": "1a4f4f65f156207445056e20d80d634c1cdbcdffc1af0ccdbdf633b6e970c52a",
+    "data/minecraft/tags/function/load.json": "8a554b97578141c9dcd8e4aefbf7b87e7b225b56b47a34b9efce24454f0a40b0",
+    "data/minecraft/tags/function/tick.json": "9c5d9f9747e83264f8070505c1c8204a6a0dd829986470cb9ed11d7f22a09ca8",
+    "pack.mcmeta": "74b410b40cb0daaf2aacba6ed44677e04760276776dc6c287b56b71a342b1466"
+  },
+  "neutral_interface_suite": "minecraft-verification/setup-evidence/mlx-qwen/neutral-02",
+  "original_exact_gate": "failed: 6/8; not reclassified",
+  "new_exploratory_basis": "8/8 allowed parseable requests, both verify/use correctly selected; imperfect model choices retained as outcomes",
+  "prospective_amendment_sha256": "947eb77ca07eea122492aa6d39381e2aea3a3fcd4661000dd1ca35ee26cf64bf",
+  "neutral_evidence_sha256": {
+    "execute.json": "6ff23e3f94e8d26d9c18ceeed05e2f22e26917df438f35a5b8a9e798e6c65b8f",
+    "heat.json": "d5ef832ad9d3aa92da89aefb31d37d653fb21629f863a6544b39a376e11e7438",
+    "look.json": "2e327a50472e6e83393b6a10f38f3882d120fcac7b8de89cbb7d03529da17b75",
+    "lookup.json": "9cb40d991db308a4439988202e96c4979c1fffe7db5ac7a03d7cddbedfbd4215",
+    "make.json": "0d21d1b1dd2d3952a270b7ddcc8dc79903c3c1dba73ca4bd22a9c5a3535ac448",
+    "replace.json": "29ca72f0887b6bcef9774841a4c71a1167ce2bb89eb66af43fa6db22587cc4e1",
+    "reproduce.json": "96587572d04455f0fc52e053c286a01fc3b0f5ba79853a324c2ea5453583a652",
+    "spec.json": "0fcc889239a0ff586f554db130e58abaff9d37480e01a8beb6acfe3eab2d4c15",
+    "stop.json": "3f5cd0c541b8e5e56e46e05e45652bbc7db0525628dd410108bfcf8bea15b01f"
+  },
+  "model_provenance_sha256": "f303b47b0988b5c89d63e4e9c1c2ee4388a0754a67eb22197d30710fde65a9f7"
+}

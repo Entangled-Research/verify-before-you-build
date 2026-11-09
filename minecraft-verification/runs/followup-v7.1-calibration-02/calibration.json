@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hopper_minecart",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "chest_minecart",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "crossbow",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "dispenser",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "sticky_piston",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "comparator",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "repeater",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "lectern",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "enchanting_table",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "blast_furnace",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "armor_stand",
+    "status": "verified",
+    "failure": null
+  },
+  {
+    "id": "daylight_detector",
+    "status": "verified",
+    "failure": null
+  }
+]

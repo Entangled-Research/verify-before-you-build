@@ -1,0 +1,59 @@
+[
+  {
+    "id": "crossbow",
+    "recipeBookEdits": [
+      {
+        "item": "tripwire_hook",
+        "insertBefore": 3,
+        "step": {
+          "op": "craft",
+          "item": "tripwire_hook",
+          "times": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "dispenser",
+    "recipeBookEdits": [
+      {
+        "item": "bow",
+        "insertBefore": 2,
+        "step": {
+          "op": "craft",
+          "item": "bow",
+          "times": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lectern",
+    "recipeBookEdits": [
+      {
+        "item": "book",
+        "insertBefore": 2,
+        "step": {
+          "op": "craft",
+          "item": "book",
+          "times": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "blast_furnace",
+    "recipeBookEdits": [
+      {
+        "item": "smooth_stone",
+        "insertBefore": 3,
+        "step": {
+          "op": "smelt",
+          "input": "stone",
+          "output": "smooth_stone",
+          "count": 3
+        }
+      }
+    ]
+  }
+]

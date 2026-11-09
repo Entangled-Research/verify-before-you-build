@@ -1,0 +1,344 @@
+{
+  "time": "2026-11-09T06:05:51.872Z",
+  "kind": "post-terminal read-only delivery chest audit",
+  "player": "ProfessorPickaxe",
+  "position": {
+    "x": 0,
+    "y": 100,
+    "z": 2
+  },
+  "windowId": 2,
+  "stateId": 1,
+  "source": "server:window_items",
+  "delivered": {},
+  "stacks": [
+    {
+      "slot": 27,
+      "item": "slime_ball",
+      "count": 1
+    },
+    {
+      "slot": 28,
+      "item": "quartz",
+      "count": 8
+    },
+    {
+      "slot": 29,
+      "item": "sand",
+      "count": 8
+    },
+    {
+      "slot": 30,
+      "item": "coal",
+      "count": 32
+    },
+    {
+      "slot": 54,
+      "item": "oak_log",
+      "count": 32
+    },
+    {
+      "slot": 55,
+      "item": "raw_iron",
+      "count": 48
+    },
+    {
+      "slot": 56,
+      "item": "cobblestone",
+      "count": 64
+    },
+    {
+      "slot": 57,
+      "item": "redstone",
+      "count": 32
+    },
+    {
+      "slot": 58,
+      "item": "string",
+      "count": 16
+    },
+    {
+      "slot": 59,
+      "item": "sugar_cane",
+      "count": 32
+    },
+    {
+      "slot": 60,
+      "item": "leather",
+      "count": 12
+    },
+    {
+      "slot": 61,
+      "item": "diamond",
+      "count": 2
+    },
+    {
+      "slot": 62,
+      "item": "obsidian",
+      "count": 4
+    }
+  ],
+  "rawFrame": {
+    "windowId": 2,
+    "stateId": 1,
+    "items": [
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 1,
+        "itemId": 985,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 8,
+        "itemId": 865,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 8,
+        "itemId": 59,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 32,
+        "itemId": 860,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 32,
+        "itemId": 134,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 48,
+        "itemId": 867,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 64,
+        "itemId": 35,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 32,
+        "itemId": 688,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 16,
+        "itemId": 907,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 32,
+        "itemId": 256,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 12,
+        "itemId": 972,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 2,
+        "itemId": 862,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 4,
+        "itemId": 309,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      }
+    ],
+    "carriedItem": {
+      "itemCount": 0
+    }
+  }
+}

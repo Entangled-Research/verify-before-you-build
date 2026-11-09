@@ -1,0 +1,182 @@
+{
+  "policy": {
+    "passed": 13,
+    "total": 13,
+    "cases": [
+      {
+        "case": "no dependency",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "case": "missing",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "case": "pending",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "case": "failed",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "case": "verified",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "case": "revoked",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "case": "cleared",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "case": "two verified",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "case": "one of two",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "case": "target exception",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "case": "exception is narrow",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "case": "malformed list",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "case": "malformed object",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      }
+    ]
+  },
+  "reproductions": [
+    {
+      "name": "exact",
+      "verdict": "corroborated",
+      "rows": [
+        {
+          "metric": "run_00",
+          "claimed": 0.7273,
+          "observed": 0.7273,
+          "within": true
+        },
+        {
+          "metric": "run_01",
+          "claimed": 0.8,
+          "observed": 0.8,
+          "within": true
+        },
+        {
+          "metric": "run_02",
+          "claimed": 0.8889,
+          "observed": 0.8889,
+          "within": true
+        },
+        {
+          "metric": "run_03",
+          "claimed": 0.8571,
+          "observed": 0.8571,
+          "within": true
+        },
+        {
+          "metric": "run_04",
+          "claimed": 0.6667,
+          "observed": 0.6667,
+          "within": true
+        }
+      ]
+    },
+    {
+      "name": "altered",
+      "verdict": "challenged",
+      "rows": [
+        {
+          "metric": "run_00",
+          "claimed": 0.7273,
+          "observed": 0.7273,
+          "within": true
+        },
+        {
+          "metric": "run_01",
+          "claimed": 0.8,
+          "observed": 0.8,
+          "within": true
+        },
+        {
+          "metric": "run_02",
+          "claimed": 0.5,
+          "observed": 0.8889,
+          "within": false
+        },
+        {
+          "metric": "run_03",
+          "claimed": 0.8571,
+          "observed": 0.8571,
+          "within": true
+        },
+        {
+          "metric": "run_04",
+          "claimed": 0.6667,
+          "observed": 0.6667,
+          "within": true
+        }
+      ]
+    }
+  ],
+  "latency": [
+    {
+      "entries": 1,
+      "median_ms": 0.0216,
+      "p95_ms": 0.0272
+    },
+    {
+      "entries": 10,
+      "median_ms": 0.0313,
+      "p95_ms": 0.0382
+    },
+    {
+      "entries": 100,
+      "median_ms": 0.139,
+      "p95_ms": 0.1585
+    },
+    {
+      "entries": 1000,
+      "median_ms": 1.2167,
+      "p95_ms": 1.2975
+    }
+  ]
+}

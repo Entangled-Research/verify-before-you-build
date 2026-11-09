@@ -1,0 +1,28 @@
+{
+  "expected": {
+    "tool": "recipe",
+    "item": "comparator"
+  },
+  "action": {
+    "tool": "recipe",
+    "item": "comparator"
+  },
+  "pass": true,
+  "data": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "created_at": "2026-11-09T03:28:03.530525Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"command\": \"recipe\",\n  \"parameters\": {\n    \"item\": \"comparator\"\n  }\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 806189791,
+    "load_duration": 102130916,
+    "prompt_eval_count": 154,
+    "prompt_eval_duration": 61229000,
+    "eval_count": 29,
+    "eval_duration": 636008000
+  },
+  "elapsedMs": 809
+}

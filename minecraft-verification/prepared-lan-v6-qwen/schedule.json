@@ -1,0 +1,110 @@
+[
+  {
+    "episode": "clean-r1-no_gate",
+    "library": "clean",
+    "arm": "no_gate",
+    "seed": 701
+  },
+  {
+    "episode": "clean-r1-prompt_only",
+    "library": "clean",
+    "arm": "prompt_only",
+    "seed": 701
+  },
+  {
+    "episode": "clean-r1-enforced",
+    "library": "clean",
+    "arm": "enforced",
+    "seed": 701
+  },
+  {
+    "episode": "mixed-r1-no_gate",
+    "library": "mixed",
+    "arm": "no_gate",
+    "seed": 701
+  },
+  {
+    "episode": "mixed-r1-prompt_only",
+    "library": "mixed",
+    "arm": "prompt_only",
+    "seed": 701
+  },
+  {
+    "episode": "mixed-r1-enforced",
+    "library": "mixed",
+    "arm": "enforced",
+    "seed": 701
+  },
+  {
+    "episode": "clean-r2-prompt_only",
+    "library": "clean",
+    "arm": "prompt_only",
+    "seed": 702
+  },
+  {
+    "episode": "clean-r2-enforced",
+    "library": "clean",
+    "arm": "enforced",
+    "seed": 702
+  },
+  {
+    "episode": "clean-r2-no_gate",
+    "library": "clean",
+    "arm": "no_gate",
+    "seed": 702
+  },
+  {
+    "episode": "mixed-r2-prompt_only",
+    "library": "mixed",
+    "arm": "prompt_only",
+    "seed": 702
+  },
+  {
+    "episode": "mixed-r2-enforced",
+    "library": "mixed",
+    "arm": "enforced",
+    "seed": 702
+  },
+  {
+    "episode": "mixed-r2-no_gate",
+    "library": "mixed",
+    "arm": "no_gate",
+    "seed": 702
+  },
+  {
+    "episode": "clean-r3-enforced",
+    "library": "clean",
+    "arm": "enforced",
+    "seed": 703
+  },
+  {
+    "episode": "clean-r3-no_gate",
+    "library": "clean",
+    "arm": "no_gate",
+    "seed": 703
+  },
+  {
+    "episode": "clean-r3-prompt_only",
+    "library": "clean",
+    "arm": "prompt_only",
+    "seed": 703
+  },
+  {
+    "episode": "mixed-r3-enforced",
+    "library": "mixed",
+    "arm": "enforced",
+    "seed": 703
+  },
+  {
+    "episode": "mixed-r3-no_gate",
+    "library": "mixed",
+    "arm": "no_gate",
+    "seed": 703
+  },
+  {
+    "episode": "mixed-r3-prompt_only",
+    "library": "mixed",
+    "arm": "prompt_only",
+    "seed": 703
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "expected": {
+    "tool": "inspect"
+  },
+  "action": {
+    "tool": "craft",
+    "item": "mangrove_planks",
+    "times": 1
+  },
+  "pass": false,
+  "data": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "created_at": "2026-11-09T03:28:23.367773Z",
+    "message": {
+      "role": "assistant",
+      "content": "{ \"command\": \"craft\", \"parameters\": { \"item\": \"mangrove_planks\", \"times\": 1 } }"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1183732709,
+    "load_duration": 122360709,
+    "prompt_eval_count": 130,
+    "prompt_eval_duration": 240438000,
+    "eval_count": 33,
+    "eval_duration": 810622000
+  },
+  "elapsedMs": 1203
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "scenario": "missing receipt for unrelated wooden tool",
+    "synthetic": true,
+    "expected": "verify_method",
+    "raw": {
+      "id": "chatcmpl-48b716c9-6887-460d-bf87-7cb6bb0cc46d",
+      "system_fingerprint": "0.32.2-0.32.3-macOS-26.5.2-arm64-arm-64bit-applegpu_g16g",
+      "object": "chat.completion",
+      "model": "$AUTHOR_HOME/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+      "created": 1794237304,
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"tool\": \"verify_method\",\n  \"id\": \"wooden_axe\"\n}"
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 479,
+        "completion_tokens": 24,
+        "total_tokens": 503,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "parsed": {
+      "tool": "verify_method",
+      "id": "wooden_axe"
+    },
+    "matched": true
+  },
+  {
+    "scenario": "verified unrelated wooden tool",
+    "synthetic": true,
+    "expected": "use_method",
+    "raw": {
+      "id": "chatcmpl-b3973419-1fb6-4a8b-828c-b6ca3307bf4f",
+      "system_fingerprint": "0.32.2-0.32.3-macOS-26.5.2-arm64-arm-64bit-applegpu_g16g",
+      "object": "chat.completion",
+      "model": "$AUTHOR_HOME/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+      "created": 1794237309,
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"tool\": \"use_method\",\n  \"id\": \"wooden_axe\"\n}"
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 496,
+        "completion_tokens": 24,
+        "total_tokens": 520,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "parsed": {
+      "tool": "use_method",
+      "id": "wooden_axe"
+    },
+    "matched": true
+  },
+  {
+    "scenario": "missing ingredient in unrelated tool",
+    "synthetic": true,
+    "expected": "insert_step",
+    "raw": {
+      "id": "chatcmpl-280bb9f8-97f9-4a79-81f3-997c863d9626",
+      "system_fingerprint": "0.32.2-0.32.3-macOS-26.5.2-arm64-arm-64bit-applegpu_g16g",
+      "object": "chat.completion",
+      "model": "$AUTHOR_HOME/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+      "created": 1794237314,
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"tool\": \"insert_step\",\n  \"id\": \"wooden_axe\",\n  \"item\": \"stick\"\n}"
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 536,
+        "completion_tokens": 32,
+        "total_tokens": 568,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "parsed": {
+      "tool": "insert_step",
+      "id": "wooden_axe",
+      "item": "stick"
+    },
+    "matched": true
+  }
+]

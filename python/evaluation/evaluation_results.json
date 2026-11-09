@@ -1,0 +1,140 @@
+{
+  "system": {
+    "python": "3.12.12",
+    "platform": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "scenario_summary": {
+    "passed": 13,
+    "total": 13
+  },
+  "scenarios": [
+    {
+      "scenario": "no external dependency",
+      "expected_allowed": true,
+      "actual_allowed": true,
+      "passed": true
+    },
+    {
+      "scenario": "missing reproduction",
+      "expected_allowed": false,
+      "actual_allowed": false,
+      "passed": true
+    },
+    {
+      "scenario": "pending reproduction",
+      "expected_allowed": false,
+      "actual_allowed": false,
+      "passed": true
+    },
+    {
+      "scenario": "failed reproduction",
+      "expected_allowed": false,
+      "actual_allowed": false,
+      "passed": true
+    },
+    {
+      "scenario": "verified reproduction",
+      "expected_allowed": true,
+      "actual_allowed": true,
+      "passed": true
+    },
+    {
+      "scenario": "later failure revokes verification",
+      "expected_allowed": false,
+      "actual_allowed": false,
+      "passed": true
+    },
+    {
+      "scenario": "later verification clears failure",
+      "expected_allowed": true,
+      "actual_allowed": true,
+      "passed": true
+    },
+    {
+      "scenario": "all of two dependencies verified",
+      "expected_allowed": true,
+      "actual_allowed": true,
+      "passed": true
+    },
+    {
+      "scenario": "one of two dependencies unverified",
+      "expected_allowed": false,
+      "actual_allowed": false,
+      "passed": true
+    },
+    {
+      "scenario": "reproduction may test its target",
+      "expected_allowed": true,
+      "actual_allowed": true,
+      "passed": true
+    },
+    {
+      "scenario": "reproduction cannot waive another dependency",
+      "expected_allowed": false,
+      "actual_allowed": false,
+      "passed": true
+    },
+    {
+      "scenario": "malformed dependency container",
+      "expected_allowed": false,
+      "actual_allowed": false,
+      "passed": true
+    },
+    {
+      "scenario": "malformed dependency object",
+      "expected_allowed": false,
+      "actual_allowed": false,
+      "passed": true
+    }
+  ],
+  "latency": [
+    {
+      "ledger_entries": 1,
+      "repetitions": 1000,
+      "median_ms": 0.0207,
+      "p95_ms": 0.0263,
+      "max_ms": 0.1308
+    },
+    {
+      "ledger_entries": 10,
+      "repetitions": 1000,
+      "median_ms": 0.0307,
+      "p95_ms": 0.0375,
+      "max_ms": 0.075
+    },
+    {
+      "ledger_entries": 100,
+      "repetitions": 1000,
+      "median_ms": 0.1388,
+      "p95_ms": 0.1533,
+      "max_ms": 0.2361
+    },
+    {
+      "ledger_entries": 1000,
+      "repetitions": 1000,
+      "median_ms": 1.2563,
+      "p95_ms": 1.3334,
+      "max_ms": 1.9716
+    }
+  ],
+  "end_to_end_reproductions": [
+    {
+      "case": "sub-001-exact",
+      "expected_verdict": "corroborated",
+      "actual_verdict": "corroborated",
+      "passed": true,
+      "metric_rows": 5,
+      "out_of_margin_rows": 0,
+      "elapsed_s": 0.2668
+    },
+    {
+      "case": "sub-002-altered",
+      "expected_verdict": "challenged",
+      "actual_verdict": "challenged",
+      "passed": true,
+      "metric_rows": 5,
+      "out_of_margin_rows": 1,
+      "elapsed_s": 0.2663
+    }
+  ]
+}

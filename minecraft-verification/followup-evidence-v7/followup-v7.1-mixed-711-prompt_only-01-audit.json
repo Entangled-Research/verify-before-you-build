@@ -1,0 +1,35 @@
+[
+  {
+    "run": "followup-v7.1-mixed-711-prompt_only-01",
+    "status": "operator_interrupted_stalled",
+    "receipts": [
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "crossbow",
+        "status": "failed"
+      },
+      {
+        "id": "crossbow",
+        "status": "verified"
+      },
+      {
+        "id": "dispenser",
+        "status": "failed"
+      }
+    ],
+    "delivered": {
+      "hopper_minecart": 1,
+      "chest_minecart": 1,
+      "crossbow": 1
+    },
+    "modelCalls": 21,
+    "verifiedTokenCounts": [
+      17334,
+      1187
+    ],
+    "defects": []
+  }
+]

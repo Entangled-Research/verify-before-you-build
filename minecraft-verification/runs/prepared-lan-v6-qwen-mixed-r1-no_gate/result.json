@@ -1,0 +1,47 @@
+{
+  "kind": "agent_episode",
+  "status": "budget_exhausted",
+  "error": null,
+  "complete": false,
+  "delivered": {
+    "hopper_minecart": 1,
+    "chest_minecart": 1
+  },
+  "distinctTargets": 2,
+  "arm": "no_gate",
+  "seed": 701,
+  "model": "mlx-community/Qwen3.5-9B-MLX-4bit",
+  "promptTokens": 162945,
+  "generatedTokens": 2656,
+  "usageComplete": true,
+  "modelTurns": 70,
+  "wallSeconds": 2343.56,
+  "primitiveActions": 121,
+  "verificationAttempts": 0,
+  "testKits": [],
+  "productionInventory": {
+    "slime_ball": 1,
+    "quartz": 8,
+    "sand": 8,
+    "coal": 19,
+    "iron_ingot": 32,
+    "oak_planks": 28,
+    "stick": 168,
+    "cobblestone": 64,
+    "redstone": 32,
+    "string": 16,
+    "sugar_cane": 32,
+    "leather": 12,
+    "diamond": 2,
+    "obsidian": 4
+  },
+  "unverifiedMethodStarts": 61,
+  "blockedMethodStarts": 0,
+  "repairs": 9,
+  "limitations": [
+    "Local MLX endpoint token counts; no provider inference-compute measurement.",
+    "Method dependency declarations only; direct reimplementation is allowed.",
+    "Test resources are separate and logged; equal production supplies do not mean equal total materials consumed.",
+    "LAN live correctness must be established by preflight and calibration."
+  ]
+}

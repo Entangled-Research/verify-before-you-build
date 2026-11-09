@@ -1,0 +1,28 @@
+{
+  "expected": {
+    "tool": "verify_method",
+    "id": "crossbow"
+  },
+  "action": {
+    "tool": "verify_method",
+    "id": "crossbow"
+  },
+  "pass": true,
+  "data": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "created_at": "2026-11-09T03:28:23.967795Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"command\": \"test procedure: crossbow\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 593258250,
+    "load_duration": 90306334,
+    "prompt_eval_count": 138,
+    "prompt_eval_duration": 77179000,
+    "eval_count": 18,
+    "eval_duration": 417178000
+  },
+  "elapsedMs": 597
+}

@@ -1,0 +1,19 @@
+{
+  "validation_date": "2026-11-09",
+  "python": "3.9.6",
+  "node": "v22.23.4",
+  "checks": {
+    "standalone_python_unittest": "2 passed; wraps all 13 policy cases and exact/altered verdicts",
+    "all_seven_episode_results": "passed",
+    "prompt_only_raw_menu_audit": "31 decisions reconciled; errors=[]",
+    "enforced_raw_menu_audit": "38 decisions reconciled; errors=[]",
+    "unchanged_node_offline_tests": "16 passed, zero failures",
+    "v6_offline_preflight": "passed",
+    "v7_3_offline_preflight": "passed",
+    "npm_ci": "91 packages installed from pinned new lock, ignore-scripts; no model/game connections"
+  },
+  "limitations": [
+    "These checks inspect historical evidence; no new scientific or gameplay episodes were run.",
+    "The portable package lock is newly resolved, not asserted identical to the original complete development environment."
+  ]
+}

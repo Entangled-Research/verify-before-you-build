@@ -1,0 +1,217 @@
+START mixed-r1-no_gate
+Bots ProfessorPickaxe and InspectorIngot joined.
+Using datapack automatic episode arming.
+{
+  "kind": "agent_episode",
+  "status": "budget_exhausted",
+  "error": null,
+  "complete": false,
+  "delivered": {
+    "hopper_minecart": 1,
+    "chest_minecart": 1
+  },
+  "distinctTargets": 2,
+  "arm": "no_gate",
+  "seed": 701,
+  "model": "mlx-community/Qwen3.5-9B-MLX-4bit",
+  "promptTokens": 162945,
+  "generatedTokens": 2656,
+  "usageComplete": true,
+  "modelTurns": 70,
+  "wallSeconds": 2343.56,
+  "primitiveActions": 121,
+  "verificationAttempts": 0,
+  "testKits": [],
+  "productionInventory": {
+    "slime_ball": 1,
+    "quartz": 8,
+    "sand": 8,
+    "coal": 19,
+    "iron_ingot": 32,
+    "oak_planks": 28,
+    "stick": 168,
+    "cobblestone": 64,
+    "redstone": 32,
+    "string": 16,
+    "sugar_cane": 32,
+    "leather": 12,
+    "diamond": 2,
+    "obsidian": 4
+  },
+  "unverifiedMethodStarts": 61,
+  "blockedMethodStarts": 0,
+  "repairs": 9,
+  "limitations": [
+    "Local MLX endpoint token counts; no provider inference-compute measurement.",
+    "Method dependency declarations only; direct reimplementation is allowed.",
+    "Test resources are separate and logged; equal production supplies do not mean equal total materials consumed.",
+    "LAN live correctness must be established by preflight and calibration."
+  ]
+}
+Evidence: $AUTHOR_HOME/Documents/efferents/efferents research/minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-no_gate
+AUDIT {"run": "prepared-lan-v6-qwen-mixed-r1-no_gate", "status": "budget_exhausted", "receipts": [], "delivered": {"hopper_minecart": 1, "chest_minecart": 1}, "modelCalls": 70, "verifiedTokenCounts": [162945, 2656], "defects": []}
+START mixed-r1-prompt_only
+Bots ProfessorPickaxe and InspectorIngot joined.
+Using datapack automatic episode arming.
+{
+  "kind": "agent_episode",
+  "status": "budget_exhausted",
+  "error": null,
+  "complete": false,
+  "delivered": {
+    "hopper_minecart": 1,
+    "chest_minecart": 1
+  },
+  "distinctTargets": 2,
+  "arm": "prompt_only",
+  "seed": 701,
+  "model": "mlx-community/Qwen3.5-9B-MLX-4bit",
+  "promptTokens": 195735,
+  "generatedTokens": 6739,
+  "usageComplete": true,
+  "modelTurns": 70,
+  "wallSeconds": 3231.488,
+  "primitiveActions": 102,
+  "verificationAttempts": 1,
+  "testKits": [
+    {
+      "oak_log": 2,
+      "raw_iron": 2,
+      "coal": 1,
+      "string": 2
+    }
+  ],
+  "productionInventory": {
+    "slime_ball": 1,
+    "quartz": 8,
+    "sand": 8,
+    "coal": 10,
+    "oak_planks": 20,
+    "iron_ingot": 32,
+    "cobblestone": 36,
+    "stick": 184,
+    "stone": 19,
+    "smooth_stone": 9,
+    "redstone": 32,
+    "string": 16,
+    "sugar_cane": 32,
+    "leather": 12,
+    "diamond": 2,
+    "obsidian": 4
+  },
+  "unverifiedMethodStarts": 29,
+  "blockedMethodStarts": 0,
+  "repairs": 40,
+  "limitations": [
+    "Local MLX endpoint token counts; no provider inference-compute measurement.",
+    "Method dependency declarations only; direct reimplementation is allowed.",
+    "Test resources are separate and logged; equal production supplies do not mean equal total materials consumed.",
+    "LAN live correctness must be established by preflight and calibration."
+  ]
+}
+Evidence: $AUTHOR_HOME/Documents/efferents/efferents research/minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-prompt_only
+AUDIT {"run": "prepared-lan-v6-qwen-mixed-r1-prompt_only", "status": "budget_exhausted", "receipts": [{"id": "crossbow", "status": "failed"}], "delivered": {"hopper_minecart": 1, "chest_minecart": 1}, "modelCalls": 70, "verifiedTokenCounts": [195735, 6739], "defects": []}
+START mixed-r1-enforced
+Bots ProfessorPickaxe and InspectorIngot joined.
+Using datapack automatic episode arming.
+{
+  "kind": "agent_episode",
+  "status": "budget_exhausted",
+  "error": null,
+  "complete": false,
+  "delivered": {},
+  "distinctTargets": 0,
+  "arm": "enforced",
+  "seed": 701,
+  "model": "mlx-community/Qwen3.5-9B-MLX-4bit",
+  "promptTokens": 199793,
+  "generatedTokens": 1356,
+  "usageComplete": true,
+  "modelTurns": 56,
+  "wallSeconds": 3161.714,
+  "primitiveActions": 66,
+  "verificationAttempts": 11,
+  "testKits": [
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    }
+  ],
+  "productionInventory": {
+    "slime_ball": 1,
+    "quartz": 8,
+    "sand": 8,
+    "coal": 32,
+    "oak_log": 32,
+    "raw_iron": 48,
+    "cobblestone": 64,
+    "redstone": 32,
+    "string": 16,
+    "sugar_cane": 32,
+    "leather": 12,
+    "diamond": 2,
+    "obsidian": 4
+  },
+  "unverifiedMethodStarts": 0,
+  "blockedMethodStarts": 45,
+  "repairs": 0,
+  "limitations": [
+    "Local MLX endpoint token counts; no provider inference-compute measurement.",
+    "Method dependency declarations only; direct reimplementation is allowed.",
+    "Test resources are separate and logged; equal production supplies do not mean equal total materials consumed.",
+    "LAN live correctness must be established by preflight and calibration."
+  ]
+}
+Evidence: $AUTHOR_HOME/Documents/efferents/efferents research/minecraft-verification/runs/prepared-lan-v6-qwen-mixed-r1-enforced
+AUDIT {"run": "prepared-lan-v6-qwen-mixed-r1-enforced", "status": "budget_exhausted", "receipts": [{"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}, {"id": "hopper_minecart", "status": "verified"}], "delivered": {}, "modelCalls": 56, "verifiedTokenCounts": [199793, 1356], "defects": []}

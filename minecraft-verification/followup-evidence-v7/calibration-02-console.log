@@ -1,0 +1,155 @@
+Bots ProfessorPickaxe and InspectorIngot joined.
+Using datapack automatic episode arming.
+hopper_minecart: verified
+chest_minecart: verified
+crossbow: verified
+dispenser: verified
+sticky_piston: verified
+comparator: verified
+repeater: verified
+lectern: verified
+enchanting_table: verified
+blast_furnace: verified
+armor_stand: verified
+daylight_detector: verified
+{
+  "kind": "calibration",
+  "status": "calibration_passed",
+  "error": null,
+  "complete": false,
+  "delivered": {
+    "dispenser": 1
+  },
+  "distinctTargets": 1,
+  "arm": "enforced",
+  "seed": 701,
+  "model": null,
+  "promptTokens": 0,
+  "generatedTokens": 0,
+  "usageComplete": true,
+  "modelTurns": 0,
+  "wallSeconds": 675.761,
+  "primitiveActions": 78,
+  "verificationAttempts": 16,
+  "testKits": [
+    {
+      "oak_log": 2,
+      "raw_iron": 10,
+      "coal": 2
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 5,
+      "coal": 1
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 2,
+      "coal": 1,
+      "string": 2
+    },
+    {
+      "oak_log": 2,
+      "string": 3,
+      "cobblestone": 7,
+      "redstone": 1
+    },
+    {
+      "oak_log": 1,
+      "raw_iron": 1,
+      "coal": 1,
+      "cobblestone": 4,
+      "redstone": 1,
+      "slime_ball": 1
+    },
+    {
+      "oak_log": 1,
+      "redstone": 3,
+      "cobblestone": 3,
+      "coal": 1,
+      "quartz": 1
+    },
+    {
+      "oak_log": 1,
+      "redstone": 3,
+      "cobblestone": 3,
+      "coal": 1
+    },
+    {
+      "oak_log": 4,
+      "sugar_cane": 9,
+      "leather": 3
+    },
+    {
+      "sugar_cane": 3,
+      "leather": 1,
+      "diamond": 2,
+      "obsidian": 4
+    },
+    {
+      "raw_iron": 5,
+      "cobblestone": 11,
+      "coal": 2
+    },
+    {
+      "oak_log": 1,
+      "cobblestone": 3,
+      "coal": 1
+    },
+    {
+      "oak_log": 1,
+      "sand": 3,
+      "coal": 1,
+      "quartz": 3
+    },
+    {
+      "oak_log": 2,
+      "raw_iron": 2,
+      "coal": 1,
+      "string": 2
+    },
+    {
+      "oak_log": 2,
+      "string": 3,
+      "cobblestone": 7,
+      "redstone": 1
+    },
+    {
+      "oak_log": 4,
+      "sugar_cane": 9,
+      "leather": 3
+    },
+    {
+      "raw_iron": 5,
+      "cobblestone": 11,
+      "coal": 2
+    }
+  ],
+  "productionInventory": {
+    "slime_ball": 1,
+    "quartz": 8,
+    "sand": 8,
+    "coal": 32,
+    "oak_log": 30,
+    "oak_planks": 4,
+    "string": 13,
+    "cobblestone": 57,
+    "raw_iron": 48,
+    "redstone": 31,
+    "stick": 5,
+    "sugar_cane": 32,
+    "leather": 12,
+    "diamond": 2,
+    "obsidian": 4
+  },
+  "unverifiedMethodStarts": 0,
+  "blockedMethodStarts": 0,
+  "repairs": 0,
+  "limitations": [
+    "Local MLX endpoint token counts; no provider inference-compute measurement.",
+    "Method dependency declarations only; direct reimplementation is allowed.",
+    "Test resources are separate and logged; equal production supplies do not mean equal total materials consumed.",
+    "LAN live correctness must be established by preflight and calibration."
+  ]
+}
+Evidence: $AUTHOR_HOME/Documents/efferents/efferents research/minecraft-verification/runs/followup-v7.1-calibration-02

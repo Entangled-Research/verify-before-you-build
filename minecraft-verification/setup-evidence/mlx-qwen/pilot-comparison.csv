@@ -1,0 +1,4 @@
+arm,library,seed,status,basketComplete,distinctTargets,delivered,modelTurns,promptTokens,generatedTokens,tokensOverThreshold,usageComplete,wallSeconds,testPrimitiveAttempts,productionPrimitiveAttempts,tests,testKitAllocations,unverifiedStarts,blockedStarts,revisionRequests,changedRevisions,unchangedRevisionRequests,targetProducingChangedRevisions
+no_gate,mixed,701,budget_exhausted,False,2,"{""chest_minecart"": 1, ""hopper_minecart"": 1}",70,162945,2656,0,True,2343.56,0,121,0,{},61,0,9,2,7,0
+prompt_only,mixed,701,budget_exhausted,False,2,"{""chest_minecart"": 1, ""hopper_minecart"": 1}",70,195735,6739,2474,True,3231.488,4,98,1,"{""coal"": 1, ""oak_log"": 2, ""raw_iron"": 2, ""string"": 2}",29,0,40,7,33,0
+enforced,mixed,701,budget_exhausted,False,0,{},56,199793,1356,1149,True,3161.714,66,0,11,"{""coal"": 22, ""oak_log"": 22, ""raw_iron"": 110}",0,45,0,0,0,0

@@ -1,0 +1,48 @@
+{
+  "kind": "separate deterministic Minecraft executor qualification",
+  "authorship": "scripted positive and negative controls; no LLM, no reward credit, not an agent episode or matched-arm observation",
+  "startedAt": "2026-11-09T06:05:56.048Z",
+  "server": {
+    "port": 61196,
+    "version": "1.21.6"
+  },
+  "spec": {
+    "kind": "separate deterministic Minecraft executor qualification",
+    "authorship": "scripted positive and negative controls; no LLM, no reward credit, not an agent episode or matched-arm observation",
+    "timing": "Only after all three mixed seed-701 Qwen arms have terminated, been audited, and had their terminal observations. Use fresh production/test players and reset stock/kits.",
+    "unchanged_executor": "prepared-lan-v6-qwen game.mjs/protocol.mjs/datapack; real 1.21.6 LAN, same sandboxes",
+    "checks": [
+      "Attempt clean hopper_minecart in enforced before any receipt: must block, with identical server-confirmed production inventory and chest before and after.",
+      "Verify the clean hopper_minecart procedure from its declared fresh kit; a passing receipt must contain an authoritative output delta of at least one.",
+      "Request exactly that tested method in production; dependency_started key must equal the passing receipt and status verified, and fresh server chest must contain exactly one hopper_minecart.",
+      "Change the hopper procedure's oak_planks recipe applications from two to one, preserving ID and contract; unverified revision must block with unchanged production inventory/chest.",
+      "Attempt clean chest_minecart without a receipt; a different method cannot use the hopper receipt. Production inventory/chest must remain unchanged.",
+      "Verify mixed crossbow, dispenser, lectern and blast_furnace once each, sequentially from their exact fresh test kits. Each should return a failed receipt and no corresponding output delta. A missing result or infrastructure failure is not a failed reproduction claim.",
+      "The production inventory/chest must remain unchanged across the four isolated fault tests."
+    ],
+    "budget": {
+      "modelCalls": 0,
+      "primitiveLimit": 240,
+      "testLimit": 18,
+      "wallSeconds": 1800
+    },
+    "failurePolicy": "Retain all events and each assertion; do not run a replacement or silently retry. Stop on infrastructure error; distinction between missing evidence and a falsified procedural claim remains explicit."
+  },
+  "freeze": {
+    "frozenAt": "2026-11-09T05:33:53.202321+00:00",
+    "statusAtFreeze": "Qwen enforced pilot still running; no qualification actions executed",
+    "sources": {
+      "spec.json": "5a6e0a9aaff257990fdd2c85ae5d67285ca34c39bb31a2828e4a1948ff1b19e7",
+      "run.mjs": "3ec85f087fa8d2f5b5252a8924535697981c30f876895fb11051cc005e87b25b"
+    }
+  },
+  "executorSourceHashes": {
+    "cli.mjs": "f5405224c7ce83a6eae16fc505731bdf27e14d5c3de7f63a21d1dd68d48b729c",
+    "datapack.mjs": "74fd368bc0ea7f4ba138b629a758ba0b57b75d18e99bee147832296d2b4ce4fa",
+    "game.mjs": "da7e7fe52566dfcb64e1be53d1a0a1c4ab2160991a7195ea260ca06f6fc20338",
+    "model.mjs": "4ca96bc7a3654503fff1590751c11c317b8cfb3d28adcba63a6ec92e373855a7",
+    "protocol.mjs": "1a960d758673a311d6bcc07bb24ed2e64ce7cead322d95b576db0c51447ef01e",
+    "test.mjs": "0c3bfec2d75f5126fabd8e4246210621c8b21292c6dad3c26d64246fbf95e903"
+  },
+  "model": null
+}

@@ -1,0 +1,238 @@
+[
+  {
+    "name": "denied chest use",
+    "synthetic": true,
+    "card": {
+      "orderTarget": "chest_minecart",
+      "delivered": {
+        "hopper_minecart": 1
+      },
+      "unfinished": [
+        "chest_minecart",
+        "crossbow",
+        "dispenser",
+        "sticky_piston",
+        "comparator",
+        "repeater",
+        "lectern",
+        "enchanting_table",
+        "blast_furnace",
+        "armor_stand",
+        "daylight_detector"
+      ],
+      "currentProcedure": [
+        {
+          "op": "smelt",
+          "input": "raw_iron",
+          "output": "iron_ingot",
+          "count": 5
+        },
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 2
+        },
+        {
+          "op": "craft",
+          "item": "chest",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "minecart",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "chest_minecart",
+          "times": 1
+        }
+      ],
+      "stock": {
+        "slime_ball": 1,
+        "quartz": 8,
+        "sand": 8,
+        "coal": 30,
+        "raw_iron": 38,
+        "oak_log": 30,
+        "cobblestone": 64,
+        "redstone": 32,
+        "string": 16,
+        "sugar_cane": 32,
+        "leather": 12,
+        "diamond": 2,
+        "obsidian": 4
+      },
+      "receipt": null,
+      "menu": [
+        {
+          "choice": "test",
+          "effect": "Run this procedure on a fresh test kit."
+        },
+        {
+          "choice": "produce",
+          "effect": "Use this exact version in production for the current target."
+        }
+      ],
+      "last": {
+        "effect": "Production request blocked; this action did not run.",
+        "reason": "Current receipt is missing; verify this revision or replace the method.",
+        "availableNext": "Choose test for this exact active procedure. If it passes, choose produce. If its receipt failed, select an edit and test the changed procedure."
+      }
+    },
+    "raw": {
+      "id": "chatcmpl-a0805658-4e55-49c0-873d-152d6011a471",
+      "system_fingerprint": "0.32.2-0.32.3-macOS-26.5.2-arm64-arm-64bit-applegpu_g16g",
+      "object": "chat.completion",
+      "model": "$AUTHOR_HOME/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+      "created": 1794240799,
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\"tool\":\"choose\",\"choice\":\"test\"}"
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 674,
+        "completion_tokens": 10,
+        "total_tokens": 684,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "action": {
+      "tool": "choose",
+      "choice": "test"
+    },
+    "expected": "test",
+    "pass": true
+  },
+  {
+    "name": "passed chest reproduction",
+    "synthetic": true,
+    "card": {
+      "orderTarget": "chest_minecart",
+      "delivered": {
+        "hopper_minecart": 1
+      },
+      "unfinished": [
+        "chest_minecart",
+        "crossbow",
+        "dispenser",
+        "sticky_piston",
+        "comparator",
+        "repeater",
+        "lectern",
+        "enchanting_table",
+        "blast_furnace",
+        "armor_stand",
+        "daylight_detector"
+      ],
+      "currentProcedure": [
+        {
+          "op": "smelt",
+          "input": "raw_iron",
+          "output": "iron_ingot",
+          "count": 5
+        },
+        {
+          "op": "craft",
+          "item": "oak_planks",
+          "times": 2
+        },
+        {
+          "op": "craft",
+          "item": "chest",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "minecart",
+          "times": 1
+        },
+        {
+          "op": "craft",
+          "item": "chest_minecart",
+          "times": 1
+        }
+      ],
+      "stock": {
+        "slime_ball": 1,
+        "quartz": 8,
+        "sand": 8,
+        "coal": 30,
+        "raw_iron": 38,
+        "oak_log": 30,
+        "cobblestone": 64,
+        "redstone": 32,
+        "string": 16,
+        "sugar_cane": 32,
+        "leather": 12,
+        "diamond": 2,
+        "obsidian": 4
+      },
+      "receipt": {
+        "id": "chest_minecart",
+        "key": "4d138658722d7e52f02195773d4ddc59a98d45e1c11a508ba816c44c215fbf5b",
+        "status": "verified",
+        "failure": null,
+        "failedStep": null,
+        "verifiedOutput": {
+          "chest_minecart": 1
+        }
+      },
+      "menu": [
+        {
+          "choice": "produce",
+          "effect": "Use this exact version in production for the current target."
+        },
+        {
+          "choice": "test",
+          "effect": "Read the same cached receipt; this does not change or retest the procedure."
+        }
+      ],
+      "last": {
+        "effect": "Verification result",
+        "id": "chest_minecart",
+        "status": "verified",
+        "failure": null
+      }
+    },
+    "raw": {
+      "id": "chatcmpl-3691089a-ee0a-4a23-8485-99ce7edcb772",
+      "system_fingerprint": "0.32.2-0.32.3-macOS-26.5.2-arm64-arm-64bit-applegpu_g16g",
+      "object": "chat.completion",
+      "model": "$AUTHOR_HOME/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+      "created": 1794240804,
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\"tool\":\"choose\",\"choice\":\"produce\"}"
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 734,
+        "completion_tokens": 10,
+        "total_tokens": 744,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "action": {
+      "tool": "choose",
+      "choice": "produce"
+    },
+    "expected": "produce",
+    "pass": true
+  }
+]

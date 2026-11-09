@@ -1,0 +1,31 @@
+{
+  "expected": {
+    "tool": "craft",
+    "item": "oak_planks",
+    "times": 1
+  },
+  "action": {
+    "tool": "smelt",
+    "count": 1,
+    "input": "oak_log",
+    "output": "oak_planks"
+  },
+  "pass": false,
+  "data": {
+    "model": "sweaterdog/andy-4:micro-q8_0",
+    "created_at": "2026-11-09T03:29:04.967011Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n    \"command\": \"smelt\", \"parameters\": {\n        \"count\": 1,\n        \"input\": \"oak_log\",\n        \"output\": \"oak_planks\"\n    }\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1325977375,
+    "load_duration": 87854083,
+    "prompt_eval_count": 122,
+    "prompt_eval_duration": 74010000,
+    "eval_count": 49,
+    "eval_duration": 1155734000
+  },
+  "elapsedMs": 1329
+}

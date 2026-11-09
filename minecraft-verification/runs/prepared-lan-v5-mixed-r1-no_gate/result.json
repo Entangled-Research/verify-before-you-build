@@ -1,0 +1,30 @@
+{
+  "kind": "agent_episode",
+  "arm": "no_gate",
+  "seed": 701,
+  "model": "sweaterdog/andy-4:micro-q8_0",
+  "status": "interrupted_interface_diagnostic",
+  "error": "Operator interrupted this diagnostic after repeated non-JSON responses and zero tool actions. This was an incremental instrumentation decision, not a prespecified scientific stopping criterion. This arm was not completed, and no arm comparison or gate inference is valid.",
+  "source": "supervisor reconstruction from append-only events; no final inventory probe",
+  "complete": false,
+  "delivered": {},
+  "distinctTargets": 0,
+  "promptTokens": 13567,
+  "generatedTokens": 6393,
+  "usageComplete": false,
+  "modelTurns": 7,
+  "wallSeconds": 256.734923,
+  "wallSecondsBasis": "from episode_started; excludes connection setup",
+  "primitiveActions": 0,
+  "verificationAttempts": 0,
+  "testKits": [],
+  "productionInventory": null,
+  "unverifiedMethodStarts": 0,
+  "blockedMethodStarts": 0,
+  "repairs": 0,
+  "limitations": [
+    "An in-flight model request may have generated additional unobserved tokens.",
+    "No final chest probe was attempted; initial empty chest verified and no production actions executed.",
+    "Not a completed arm or evidence about the verification gate."
+  ]
+}

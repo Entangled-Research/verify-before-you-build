@@ -1,0 +1,65 @@
+[
+  {
+    "run": "calibration-20261108-lan-v5-01",
+    "status": "calibration_passed",
+    "receipts": [
+      {
+        "id": "hopper_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "chest_minecart",
+        "status": "verified"
+      },
+      {
+        "id": "crossbow",
+        "status": "verified"
+      },
+      {
+        "id": "dispenser",
+        "status": "verified"
+      },
+      {
+        "id": "sticky_piston",
+        "status": "verified"
+      },
+      {
+        "id": "comparator",
+        "status": "verified"
+      },
+      {
+        "id": "repeater",
+        "status": "verified"
+      },
+      {
+        "id": "lectern",
+        "status": "verified"
+      },
+      {
+        "id": "enchanting_table",
+        "status": "verified"
+      },
+      {
+        "id": "blast_furnace",
+        "status": "verified"
+      },
+      {
+        "id": "armor_stand",
+        "status": "verified"
+      },
+      {
+        "id": "daylight_detector",
+        "status": "verified"
+      }
+    ],
+    "delivered": {
+      "dispenser": 1
+    },
+    "modelCalls": 0,
+    "verifiedTokenCounts": [
+      0,
+      0
+    ],
+    "defects": []
+  }
+]

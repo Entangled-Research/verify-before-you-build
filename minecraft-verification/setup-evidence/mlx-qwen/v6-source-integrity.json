@@ -1,0 +1,54 @@
+{
+  "time": "2026-11-09T03:42:09.257Z",
+  "definition": "protocol hash = SHA-256 of UTF-8 JSON.stringify(value); for source the value is the UTF-8 source string",
+  "files": [
+    {
+      "name": "cli.mjs",
+      "byteEqual": true,
+      "raw": "0c462a421b81eab3511c319e7d188b317c930c6ca7c87864cb25155b8bdb9313",
+      "derived": "f5405224c7ce83a6eae16fc505731bdf27e14d5c3de7f63a21d1dd68d48b729c",
+      "matchProtocol": true,
+      "matchManifest": true
+    },
+    {
+      "name": "datapack.mjs",
+      "byteEqual": true,
+      "raw": "e85ceeb77dab0b9134c26124839f58628819ea664b5b36003d8af8a7ef23f85b",
+      "derived": "74fd368bc0ea7f4ba138b629a758ba0b57b75d18e99bee147832296d2b4ce4fa",
+      "matchProtocol": true,
+      "matchManifest": true
+    },
+    {
+      "name": "game.mjs",
+      "byteEqual": true,
+      "raw": "78e2fa1c27bcd7ce492016d052005d04a5396655ca074189bfdc9c6b109bd7cc",
+      "derived": "da7e7fe52566dfcb64e1be53d1a0a1c4ab2160991a7195ea260ca06f6fc20338",
+      "matchProtocol": true,
+      "matchManifest": true
+    },
+    {
+      "name": "model.mjs",
+      "byteEqual": true,
+      "raw": "b8a582df828c3f67c3904e718c5c3bb7a1a34730f457ba1af492b4946d44fe16",
+      "derived": "4ca96bc7a3654503fff1590751c11c317b8cfb3d28adcba63a6ec92e373855a7",
+      "matchProtocol": true,
+      "matchManifest": true
+    },
+    {
+      "name": "protocol.mjs",
+      "byteEqual": true,
+      "raw": "ec3614951dca2ddb7be088722cd71995054d4cae5c4044cefb587d79bb4569f3",
+      "derived": "1a960d758673a311d6bcc07bb24ed2e64ce7cead322d95b576db0c51447ef01e",
+      "matchProtocol": true,
+      "matchManifest": true
+    },
+    {
+      "name": "test.mjs",
+      "byteEqual": true,
+      "raw": "dff2dba7e9f0be22252f6f1edae035d32532c760bf1ab59a968ddfcc3d9b8de4",
+      "derived": "0c3bfec2d75f5126fabd8e4246210621c8b21292c6dad3c26d64246fbf95e903",
+      "matchProtocol": true,
+      "matchManifest": true
+    }
+  ]
+}

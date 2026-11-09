@@ -1,0 +1,27 @@
+{
+  "run": "followup-v7.3-mixed-711-enforced-01",
+  "resolvedModelTurns": 38,
+  "menuChoices": {
+    "test": 16,
+    "produce": 18,
+    "insert_1": 4
+  },
+  "productionStartsByReceipt": {
+    "verified": 12
+  },
+  "terminalChest": {
+    "hopper_minecart": 1,
+    "chest_minecart": 1,
+    "crossbow": 1,
+    "dispenser": 1,
+    "sticky_piston": 1,
+    "comparator": 1,
+    "repeater": 1,
+    "lectern": 1,
+    "enchanting_table": 1,
+    "blast_furnace": 1,
+    "armor_stand": 1,
+    "daylight_detector": 1
+  },
+  "errors": []
+}

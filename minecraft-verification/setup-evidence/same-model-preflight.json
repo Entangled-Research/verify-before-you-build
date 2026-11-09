@@ -1,0 +1,398 @@
+{
+  "kind": "separate_interface_preflight",
+  "minecraft_connections": 0,
+  "experiment_episodes": 0,
+  "model": "sweaterdog/andy-4:micro-q8_0",
+  "modelDigest": "12ec425c590db3d8ada7cdec6a1745e354481a78e1613e137ccc771b67a82952",
+  "generation": {
+    "seed": 701,
+    "temperature": 0.2,
+    "num_ctx": 16384,
+    "num_predict": 256
+  },
+  "results": [
+    {
+      "run": "interface-choice-01",
+      "specSha256": "aaecf9d62fdef17d5bfbb7f7702dd2e0ccb6ea9421c166f3fd04b8311a613fa0",
+      "cases": [
+        {
+          "case": "inventory",
+          "expected": {
+            "tool": "inspect"
+          },
+          "decoded": {
+            "tool": "inspect"
+          },
+          "pass": true,
+          "promptTokens": 140,
+          "outputTokens": 15
+        },
+        {
+          "case": "verify",
+          "expected": {
+            "tool": "verify_method",
+            "id": "crossbow"
+          },
+          "decoded": {
+            "id": "crossbow",
+            "steps": [
+              {
+                "count": 1,
+                "input": "",
+                "op": "smelt",
+                "output": "iron_ingot"
+              },
+              {
+                "count": 2,
+                "input": "",
+                "op": "smelt",
+                "output": "iron_helmet"
+              },
+              {
+                "count": 1,
+                "input": "",
+                "op": "smelt",
+                "output": "iron_leggings"
+              },
+              {
+                "count": 2,
+                "input": "",
+                "op": "smelt",
+                "output": "iron_boots"
+              }
+            ],
+            "tool": "revise_method"
+          },
+          "pass": false,
+          "promptTokens": 148,
+          "outputTokens": 184
+        },
+        {
+          "case": "use",
+          "expected": {
+            "tool": "use_method",
+            "id": "lectern"
+          },
+          "decoded": {
+            "tool": "finish"
+          },
+          "pass": false,
+          "promptTokens": 140,
+          "outputTokens": 16
+        },
+        {
+          "case": "recipe",
+          "expected": {
+            "tool": "recipe",
+            "item": "comparator"
+          },
+          "decoded": {
+            "id": "comparator",
+            "steps": [
+              {
+                "item": "iron_ore",
+                "op": "craft",
+                "times": 1
+              },
+              {
+                "item": "iron_ore",
+                "op": "craft",
+                "times": 1
+              }
+            ],
+            "tool": "revise_method"
+          },
+          "pass": false,
+          "promptTokens": 139,
+          "outputTokens": 92
+        },
+        {
+          "case": "craft",
+          "expected": {
+            "tool": "craft",
+            "item": "oak_planks",
+            "times": 1
+          },
+          "decoded": {
+            "id": "chest_minecart",
+            "tool": "use_method"
+          },
+          "pass": false,
+          "promptTokens": 146,
+          "outputTokens": 26
+        }
+      ],
+      "exact": 1
+    },
+    {
+      "run": "interface-command-first-01",
+      "specSha256": "f4f68e20e2b62f385e2526f7825682c861ab4d43d1fbd461dc55d71d7de489bc",
+      "cases": [
+        {
+          "case": "inventory",
+          "expected": {
+            "tool": "inspect"
+          },
+          "decoded": {
+            "tool": "inspect"
+          },
+          "pass": true,
+          "promptTokens": 155,
+          "outputTokens": 16
+        },
+        {
+          "case": "verify",
+          "expected": {
+            "tool": "verify_method",
+            "id": "crossbow"
+          },
+          "decoded": {
+            "tool": "verify_method",
+            "id": "hopper_minecart"
+          },
+          "pass": false,
+          "promptTokens": 163,
+          "outputTokens": 33
+        },
+        {
+          "case": "use",
+          "expected": {
+            "tool": "use_method",
+            "id": "lectern"
+          },
+          "decoded": {
+            "tool": "craft",
+            "item": "stick",
+            "times": 1
+          },
+          "pass": false,
+          "promptTokens": 155,
+          "outputTokens": 35
+        },
+        {
+          "case": "recipe",
+          "expected": {
+            "tool": "recipe",
+            "item": "comparator"
+          },
+          "decoded": {
+            "tool": "recipe",
+            "item": "comparator"
+          },
+          "pass": true,
+          "promptTokens": 154,
+          "outputTokens": 29
+        },
+        {
+          "case": "craft",
+          "expected": {
+            "tool": "craft",
+            "item": "oak_planks",
+            "times": 1
+          },
+          "decoded": {
+            "tool": "craft",
+            "item": "oak_planks",
+            "times": 1
+          },
+          "pass": true,
+          "promptTokens": 161,
+          "outputTokens": 38
+        }
+      ],
+      "exact": 3
+    },
+    {
+      "run": "interface-menu-01",
+      "specSha256": "ebb3a264be7158a26800aa67701ba5b1d5c24ce37d9e2a855ea3a12d45d91e43",
+      "cases": [
+        {
+          "case": "inventory",
+          "expected": {
+            "tool": "inspect"
+          },
+          "decoded": {
+            "tool": "craft",
+            "item": "mangrove_planks",
+            "times": 1
+          },
+          "pass": false,
+          "promptTokens": 130,
+          "outputTokens": 33
+        },
+        {
+          "case": "verify",
+          "expected": {
+            "tool": "verify_method",
+            "id": "crossbow"
+          },
+          "decoded": {
+            "tool": "verify_method",
+            "id": "crossbow"
+          },
+          "pass": true,
+          "promptTokens": 138,
+          "outputTokens": 18
+        },
+        {
+          "case": "use",
+          "expected": {
+            "tool": "use_method",
+            "id": "lectern"
+          },
+          "decoded": {
+            "tool": "craft",
+            "item": "mangrove_planks",
+            "times": 1
+          },
+          "pass": false,
+          "promptTokens": 130,
+          "outputTokens": 36
+        },
+        {
+          "case": "recipe",
+          "expected": {
+            "tool": "recipe",
+            "item": "comparator"
+          },
+          "decoded": {
+            "tool": "recipe",
+            "item": "comparator"
+          },
+          "pass": true,
+          "promptTokens": 129,
+          "outputTokens": 30
+        },
+        {
+          "case": "craft",
+          "expected": {
+            "tool": "craft",
+            "item": "oak_planks",
+            "times": 1
+          },
+          "decoded": {
+            "tool": "craft",
+            "item": "oak_planks",
+            "times": 1
+          },
+          "pass": true,
+          "promptTokens": 136,
+          "outputTokens": 41
+        }
+      ],
+      "exact": 3
+    },
+    {
+      "run": "interface-native-menu-01",
+      "specSha256": "597ba569c4e0020bca87ca698298518bfeb39943480976018fa5842649b974fd",
+      "cases": [
+        {
+          "case": "inventory",
+          "expected": {
+            "tool": "inspect"
+          },
+          "decoded": {
+            "tool": "smelt",
+            "count": 1,
+            "input": "raw_iron",
+            "output": "iron_ingot"
+          },
+          "pass": false,
+          "promptTokens": 116,
+          "outputTokens": 38
+        },
+        {
+          "case": "verify",
+          "expected": {
+            "tool": "verify_method",
+            "id": "crossbow"
+          },
+          "decoded": {
+            "tool": "revise_method",
+            "id": "daylight_detector",
+            "steps": [
+              {
+                "count": 1,
+                "input": "<testament>",
+                "op": "smelt",
+                "output": "cooked_dirt"
+              },
+              {
+                "count": 1,
+                "input": "<testament>",
+                "op": "smelt",
+                "output": "iron_ingot"
+              }
+            ]
+          },
+          "pass": false,
+          "promptTokens": 124,
+          "outputTokens": 109
+        },
+        {
+          "case": "use",
+          "expected": {
+            "tool": "use_method",
+            "id": "lectern"
+          },
+          "decoded": {
+            "tool": "smelt",
+            "count": 1,
+            "input": "raw_iron",
+            "output": "iron_ingot"
+          },
+          "pass": false,
+          "promptTokens": 116,
+          "outputTokens": 46
+        },
+        {
+          "case": "recipe",
+          "expected": {
+            "tool": "recipe",
+            "item": "comparator"
+          },
+          "decoded": {
+            "tool": "revise_method",
+            "id": "hopper_minecart",
+            "steps": [
+              {
+                "count": 1,
+                "input": "data:charbon",
+                "op": "smelt",
+                "output": "raw_coal"
+              },
+              {
+                "count": 1,
+                "input": "data:iron_ore|deepslate_iron_ore",
+                "op": "smelt",
+                "output": "beige_ore"
+              }
+            ]
+          },
+          "pass": false,
+          "promptTokens": 115,
+          "outputTokens": 107
+        },
+        {
+          "case": "craft",
+          "expected": {
+            "tool": "craft",
+            "item": "oak_planks",
+            "times": 1
+          },
+          "decoded": {
+            "tool": "smelt",
+            "count": 1,
+            "input": "oak_log",
+            "output": "oak_planks"
+          },
+          "pass": false,
+          "promptTokens": 122,
+          "outputTokens": 49
+        }
+      ],
+      "exact": 0
+    }
+  ],
+  "limitation": "Same five neutral explicit requests used to diagnose four interfaces, not independent benchmark evidence. We did not progress to held-out validation because candidates failed basic test/use action selection. No new block launched."
+}

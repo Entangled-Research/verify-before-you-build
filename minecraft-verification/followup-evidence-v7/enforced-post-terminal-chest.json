@@ -1,0 +1,497 @@
+{
+  "time": "2026-11-09T16:37:37.816Z",
+  "kind": "post-terminal read-only delivery chest audit",
+  "player": "ProfessorPickaxe",
+  "position": {
+    "x": 0,
+    "y": 100,
+    "z": 2
+  },
+  "windowId": 2,
+  "stateId": 1,
+  "source": "server:window_items",
+  "delivered": {
+    "hopper_minecart": 1,
+    "chest_minecart": 1,
+    "crossbow": 1,
+    "dispenser": 1,
+    "sticky_piston": 1,
+    "comparator": 1,
+    "repeater": 1,
+    "lectern": 1,
+    "enchanting_table": 1,
+    "blast_furnace": 1,
+    "armor_stand": 1,
+    "daylight_detector": 1
+  },
+  "stacks": [
+    {
+      "slot": 0,
+      "item": "hopper_minecart",
+      "count": 1
+    },
+    {
+      "slot": 1,
+      "item": "chest_minecart",
+      "count": 1
+    },
+    {
+      "slot": 2,
+      "item": "crossbow",
+      "count": 1
+    },
+    {
+      "slot": 3,
+      "item": "dispenser",
+      "count": 1
+    },
+    {
+      "slot": 4,
+      "item": "sticky_piston",
+      "count": 1
+    },
+    {
+      "slot": 5,
+      "item": "comparator",
+      "count": 1
+    },
+    {
+      "slot": 6,
+      "item": "repeater",
+      "count": 1
+    },
+    {
+      "slot": 7,
+      "item": "lectern",
+      "count": 1
+    },
+    {
+      "slot": 8,
+      "item": "enchanting_table",
+      "count": 1
+    },
+    {
+      "slot": 9,
+      "item": "blast_furnace",
+      "count": 1
+    },
+    {
+      "slot": 10,
+      "item": "armor_stand",
+      "count": 1
+    },
+    {
+      "slot": 11,
+      "item": "daylight_detector",
+      "count": 1
+    },
+    {
+      "slot": 27,
+      "item": "oak_log",
+      "count": 15
+    },
+    {
+      "slot": 28,
+      "item": "oak_slab",
+      "count": 5
+    },
+    {
+      "slot": 29,
+      "item": "sand",
+      "count": 5
+    },
+    {
+      "slot": 30,
+      "item": "coal",
+      "count": 21
+    },
+    {
+      "slot": 31,
+      "item": "raw_iron",
+      "count": 25
+    },
+    {
+      "slot": 32,
+      "item": "cobblestone",
+      "count": 33
+    },
+    {
+      "slot": 33,
+      "item": "oak_planks",
+      "count": 20
+    },
+    {
+      "slot": 34,
+      "item": "string",
+      "count": 11
+    },
+    {
+      "slot": 35,
+      "item": "stick",
+      "count": 14
+    },
+    {
+      "slot": 36,
+      "item": "tripwire_hook",
+      "count": 1
+    },
+    {
+      "slot": 37,
+      "item": "redstone",
+      "count": 24
+    },
+    {
+      "slot": 38,
+      "item": "sugar_cane",
+      "count": 20
+    },
+    {
+      "slot": 39,
+      "item": "leather",
+      "count": 8
+    },
+    {
+      "slot": 40,
+      "item": "quartz",
+      "count": 4
+    },
+    {
+      "slot": 41,
+      "item": "smooth_stone_slab",
+      "count": 5
+    }
+  ],
+  "rawFrame": {
+    "windowId": 2,
+    "stateId": 1,
+    "items": [
+      {
+        "itemCount": 1,
+        "itemId": 822,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 819,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 1273,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 699,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 694,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 692,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 691,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 701,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 404,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 1290,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 1204,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 705,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 15,
+        "itemId": 134,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 5,
+        "itemId": 270,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 5,
+        "itemId": 59,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 21,
+        "itemId": 860,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 25,
+        "itemId": 867,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 33,
+        "itemId": 35,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 20,
+        "itemId": 36,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 11,
+        "itemId": 907,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 14,
+        "itemId": 905,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 1,
+        "itemId": 708,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 24,
+        "itemId": 688,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 20,
+        "itemId": 256,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 8,
+        "itemId": 972,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 4,
+        "itemId": 865,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 5,
+        "itemId": 284,
+        "addedComponentCount": 0,
+        "removedComponentCount": 0,
+        "components": [],
+        "removeComponents": []
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      },
+      {
+        "itemCount": 0
+      }
+    ],
+    "carriedItem": {
+      "itemCount": 0
+    }
+  }
+}
