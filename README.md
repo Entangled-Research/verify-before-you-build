@@ -7,6 +7,16 @@ A consuming research agent may read or cite a result, but a declared foundationa
 
 [Paper PDF](paper/paper.pdf) · [LaTeX](paper/main.tex) · [Python evaluation](python/evaluation/evaluation_results.json) · [Minecraft pilot](minecraft-verification/PILOT-RESULTS.md) · [All follow-up attempts](minecraft-verification/FOLLOWUP-RESULTS.md) · [Reproduction guide](REPRODUCING.md)
 
+## Verify before you build
+
+![Verification workflow: reproduce a declared foundation, compare the observed output with the claim, record a receipt, and check it before starting a downstream experiment.](paper/figure-sources/figure1.png)
+
+## Minecraft experiment demo
+
+[![Minecraft demo showing isolated verification, a missing prerequisite, repair and retesting, and production after verification.](media/minecraft-demo.gif)](https://github.com/Entangled-Research/verify-before-you-build/raw/refs/heads/main/media/minecraft-demo.mp4)
+
+[Watch the full 18-second recording](https://github.com/Entangled-Research/verify-before-you-build/raw/refs/heads/main/media/minecraft-demo.mp4). Recorded Minecraft footage shows the enforced verification follow-up, including a failed blast-furnace test, a repaired procedure, and a passing retest before production. Playback is accelerated, with captions describing the experiment events. See the [follow-up experiment records](minecraft-verification/FOLLOWUP-RESULTS.md) for outcomes and context.
+
 ## What was measured
 
 - The Python evaluator returned the expected allow/block decisions for **13 predefined policy cases**. These are software policy tests, not 13 scientific research tasks.
